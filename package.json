@@ -1,0 +1,18 @@
+{
+  "name": "games.grumpybear.core",
+  "version": "0.0.1",
+  "displayName": "Core Game Utilities",
+  "description": "",
+  "unity": "2021.1",
+  "unityRelease": "7f1",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "com.unity.inputsystem": "1.0.2"
+  },
+  "hideInEditor": false,
+  "keywords": [],
+  "author": {
+    "name": "Martin Parm",
+    "email": "parmus@gmail.com"
+  }
+}
