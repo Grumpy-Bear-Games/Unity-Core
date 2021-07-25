@@ -1,4 +1,5 @@
-﻿using System;
+﻿// ReSharper disable UnusedMember.Global
+using System;
 using UnityEngine;
 
 namespace Games.GrumpyBear.Core.Events

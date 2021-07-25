@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 namespace Games.GrumpyBear.Core.InputSystem
 {
+    [AddComponentMenu("Grumpy Bear Games/Core/Input System/Input Action Performed Listener")]
     public class InputActionPerformedListener : MonoBehaviour
     {
         [SerializeField] private InputActionReference _actionReference;

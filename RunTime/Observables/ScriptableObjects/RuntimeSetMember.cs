@@ -2,6 +2,7 @@
 
 namespace Games.GrumpyBear.Core.Observables.ScriptableObjects
 {
+    [AddComponentMenu("Grumpy Bear Games/Core/Observables/Runtime Set Member")]
     public class RuntimeSetMember : MonoBehaviour
     {
         [SerializeField] private RuntimeSet _runtimeSet;

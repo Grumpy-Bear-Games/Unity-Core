@@ -1,4 +1,7 @@
-﻿using System;
+﻿// ReSharper disable EventNeverSubscribedTo.Global
+// ReSharper disable UnusedMember.Global
+// ReSharper disable UnusedMemberInSuper.Global
+using System;
 
 namespace Games.GrumpyBear.Core.Observables
 {

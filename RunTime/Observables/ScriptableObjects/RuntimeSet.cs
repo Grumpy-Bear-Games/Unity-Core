@@ -12,14 +12,12 @@ namespace Games.GrumpyBear.Core.Observables.ScriptableObjects
         {
             _runtimeSet.Add(instance);
             Set(_runtimeSet.Count);
-            //Debug.Log($"Register({instance.name}): {Value}");
         }
 
         public void Unregister(GameObject instance)
         {
             _runtimeSet.Remove(instance);
             Set(_runtimeSet.Count);
-            //Debug.Log($"Unregister({instance.name}): {Value}");
         }
     }
 }

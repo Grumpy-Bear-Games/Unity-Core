@@ -3,6 +3,7 @@ using UnityEngine.Events;
 
 namespace Games.GrumpyBear.Core.Triggers
 {
+    [AddComponentMenu("Grumpy Bear Games/Core/Triggers/Trigger2D")]
     [RequireComponent(typeof(Collider2D))]
     public class Trigger2D : MonoBehaviour
     {
