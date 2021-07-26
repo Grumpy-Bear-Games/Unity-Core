@@ -42,15 +42,7 @@ namespace Games.GrumpyBear.Core.Settings
             }
         }
 
-        private void ApplyAll()
-        {
-            Screen.fullScreen = Fullscreen;
-            QualitySettings.SetQualityLevel(QualityIndex);
-            var res = Resolution;
-            Screen.SetResolution(res.Width, res.Height, Fullscreen);
-        }
-
-        public List<ResolutionEntry> Resolutions
+        public static List<ResolutionEntry> Resolutions
         {
             get
             {
@@ -61,6 +53,16 @@ namespace Games.GrumpyBear.Core.Settings
                 return result;
             }
         }
+        
+        public static List<string> QualityNames => QualitySettings.names.ToList();
+
+        private void ApplyAll()
+        {
+            Screen.fullScreen = Fullscreen;
+            QualitySettings.SetQualityLevel(QualityIndex);
+            var res = Resolution;
+            Screen.SetResolution(res.Width, res.Height, Fullscreen);
+        }
 
         public class ResolutionEntry : IComparable<ResolutionEntry>
         {
@@ -68,7 +70,7 @@ namespace Games.GrumpyBear.Core.Settings
 
             public readonly int Width;
 
-            internal ResolutionEntry(int width, int height)
+            private ResolutionEntry(int width, int height)
             {
                 Height = height;
                 Width = width;
