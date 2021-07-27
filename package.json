@@ -7,8 +7,6 @@
   "unityRelease": "7f1",
   "license": "Apache-2.0",
   "dependencies": {
-    "com.unity.inputsystem": "1.0.2",
-    "com.unity.textmeshpro": "3.0.6"
   },
   "hideInEditor": false,
   "repository": {

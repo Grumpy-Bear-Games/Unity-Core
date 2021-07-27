@@ -8,7 +8,7 @@ namespace Games.GrumpyBear.Core.Settings.UI
 {
     [AddComponentMenu("Grumpy Bear Games/Core/Settings/Resolution TMP_Dropdown")]
     [RequireComponent(typeof(TMP_Dropdown))]
-    public class TMPResolutionDropdown : MonoBehaviour
+    public class ResolutionTMPDropdown : MonoBehaviour
     {
         [SerializeField] private VideoSettings _videoSettings;
 

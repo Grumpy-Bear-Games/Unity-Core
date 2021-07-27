@@ -4,7 +4,6 @@
 
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace Games.GrumpyBear.Core
 {
@@ -117,37 +116,6 @@ namespace Games.GrumpyBear.Core
                 Object.DestroyImmediate(childrenToDestroy[i].gameObject);    
             }
         }
-        #endregion
-        
-        #region UnityEngine.InputSystem
-        public static InputBinding? GetEffectiveBindingMask(this InputAction action) =>
-            (action.bindingMask ?? action.actionMap.bindingMask) ?? action.actionMap.asset.bindingMask;
-
-        public static InputBinding? GetEffectiveBinding(this InputAction action)
-        {
-            var bindingMask = action.GetEffectiveBindingMask();
-            if (!bindingMask.HasValue) return null;
-            var index = action.GetBindingIndex(bindingMask.Value);
-            return action.bindings[index];
-        }
-
-        public static string GetKeyName(this InputAction action)
-        {
-            var binding = action.GetEffectiveBinding();
-            return binding.HasValue
-                ? InputControlPath.ToHumanReadableString(
-                    binding.Value.effectivePath,
-                    InputControlPath.HumanReadableStringOptions.OmitDevice,
-                    Gamepad.current
-                )
-                : "";
-        }
-
-        public static string GetKeyName(this PlayerInput playerInput, string action) =>
-            playerInput.actions.FindAction(action).GetKeyName();
-
-        public static string GetKeyName(this InputActionReference inputActionReference) =>
-            inputActionReference.action.GetKeyName();
         #endregion
         
         #region UnityEngine.LineRenderer
