@@ -12,6 +12,10 @@ namespace Games.GrumpyBear.Core.Settings
         [SerializeField] private string _qualityIndexSettingsKey = "Settings/Video/QualityIndex";
         [SerializeField] private string _resolutionIndexSettingsKey = "Settings/Video/ResolutionIndex";
 
+        public string FullscreenSettingsKey => _fullscreenSettingsKey;
+        public string QualityIndexSettingsKey => _qualityIndexSettingsKey;
+        public string ResolutionIndexSettingsKey => _resolutionIndexSettingsKey;
+        
         public bool Fullscreen
         {
             get => PlayerPrefs.GetInt(_fullscreenSettingsKey, Screen.fullScreen ? 1 : 0) != 0;
@@ -117,16 +121,15 @@ namespace Games.GrumpyBear.Core.Settings
                 ApplyAll();
             };
         }
-
-        [ContextMenu("Clear PlayerPrefs")]
-        private void ClearPlayerPrefs()
+        #else
+        private void OnEnable() => ApplyAll();
+        #endif
+        
+        public void ClearPlayerPrefs()
         {
             PlayerPrefs.DeleteKey(_fullscreenSettingsKey);
             PlayerPrefs.DeleteKey(_qualityIndexSettingsKey);
             PlayerPrefs.DeleteKey(_resolutionIndexSettingsKey);
         }
-        #else
-        private void OnEnable() => ApplyAll();
-        #endif
     }
 }
