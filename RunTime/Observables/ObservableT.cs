@@ -1,7 +1,7 @@
 ﻿// ReSharper disable UnusedType.Global
 namespace Games.GrumpyBear.Core.Observables
 {
-    public class Observable<T>: ReadOnlyObservable<T>, IObservable<T>, IReadonlyObservable<T> {
+    public class Observable<T>: ReadOnlyObservable<T>, IObservable<T> {
         public new T Value
         {
             get => base.Value;
