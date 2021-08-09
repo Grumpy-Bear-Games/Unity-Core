@@ -1,0 +1,267 @@
+{
+  "api/Games.GrumpyBear.Core.Editor.Events.html": {
+    "href": "api/Games.GrumpyBear.Core.Editor.Events.html",
+    "title": "Namespace Games.GrumpyBear.Core.Editor.Events | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Editor.Events Classes VoidEventEditor"
+  },
+  "api/Games.GrumpyBear.Core.Editor.Events.VoidEventEditor.html": {
+    "href": "api/Games.GrumpyBear.Core.Editor.Events.VoidEventEditor.html",
+    "title": "Class VoidEventEditor | Games.GrumpyBear.Core",
+    "keywords": "Class VoidEventEditor Inheritance Object VoidEventEditor Namespace : Games.GrumpyBear.Core.Editor.Events Assembly : Games.GrumpyBear.Core.Editor.dll Syntax public class VoidEventEditor : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/Games.GrumpyBear.Core.Editor.Settings.html": {
+    "href": "api/Games.GrumpyBear.Core.Editor.Settings.html",
+    "title": "Namespace Games.GrumpyBear.Core.Editor.Settings | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Editor.Settings Classes VideoSettingsEditor"
+  },
+  "api/Games.GrumpyBear.Core.Editor.Settings.VideoSettingsEditor.html": {
+    "href": "api/Games.GrumpyBear.Core.Editor.Settings.VideoSettingsEditor.html",
+    "title": "Class VideoSettingsEditor | Games.GrumpyBear.Core",
+    "keywords": "Class VideoSettingsEditor Inheritance Object VideoSettingsEditor Namespace : Games.GrumpyBear.Core.Editor.Settings Assembly : Games.GrumpyBear.Core.Editor.dll Syntax public class VideoSettingsEditor : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/Games.GrumpyBear.Core.Events.EventT-1.html": {
+    "href": "api/Games.GrumpyBear.Core.Events.EventT-1.html",
+    "title": "Class EventT<T> | Games.GrumpyBear.Core",
+    "keywords": "Class EventT<T> Inheritance Object EventT<T> Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class EventT<T> : ScriptableObject Type Parameters Name Description T Methods Invoke(T) Declaration public void Invoke(T value) Parameters Type Name Description T value Events Listeners Declaration public event Action<T> Listeners Event Type Type Description Action <T>"
+  },
+  "api/Games.GrumpyBear.Core.Events.EventTListener-1.html": {
+    "href": "api/Games.GrumpyBear.Core.Events.EventTListener-1.html",
+    "title": "Class EventTListener<T> | Games.GrumpyBear.Core",
+    "keywords": "Class EventTListener<T> Inheritance Object EventTListener<T> Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class EventTListener<T> : MonoBehaviour Type Parameters Name Description T Fields _event Declaration protected EventT<T> _event Field Value Type Description EventT <T> _onTrigger Declaration protected UnityEvent<T> _onTrigger Field Value Type Description UnityEvent <T>"
+  },
+  "api/Games.GrumpyBear.Core.Events.html": {
+    "href": "api/Games.GrumpyBear.Core.Events.html",
+    "title": "Namespace Games.GrumpyBear.Core.Events | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Events Classes EventT<T> EventTListener<T> VoidEvent VoidEventListener"
+  },
+  "api/Games.GrumpyBear.Core.Events.VoidEvent.html": {
+    "href": "api/Games.GrumpyBear.Core.Events.VoidEvent.html",
+    "title": "Class VoidEvent | Games.GrumpyBear.Core",
+    "keywords": "Class VoidEvent Inheritance Object VoidEvent Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class VoidEvent : ScriptableObject Methods Invoke() Declaration public void Invoke() Events Listeners Declaration public event Action Listeners Event Type Type Description Action"
+  },
+  "api/Games.GrumpyBear.Core.Events.VoidEventListener.html": {
+    "href": "api/Games.GrumpyBear.Core.Events.VoidEventListener.html",
+    "title": "Class VoidEventListener | Games.GrumpyBear.Core",
+    "keywords": "Class VoidEventListener Inheritance Object VoidEventListener Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class VoidEventListener : MonoBehaviour Fields _event Declaration protected VoidEvent _event Field Value Type Description VoidEvent _onTrigger Declaration protected UnityEvent _onTrigger Field Value Type Description UnityEvent"
+  },
+  "api/Games.GrumpyBear.Core.ExtensionMethods.html": {
+    "href": "api/Games.GrumpyBear.Core.ExtensionMethods.html",
+    "title": "Class ExtensionMethods | Games.GrumpyBear.Core",
+    "keywords": "Class ExtensionMethods Inheritance Object ExtensionMethods Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ToString() Object.ReferenceEquals(Object, Object) Namespace : Games.GrumpyBear.Core Assembly : Games.GrumpyBear.Core.dll Syntax public static class ExtensionMethods Methods Approximate(Single, Single) Declaration public static bool Approximate(this float value, float compareTo) Parameters Type Name Description Single value Single compareTo Returns Type Description Boolean BezierCurve(LineRenderer, Vector2, Vector2, Vector2, Vector2) Declaration public static void BezierCurve(this LineRenderer lineRenderer, Vector2 a, Vector2 b, Vector2 c, Vector2 d) Parameters Type Name Description LineRenderer lineRenderer Vector2 a Vector2 b Vector2 c Vector2 d BezierCurve(LineRenderer, Vector3, Vector3, Vector3, Vector3) Declaration public static void BezierCurve(this LineRenderer lineRenderer, Vector3 a, Vector3 b, Vector3 c, Vector3 d) Parameters Type Name Description LineRenderer lineRenderer Vector3 a Vector3 b Vector3 c Vector3 d Copy(Rect) Declaration public static Rect Copy(this Rect rect) Parameters Type Name Description Rect rect Returns Type Description Rect CubicCurve(Vector2, Vector2, Vector2, Vector2, Single) Declaration public static Vector2 CubicCurve(Vector2 a, Vector2 b, Vector2 c, Vector2 d, float t) Parameters Type Name Description Vector2 a Vector2 b Vector2 c Vector2 d Single t Returns Type Description Vector2 CubicCurve(Vector3, Vector3, Vector3, Vector3, Single) Declaration public static Vector3 CubicCurve(Vector3 a, Vector3 b, Vector3 c, Vector3 d, float t) Parameters Type Name Description Vector3 a Vector3 b Vector3 c Vector3 d Single t Returns Type Description Vector3 DestroyAllChildren(Transform) Declaration public static void DestroyAllChildren(this Transform transform) Parameters Type Name Description Transform transform DestroyAllChildren<T>(Transform) Declaration public static void DestroyAllChildren<T>(this Transform transform) where T : MonoBehaviour Parameters Type Name Description Transform transform Type Parameters Name Description T DestroyAllChildrenImmediate(Transform) Declaration public static void DestroyAllChildrenImmediate(this Transform transform) Parameters Type Name Description Transform transform DestroyAllChildrenImmediate<T>(Transform) Declaration public static void DestroyAllChildrenImmediate<T>(this Transform transform) where T : MonoBehaviour Parameters Type Name Description Transform transform Type Parameters Name Description T IsZero(Single) Declaration public static bool IsZero(this float value) Parameters Type Name Description Single value Returns Type Description Boolean Lerp(Vector2, Vector2, Single) Declaration public static Vector2 Lerp(Vector2 a, Vector2 b, float t) Parameters Type Name Description Vector2 a Vector2 b Single t Returns Type Description Vector2 Lerp(Vector3, Vector3, Single) Declaration public static Vector3 Lerp(Vector3 a, Vector3 b, float t) Parameters Type Name Description Vector3 a Vector3 b Single t Returns Type Description Vector3 PickRandom<T>(IReadOnlyList<T>) Declaration public static T PickRandom<T>(this IReadOnlyList<T> objects) Parameters Type Name Description IReadOnlyList <T> objects Returns Type Description T Type Parameters Name Description T QuadraticCurve(Vector2, Vector2, Vector2, Single) Declaration public static Vector2 QuadraticCurve(Vector2 a, Vector2 b, Vector2 c, float t) Parameters Type Name Description Vector2 a Vector2 b Vector2 c Single t Returns Type Description Vector2 QuadraticCurve(Vector3, Vector3, Vector3, Single) Declaration public static Vector3 QuadraticCurve(Vector3 a, Vector3 b, Vector3 c, float t) Parameters Type Name Description Vector3 a Vector3 b Vector3 c Single t Returns Type Description Vector3 SetMargin(Rect, Single, Single, Single, Single) Declaration public static Rect SetMargin(this Rect rect, float top = 0F, float bottom = 0F, float left = 0F, float right = 0F) Parameters Type Name Description Rect rect Single top Single bottom Single left Single right Returns Type Description Rect SetWidth(Rect, Single) Declaration public static Rect SetWidth(this Rect rect, float width) Parameters Type Name Description Rect rect Single width Returns Type Description Rect Swap<T>(ref T, ref T) Declaration public static void Swap<T>(ref T a, ref T b) Parameters Type Name Description T a T b Type Parameters Name Description T WithMargin(Rect, Single, Single, Single, Single) Declaration public static Rect WithMargin(this Rect rect, float top = 0F, float bottom = 0F, float left = 0F, float right = 0F) Parameters Type Name Description Rect rect Single top Single bottom Single left Single right Returns Type Description Rect WithWidth(Rect, Single) Declaration public static Rect WithWidth(this Rect rect, float width) Parameters Type Name Description Rect rect Single width Returns Type Description Rect"
+  },
+  "api/Games.GrumpyBear.Core.html": {
+    "href": "api/Games.GrumpyBear.Core.html",
+    "title": "Namespace Games.GrumpyBear.Core | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core Classes ExtensionMethods"
+  },
+  "api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html": {
+    "href": "api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html",
+    "title": "Class ExtensionMethods | Games.GrumpyBear.Core",
+    "keywords": "Class ExtensionMethods Inheritance Object ExtensionMethods Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ToString() Object.ReferenceEquals(Object, Object) Namespace : Games.GrumpyBear.Core.InputSystem Assembly : Games.GrumpyBear.Core.InputSystem.dll Syntax public static class ExtensionMethods Methods GetEffectiveBinding(InputAction) Declaration public static InputBinding? GetEffectiveBinding(this InputAction action) Parameters Type Name Description InputAction action Returns Type Description Nullable < InputBinding > GetEffectiveBindingMask(InputAction) Declaration public static InputBinding? GetEffectiveBindingMask(this InputAction action) Parameters Type Name Description InputAction action Returns Type Description Nullable < InputBinding > GetKeyName(InputAction) Declaration public static string GetKeyName(this InputAction action) Parameters Type Name Description InputAction action Returns Type Description String GetKeyName(InputActionReference) Declaration public static string GetKeyName(this InputActionReference inputActionReference) Parameters Type Name Description InputActionReference inputActionReference Returns Type Description String GetKeyName(PlayerInput, String) Declaration public static string GetKeyName(this PlayerInput playerInput, string action) Parameters Type Name Description PlayerInput playerInput String action Returns Type Description String"
+  },
+  "api/Games.GrumpyBear.Core.InputSystem.html": {
+    "href": "api/Games.GrumpyBear.Core.InputSystem.html",
+    "title": "Namespace Games.GrumpyBear.Core.InputSystem | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.InputSystem Classes ExtensionMethods InputActionPerformedListener"
+  },
+  "api/Games.GrumpyBear.Core.InputSystem.InputActionPerformedListener.html": {
+    "href": "api/Games.GrumpyBear.Core.InputSystem.InputActionPerformedListener.html",
+    "title": "Class InputActionPerformedListener | Games.GrumpyBear.Core",
+    "keywords": "Class InputActionPerformedListener Inheritance Object InputActionPerformedListener Namespace : Games.GrumpyBear.Core.InputSystem Assembly : Games.GrumpyBear.Core.InputSystem.dll Syntax public class InputActionPerformedListener : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.html": {
+    "href": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.html",
+    "title": "Namespace Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects Classes PlayerInputObservable PlayerInputObservableListener"
+  },
+  "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservable.html": {
+    "href": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservable.html",
+    "title": "Class PlayerInputObservable | Games.GrumpyBear.Core",
+    "keywords": "Class PlayerInputObservable Inheritance Object PlayerInputObservable Namespace : Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.InputSystem.dll Syntax public class PlayerInputObservable : Observable<PlayerInput>"
+  },
+  "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservableListener.html": {
+    "href": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservableListener.html",
+    "title": "Class PlayerInputObservableListener | Games.GrumpyBear.Core",
+    "keywords": "Class PlayerInputObservableListener Inheritance Object PlayerInputObservableListener Namespace : Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.InputSystem.dll Syntax public class PlayerInputObservableListener : ObservableListener<PlayerInput>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.html",
+    "title": "Namespace Games.GrumpyBear.Core.Observables | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Observables Classes Observable<T> ReadOnlyObservable<T> Interfaces IObservable<T> IReadonlyObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.IObservable-1.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.IObservable-1.html",
+    "title": "Interface IObservable<T> | Games.GrumpyBear.Core",
+    "keywords": "Interface IObservable<T> Namespace : Games.GrumpyBear.Core.Observables Assembly : Games.GrumpyBear.Core.dll Syntax public interface IObservable<T> Type Parameters Name Description T Properties Value Declaration T Value { get; set; } Property Value Type Description T Methods Set(T) Declaration void Set(T value) Parameters Type Name Description T value Subscribe(Action<T>) Declaration void Subscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Unsubscribe(Action<T>) Declaration void Unsubscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Events OnChange Declaration event Action<T> OnChange Event Type Type Description Action <T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.IReadonlyObservable-1.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.IReadonlyObservable-1.html",
+    "title": "Interface IReadonlyObservable<T> | Games.GrumpyBear.Core",
+    "keywords": "Interface IReadonlyObservable<T> Namespace : Games.GrumpyBear.Core.Observables Assembly : Games.GrumpyBear.Core.dll Syntax public interface IReadonlyObservable<out T> Type Parameters Name Description T Properties Value Declaration T Value { get; } Property Value Type Description T Methods Subscribe(Action<T>) Declaration void Subscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Unsubscribe(Action<T>) Declaration void Unsubscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Events OnChange Declaration event Action<T> OnChange Event Type Type Description Action <T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.Observable-1.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.Observable-1.html",
+    "title": "Class Observable<T> | Games.GrumpyBear.Core",
+    "keywords": "Class Observable<T> Inheritance Object ReadOnlyObservable <T> Observable<T> Implements IReadonlyObservable <T> IObservable <T> Inherited Members ReadOnlyObservable<T>.OnChange ReadOnlyObservable<T>.Subscribe(Action<T>) ReadOnlyObservable<T>.Unsubscribe(Action<T>) Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ToString() Object.ReferenceEquals(Object, Object) Namespace : Games.GrumpyBear.Core.Observables Assembly : Games.GrumpyBear.Core.dll Syntax public class Observable<T> : ReadOnlyObservable<T>, IReadonlyObservable<T>, IObservable<T> Type Parameters Name Description T Properties Value Declaration public T Value { get; set; } Property Value Type Description T Methods Set(T) Declaration public void Set(T value) Parameters Type Name Description T value Implements IReadonlyObservable<T> IObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ReadOnlyObservable-1.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ReadOnlyObservable-1.html",
+    "title": "Class ReadOnlyObservable<T> | Games.GrumpyBear.Core",
+    "keywords": "Class ReadOnlyObservable<T> Inheritance Object ReadOnlyObservable<T> Observable<T> Implements IReadonlyObservable <T> Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ToString() Object.ReferenceEquals(Object, Object) Namespace : Games.GrumpyBear.Core.Observables Assembly : Games.GrumpyBear.Core.dll Syntax public class ReadOnlyObservable<T> : IReadonlyObservable<T> Type Parameters Name Description T Constructors ReadOnlyObservable() Declaration protected ReadOnlyObservable() ReadOnlyObservable(T) Declaration protected ReadOnlyObservable(T initialValue) Parameters Type Name Description T initialValue ReadOnlyObservable(T, Action<T>, Boolean) Declaration protected ReadOnlyObservable(T initialValue, Action<T> onChange, bool trigger = false) Parameters Type Name Description T initialValue Action <T> onChange Boolean trigger ReadOnlyObservable(Action<T>) Declaration protected ReadOnlyObservable(Action<T> onChange) Parameters Type Name Description Action <T> onChange Properties Value Declaration public T Value { get; protected set; } Property Value Type Description T Methods Set(T) Declaration protected void Set(T value) Parameters Type Name Description T value Subscribe(Action<T>) Declaration public void Subscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Unsubscribe(Action<T>) Declaration public void Unsubscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Events OnChange Declaration public event Action<T> OnChange Event Type Type Description Action <T> Operators Implicit(ReadOnlyObservable<T> to T) Declaration public static implicit operator T(ReadOnlyObservable<T> o) Parameters Type Name Description ReadOnlyObservable <T> o Returns Type Description T Implements IReadonlyObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.html",
+    "title": "Class BoolObservable | Games.GrumpyBear.Core",
+    "keywords": "Class BoolObservable Inheritance Object ReadOnlyObservable < Boolean > Observable < Boolean > BoolObservable Implements IReadonlyObservable < Boolean > IObservable < Boolean > Inherited Members Observable<Boolean>.Value Observable<Boolean>.Set(Boolean) ReadOnlyObservable<Boolean>.OnChange ReadOnlyObservable<Boolean>.Subscribe(Action<Boolean>) ReadOnlyObservable<Boolean>.Unsubscribe(Action<Boolean>) Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class BoolObservable : Observable<bool>, IReadonlyObservable<bool>, IObservable<bool> Implements IReadonlyObservable<T> IObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservableListener.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservableListener.html",
+    "title": "Class BoolObservableListener | Games.GrumpyBear.Core",
+    "keywords": "Class BoolObservableListener Inheritance Object ObservableListener < Boolean > BoolObservableListener Inherited Members ObservableListener<Boolean>._observable ObservableListener<Boolean>._onChange Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class BoolObservableListener : ObservableListener<bool>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservable.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservable.html",
+    "title": "Class CameraObservable | Games.GrumpyBear.Core",
+    "keywords": "Class CameraObservable Inheritance Object ReadOnlyObservable < Camera > Observable < Camera > CameraObservable Implements IReadonlyObservable < Camera > IObservable < Camera > Inherited Members Observable<Camera>.Value Observable<Camera>.Set(Camera) ReadOnlyObservable<Camera>.OnChange ReadOnlyObservable<Camera>.Subscribe(Action<Camera>) ReadOnlyObservable<Camera>.Unsubscribe(Action<Camera>) Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class CameraObservable : Observable<Camera>, IReadonlyObservable<Camera>, IObservable<Camera> Implements IReadonlyObservable<T> IObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableListener.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableListener.html",
+    "title": "Class CameraObservableListener | Games.GrumpyBear.Core",
+    "keywords": "Class CameraObservableListener Inheritance Object ObservableListener < Camera > CameraObservableListener Inherited Members ObservableListener<Camera>._observable ObservableListener<Camera>._onChange Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class CameraObservableListener : ObservableListener<Camera>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier.html",
+    "title": "Class CameraObservableNotifier | Games.GrumpyBear.Core",
+    "keywords": "Class CameraObservableNotifier Inheritance Object CameraObservableNotifier Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class CameraObservableNotifier : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html",
+    "title": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects Classes BoolObservable BoolObservableListener CameraObservable CameraObservableListener CameraObservableNotifier IntObservable IntObservableListener Observable<T> ObservableListener<T> ReadOnlyObservable<T> RuntimeSet RuntimeSetMember"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html",
+    "title": "Class IntObservable | Games.GrumpyBear.Core",
+    "keywords": "Class IntObservable Inheritance Object ReadOnlyObservable < Int32 > Observable < Int32 > IntObservable Implements IReadonlyObservable < Int32 > IObservable < Int32 > Inherited Members Observable<Int32>.Value Observable<Int32>.Set(Int32) ReadOnlyObservable<Int32>.OnChange ReadOnlyObservable<Int32>.Subscribe(Action<Int32>) ReadOnlyObservable<Int32>.Unsubscribe(Action<Int32>) Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class IntObservable : Observable<int>, IReadonlyObservable<int>, IObservable<int> Implements IReadonlyObservable<T> IObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservableListener.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservableListener.html",
+    "title": "Class IntObservableListener | Games.GrumpyBear.Core",
+    "keywords": "Class IntObservableListener Inheritance Object ObservableListener < Int32 > IntObservableListener Inherited Members ObservableListener<Int32>._observable ObservableListener<Int32>._onChange Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class IntObservableListener : ObservableListener<int>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.Observable-1.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.Observable-1.html",
+    "title": "Class Observable<T> | Games.GrumpyBear.Core",
+    "keywords": "Class Observable<T> Inheritance Object ReadOnlyObservable <T> Observable<T> BoolObservable CameraObservable IntObservable Implements IReadonlyObservable <T> IObservable <T> Inherited Members ReadOnlyObservable<T>.OnChange ReadOnlyObservable<T>.Subscribe(Action<T>) ReadOnlyObservable<T>.Unsubscribe(Action<T>) Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class Observable<T> : ReadOnlyObservable<T>, IReadonlyObservable<T>, IObservable<T> Type Parameters Name Description T Properties Value Declaration public T Value { get; set; } Property Value Type Description T Methods Set(T) Declaration public void Set(T value) Parameters Type Name Description T value Implements IReadonlyObservable<T> IObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ObservableListener-1.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ObservableListener-1.html",
+    "title": "Class ObservableListener<T> | Games.GrumpyBear.Core",
+    "keywords": "Class ObservableListener<T> Inheritance Object ObservableListener<T> BoolObservableListener CameraObservableListener IntObservableListener Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class ObservableListener<T> : MonoBehaviour Type Parameters Name Description T Fields _observable Declaration protected Observable<T> _observable Field Value Type Description Observable <T> _onChange Declaration protected UnityEvent<T> _onChange Field Value Type Description UnityEvent <T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html",
+    "title": "Class ReadOnlyObservable<T> | Games.GrumpyBear.Core",
+    "keywords": "Class ReadOnlyObservable<T> Inheritance Object ReadOnlyObservable<T> Observable<T> RuntimeSet Implements IReadonlyObservable <T> Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class ReadOnlyObservable<T> : ScriptableObject, IReadonlyObservable<T> Type Parameters Name Description T Properties Value Declaration public T Value { get; protected set; } Property Value Type Description T Methods Set(T) Declaration protected void Set(T value) Parameters Type Name Description T value Subscribe(Action<T>) Declaration public void Subscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Unsubscribe(Action<T>) Declaration public void Unsubscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Events OnChange Declaration public event Action<T> OnChange Event Type Type Description Action <T> Operators Implicit(ReadOnlyObservable<T> to T) Declaration public static implicit operator T(ReadOnlyObservable<T> o) Parameters Type Name Description ReadOnlyObservable <T> o Returns Type Description T Implements IReadonlyObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.RuntimeSet.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.RuntimeSet.html",
+    "title": "Class RuntimeSet | Games.GrumpyBear.Core",
+    "keywords": "Class RuntimeSet Inheritance Object ReadOnlyObservable < Int32 > RuntimeSet Implements IReadonlyObservable < Int32 > Inherited Members ReadOnlyObservable<Int32>.OnChange ReadOnlyObservable<Int32>.Value ReadOnlyObservable<Int32>.Set(Int32) ReadOnlyObservable<Int32>.Subscribe(Action<Int32>) ReadOnlyObservable<Int32>.Unsubscribe(Action<Int32>) Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class RuntimeSet : ReadOnlyObservable<int>, IReadonlyObservable<int> Methods Register(GameObject) Declaration public void Register(GameObject instance) Parameters Type Name Description GameObject instance Unregister(GameObject) Declaration public void Unregister(GameObject instance) Parameters Type Name Description GameObject instance Implements IReadonlyObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.RuntimeSetMember.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.RuntimeSetMember.html",
+    "title": "Class RuntimeSetMember | Games.GrumpyBear.Core",
+    "keywords": "Class RuntimeSetMember Inheritance Object RuntimeSetMember Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class RuntimeSetMember : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.Settings.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.html",
+    "title": "Namespace Games.GrumpyBear.Core.Settings | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Settings Classes VideoSettings VideoSettings.ResolutionEntry"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UI.FullscreenToggle.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UI.FullscreenToggle.html",
+    "title": "Class FullscreenToggle | Games.GrumpyBear.Core",
+    "keywords": "Class FullscreenToggle Inheritance Object FullscreenToggle Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class FullscreenToggle : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UI.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UI.html",
+    "title": "Namespace Games.GrumpyBear.Core.Settings.UI | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Settings.UI Classes FullscreenToggle QualityDropdown QualityTMPDropdown ResolutionDropdown ResolutionTMPDropdown"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UI.QualityDropdown.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UI.QualityDropdown.html",
+    "title": "Class QualityDropdown | Games.GrumpyBear.Core",
+    "keywords": "Class QualityDropdown Inheritance Object QualityDropdown Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class QualityDropdown : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UI.QualityTMPDropdown.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UI.QualityTMPDropdown.html",
+    "title": "Class QualityTMPDropdown | Games.GrumpyBear.Core",
+    "keywords": "Class QualityTMPDropdown Inheritance Object QualityTMPDropdown Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class QualityTMPDropdown : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown.html",
+    "title": "Class ResolutionDropdown | Games.GrumpyBear.Core",
+    "keywords": "Class ResolutionDropdown Inheritance Object ResolutionDropdown Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class ResolutionDropdown : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UI.ResolutionTMPDropdown.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UI.ResolutionTMPDropdown.html",
+    "title": "Class ResolutionTMPDropdown | Games.GrumpyBear.Core",
+    "keywords": "Class ResolutionTMPDropdown Inheritance Object ResolutionTMPDropdown Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class ResolutionTMPDropdown : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.Settings.VideoSettings.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.VideoSettings.html",
+    "title": "Class VideoSettings | Games.GrumpyBear.Core",
+    "keywords": "Class VideoSettings Inheritance Object VideoSettings Namespace : Games.GrumpyBear.Core.Settings Assembly : Games.GrumpyBear.Core.dll Syntax public class VideoSettings : ScriptableObject Properties Fullscreen Declaration public bool Fullscreen { get; set; } Property Value Type Description Boolean FullscreenSettingsKey Declaration public string FullscreenSettingsKey { get; } Property Value Type Description String QualityIndex Declaration public int QualityIndex { get; set; } Property Value Type Description Int32 QualityIndexSettingsKey Declaration public string QualityIndexSettingsKey { get; } Property Value Type Description String QualityNames Declaration public static List<string> QualityNames { get; } Property Value Type Description List < String > Resolution Declaration public VideoSettings.ResolutionEntry Resolution { get; set; } Property Value Type Description VideoSettings.ResolutionEntry ResolutionIndexSettingsKey Declaration public string ResolutionIndexSettingsKey { get; } Property Value Type Description String Resolutions Declaration public static List<VideoSettings.ResolutionEntry> Resolutions { get; } Property Value Type Description List < VideoSettings.ResolutionEntry > Methods ClearPlayerPrefs() Declaration public void ClearPlayerPrefs()"
+  },
+  "api/Games.GrumpyBear.Core.Settings.VideoSettings.ResolutionEntry.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.VideoSettings.ResolutionEntry.html",
+    "title": "Class VideoSettings.ResolutionEntry | Games.GrumpyBear.Core",
+    "keywords": "Class VideoSettings.ResolutionEntry Inheritance Object VideoSettings.ResolutionEntry Namespace : Games.GrumpyBear.Core.Settings Assembly : Games.GrumpyBear.Core.dll Syntax public class ResolutionEntry : IComparable<VideoSettings.ResolutionEntry> Fields Height Declaration public readonly int Height Field Value Type Description Int32 Width Declaration public readonly int Width Field Value Type Description Int32 Methods CompareTo(VideoSettings.ResolutionEntry) Declaration public int CompareTo(VideoSettings.ResolutionEntry other) Parameters Type Name Description VideoSettings.ResolutionEntry other Returns Type Description Int32 Equals(Object) Declaration public override bool Equals(object other) Parameters Type Name Description Object other Returns Type Description Boolean GetHashCode() Declaration public override int GetHashCode() Returns Type Description Int32 ToString() Declaration public override string ToString() Returns Type Description String"
+  },
+  "api/Games.GrumpyBear.Core.Triggers.html": {
+    "href": "api/Games.GrumpyBear.Core.Triggers.html",
+    "title": "Namespace Games.GrumpyBear.Core.Triggers | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Triggers Classes Trigger2D Trigger3D"
+  },
+  "api/Games.GrumpyBear.Core.Triggers.Trigger2D.html": {
+    "href": "api/Games.GrumpyBear.Core.Triggers.Trigger2D.html",
+    "title": "Class Trigger2D | Games.GrumpyBear.Core",
+    "keywords": "Class Trigger2D Inheritance Object Trigger2D Namespace : Games.GrumpyBear.Core.Triggers Assembly : Games.GrumpyBear.Core.dll Syntax public class Trigger2D : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.Triggers.Trigger3D.html": {
+    "href": "api/Games.GrumpyBear.Core.Triggers.Trigger3D.html",
+    "title": "Class Trigger3D | Games.GrumpyBear.Core",
+    "keywords": "Class Trigger3D Inheritance Object Trigger3D Namespace : Games.GrumpyBear.Core.Triggers Assembly : Games.GrumpyBear.Core.dll Syntax public class Trigger3D : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.UI.DropdownAutoScroll.html": {
+    "href": "api/Games.GrumpyBear.Core.UI.DropdownAutoScroll.html",
+    "title": "Class DropdownAutoScroll | Games.GrumpyBear.Core",
+    "keywords": "Class DropdownAutoScroll Inheritance Object DropdownAutoScroll Implements IPointerClickHandler Namespace : Games.GrumpyBear.Core.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class DropdownAutoScroll : MonoBehaviour, IPointerClickHandler Methods OnPointerClick(PointerEventData) Declaration public void OnPointerClick(PointerEventData _) Parameters Type Name Description PointerEventData _ Implements IPointerClickHandler"
+  },
+  "api/Games.GrumpyBear.Core.UI.html": {
+    "href": "api/Games.GrumpyBear.Core.UI.html",
+    "title": "Namespace Games.GrumpyBear.Core.UI | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.UI Classes DropdownAutoScroll TMPDropdownAutoScroll"
+  },
+  "api/Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.html": {
+    "href": "api/Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.html",
+    "title": "Class TMPDropdownAutoScroll | Games.GrumpyBear.Core",
+    "keywords": "Class TMPDropdownAutoScroll Inheritance Object TMPDropdownAutoScroll Implements IPointerClickHandler Namespace : Games.GrumpyBear.Core.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class TMPDropdownAutoScroll : MonoBehaviour, IPointerClickHandler Methods OnPointerClick(PointerEventData) Declaration public void OnPointerClick(PointerEventData _) Parameters Type Name Description PointerEventData _ Implements IPointerClickHandler"
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "Changelog | Games.GrumpyBear.Core",
+    "keywords": "Changelog"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Core | Games.GrumpyBear.Core",
+    "keywords": "Core"
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| Games.GrumpyBear.Core",
+    "keywords": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION Definitions. \"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document. \"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License. \"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity. \"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License. \"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files. \"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types. \"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below). \"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof. \"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\" \"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions: (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and (b) You must cause any modified files to carry prominent notices stating that You changed the files; and (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and (d) If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability. END OF TERMS AND CONDITIONS APPENDIX: How to apply the Apache License to your work. To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets \"[]\" replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same \"printed page\" as the copyright notice for easier identification within third-party archives. Copyright [yyyy] [name of copyright owner] Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+  }
+}
