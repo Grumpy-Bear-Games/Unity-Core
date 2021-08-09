@@ -1,0 +1,29 @@
+﻿name: Build and publish documentation
+on:
+  push:
+    branches:
+      - master
+jobs:
+  DocFX:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - uses: nikeee/docfx-action@v1.0.0
+        name: Check DocFX version
+        with:
+          args: --version
+      - uses: nikeee/docfx-action@v1.0.0
+        name: Build Documentation
+        with:
+          args: Documentation~/docfx.json
+      - name: List files in the repository
+        run: |
+          ls -R ${{ github.workspace }}/_site~
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ github.workspace }}/_site~
+          user_name: 'github-actions[bot]'
+          user_email: 'parmus@gmail.com'

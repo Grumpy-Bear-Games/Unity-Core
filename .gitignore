@@ -1,1 +1,8 @@
 RunTime/Migrated~
+
+## DocFX artifacts
+obj
+obj.meta
+/_docfx_cache~
+/_site~
+/Documentation~/api
