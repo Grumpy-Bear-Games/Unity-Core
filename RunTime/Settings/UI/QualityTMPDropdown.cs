@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿#if USE_TEXTMESHPRO
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Games.GrumpyBear.Core.Settings.UI
 {
@@ -31,3 +29,4 @@ namespace Games.GrumpyBear.Core.Settings.UI
         private void OnValueChange(int qualityIndex) => _videoSettings.QualityIndex = qualityIndex;
     }
 }
+#endif

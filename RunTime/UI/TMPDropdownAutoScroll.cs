@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿#if USE_TEXTMESHPRO
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -29,3 +30,4 @@ namespace Games.GrumpyBear.Core.UI
         }
     }
 }
+#endif

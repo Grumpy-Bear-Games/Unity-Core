@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if USE_TEXTMESHPRO
+using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -34,3 +35,4 @@ namespace Games.GrumpyBear.Core.Settings.UI
         private void OnValueChange(int index) => _videoSettings.Resolution = _resolutionEntries[index];
     }
 }
+#endif

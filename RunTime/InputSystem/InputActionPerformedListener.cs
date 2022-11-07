@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if ENABLE_INPUT_SYSTEM
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
@@ -20,3 +21,4 @@ namespace Games.GrumpyBear.Core.InputSystem
         }
     }
 }
+#endif

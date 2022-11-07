@@ -5,6 +5,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
+
 namespace Games.GrumpyBear.Core
 {
     public static class ExtensionMethods
@@ -140,6 +144,39 @@ namespace Games.GrumpyBear.Core
             }
             lineRenderer.SetPositions(positions);
         }
+        #endregion
+        
+        #region UnityEngine.InputSystem
+        #if ENABLE_INPUT_SYSTEM
+        public static InputBinding? GetEffectiveBindingMask(this InputAction action) =>
+            (action.bindingMask ?? action.actionMap.bindingMask) ?? action.actionMap.asset.bindingMask;
+
+        public static InputBinding? GetEffectiveBinding(this InputAction action)
+        {
+            var bindingMask = action.GetEffectiveBindingMask();
+            if (!bindingMask.HasValue) return null;
+            var index = action.GetBindingIndex(bindingMask.Value);
+            return action.bindings[index];
+        }
+
+        public static string GetKeyName(this InputAction action)
+        {
+            var binding = action.GetEffectiveBinding();
+            return binding.HasValue
+                ? InputControlPath.ToHumanReadableString(
+                    binding.Value.effectivePath,
+                    InputControlPath.HumanReadableStringOptions.OmitDevice,
+                    Gamepad.current
+                )
+                : "";
+        }
+
+        public static string GetKeyName(this PlayerInput playerInput, string action) =>
+            playerInput.actions.FindAction(action).GetKeyName();
+
+        public static string GetKeyName(this InputActionReference inputActionReference) =>
+            inputActionReference.action.GetKeyName();
+        #endif
         #endregion
     }
 }
