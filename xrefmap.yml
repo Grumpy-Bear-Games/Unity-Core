@@ -414,93 +414,6 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.ExtensionMethods.WithWidth
   nameWithType: ExtensionMethods.WithWidth
-- uid: Games.GrumpyBear.Core.InputSystem
-  name: Games.GrumpyBear.Core.InputSystem
-  href: api/Games.GrumpyBear.Core.InputSystem.html
-  commentId: N:Games.GrumpyBear.Core.InputSystem
-  fullName: Games.GrumpyBear.Core.InputSystem
-  nameWithType: Games.GrumpyBear.Core.InputSystem
-- uid: Games.GrumpyBear.Core.InputSystem.ExtensionMethods
-  name: ExtensionMethods
-  href: api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html
-  commentId: T:Games.GrumpyBear.Core.InputSystem.ExtensionMethods
-  fullName: Games.GrumpyBear.Core.InputSystem.ExtensionMethods
-  nameWithType: ExtensionMethods
-- uid: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBinding(InputAction)
-  name: GetEffectiveBinding(InputAction)
-  href: api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html#Games_GrumpyBear_Core_InputSystem_ExtensionMethods_GetEffectiveBinding_InputAction_
-  commentId: M:Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBinding(InputAction)
-  fullName: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBinding(InputAction)
-  nameWithType: ExtensionMethods.GetEffectiveBinding(InputAction)
-- uid: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBinding*
-  name: GetEffectiveBinding
-  href: api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html#Games_GrumpyBear_Core_InputSystem_ExtensionMethods_GetEffectiveBinding_
-  commentId: Overload:Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBinding
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBinding
-  nameWithType: ExtensionMethods.GetEffectiveBinding
-- uid: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBindingMask(InputAction)
-  name: GetEffectiveBindingMask(InputAction)
-  href: api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html#Games_GrumpyBear_Core_InputSystem_ExtensionMethods_GetEffectiveBindingMask_InputAction_
-  commentId: M:Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBindingMask(InputAction)
-  fullName: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBindingMask(InputAction)
-  nameWithType: ExtensionMethods.GetEffectiveBindingMask(InputAction)
-- uid: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBindingMask*
-  name: GetEffectiveBindingMask
-  href: api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html#Games_GrumpyBear_Core_InputSystem_ExtensionMethods_GetEffectiveBindingMask_
-  commentId: Overload:Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBindingMask
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetEffectiveBindingMask
-  nameWithType: ExtensionMethods.GetEffectiveBindingMask
-- uid: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName(InputAction)
-  name: GetKeyName(InputAction)
-  href: api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html#Games_GrumpyBear_Core_InputSystem_ExtensionMethods_GetKeyName_InputAction_
-  commentId: M:Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName(InputAction)
-  fullName: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName(InputAction)
-  nameWithType: ExtensionMethods.GetKeyName(InputAction)
-- uid: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName(InputActionReference)
-  name: GetKeyName(InputActionReference)
-  href: api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html#Games_GrumpyBear_Core_InputSystem_ExtensionMethods_GetKeyName_InputActionReference_
-  commentId: M:Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName(InputActionReference)
-  fullName: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName(InputActionReference)
-  nameWithType: ExtensionMethods.GetKeyName(InputActionReference)
-- uid: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName(PlayerInput,System.String)
-  name: GetKeyName(PlayerInput, String)
-  href: api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html#Games_GrumpyBear_Core_InputSystem_ExtensionMethods_GetKeyName_PlayerInput_System_String_
-  commentId: M:Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName(PlayerInput,System.String)
-  fullName: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName(PlayerInput, System.String)
-  nameWithType: ExtensionMethods.GetKeyName(PlayerInput, String)
-- uid: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName*
-  name: GetKeyName
-  href: api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html#Games_GrumpyBear_Core_InputSystem_ExtensionMethods_GetKeyName_
-  commentId: Overload:Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.InputSystem.ExtensionMethods.GetKeyName
-  nameWithType: ExtensionMethods.GetKeyName
-- uid: Games.GrumpyBear.Core.InputSystem.InputActionPerformedListener
-  name: InputActionPerformedListener
-  href: api/Games.GrumpyBear.Core.InputSystem.InputActionPerformedListener.html
-  commentId: T:Games.GrumpyBear.Core.InputSystem.InputActionPerformedListener
-  fullName: Games.GrumpyBear.Core.InputSystem.InputActionPerformedListener
-  nameWithType: InputActionPerformedListener
-- uid: Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects
-  name: Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects
-  href: api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.html
-  commentId: N:Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects
-  fullName: Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects
-  nameWithType: Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects
-- uid: Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservable
-  name: PlayerInputObservable
-  href: api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservable.html
-  commentId: T:Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservable
-  fullName: Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservable
-  nameWithType: PlayerInputObservable
-- uid: Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservableListener
-  name: PlayerInputObservableListener
-  href: api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservableListener.html
-  commentId: T:Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservableListener
-  fullName: Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservableListener
-  nameWithType: PlayerInputObservableListener
 - uid: Games.GrumpyBear.Core.Observables
   name: Games.GrumpyBear.Core.Observables
   href: api/Games.GrumpyBear.Core.Observables.html
@@ -1140,24 +1053,12 @@ references:
   commentId: T:Games.GrumpyBear.Core.Settings.UI.QualityDropdown
   fullName: Games.GrumpyBear.Core.Settings.UI.QualityDropdown
   nameWithType: QualityDropdown
-- uid: Games.GrumpyBear.Core.Settings.UI.QualityTMPDropdown
-  name: QualityTMPDropdown
-  href: api/Games.GrumpyBear.Core.Settings.UI.QualityTMPDropdown.html
-  commentId: T:Games.GrumpyBear.Core.Settings.UI.QualityTMPDropdown
-  fullName: Games.GrumpyBear.Core.Settings.UI.QualityTMPDropdown
-  nameWithType: QualityTMPDropdown
 - uid: Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown
   name: ResolutionDropdown
   href: api/Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown.html
   commentId: T:Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown
   fullName: Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown
   nameWithType: ResolutionDropdown
-- uid: Games.GrumpyBear.Core.Settings.UI.ResolutionTMPDropdown
-  name: ResolutionTMPDropdown
-  href: api/Games.GrumpyBear.Core.Settings.UI.ResolutionTMPDropdown.html
-  commentId: T:Games.GrumpyBear.Core.Settings.UI.ResolutionTMPDropdown
-  fullName: Games.GrumpyBear.Core.Settings.UI.ResolutionTMPDropdown
-  nameWithType: ResolutionTMPDropdown
 - uid: Games.GrumpyBear.Core.Settings.VideoSettings
   name: VideoSettings
   href: api/Games.GrumpyBear.Core.Settings.VideoSettings.html
@@ -1394,22 +1295,3 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.UI.DropdownAutoScroll.OnPointerClick
   nameWithType: DropdownAutoScroll.OnPointerClick
-- uid: Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll
-  name: TMPDropdownAutoScroll
-  href: api/Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.html
-  commentId: T:Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll
-  fullName: Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll
-  nameWithType: TMPDropdownAutoScroll
-- uid: Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.OnPointerClick(PointerEventData)
-  name: OnPointerClick(PointerEventData)
-  href: api/Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.html#Games_GrumpyBear_Core_UI_TMPDropdownAutoScroll_OnPointerClick_PointerEventData_
-  commentId: M:Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.OnPointerClick(PointerEventData)
-  fullName: Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.OnPointerClick(PointerEventData)
-  nameWithType: TMPDropdownAutoScroll.OnPointerClick(PointerEventData)
-- uid: Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.OnPointerClick*
-  name: OnPointerClick
-  href: api/Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.html#Games_GrumpyBear_Core_UI_TMPDropdownAutoScroll_OnPointerClick_
-  commentId: Overload:Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.OnPointerClick
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.OnPointerClick
-  nameWithType: TMPDropdownAutoScroll.OnPointerClick

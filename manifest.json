@@ -47,7 +47,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Editor.Events.VoidEventEditor.html",
-          "hash": "g34Y6m9Rigj8KKQpbaJA7w=="
+          "hash": "K5L99vxodiiqbCoaQ4YJBQ=="
         }
       },
       "is_incremental": false,
@@ -71,7 +71,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Editor.Settings.VideoSettingsEditor.html",
-          "hash": "M69vIeLzH9HeyHTM2dB3YQ=="
+          "hash": "wUt56UeVjEDVYrJkN+fg4Q=="
         }
       },
       "is_incremental": false,
@@ -95,7 +95,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Events.EventT-1.html",
-          "hash": "/6M8IPoEBhKrvRkH8ZAikw=="
+          "hash": "H6F63MoQohQLVrqJNsM8ug=="
         }
       },
       "is_incremental": false,
@@ -107,7 +107,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Events.EventTListener-1.html",
-          "hash": "VhWoaRMA8xv3N5069OkRWg=="
+          "hash": "Gnaa2leb1Q2pGF1zfl4Mtg=="
         }
       },
       "is_incremental": false,
@@ -119,7 +119,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Events.VoidEvent.html",
-          "hash": "Xg81puk+QiF+mid0zvst3g=="
+          "hash": "32P9hzjVLtCCtPUg40IetA=="
         }
       },
       "is_incremental": false,
@@ -131,7 +131,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Events.VoidEventListener.html",
-          "hash": "C2WcoLx7lO3in2MzdcYdEA=="
+          "hash": "gOT7XFc7dcw9GVNJ5nEm0A=="
         }
       },
       "is_incremental": false,
@@ -155,79 +155,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.ExtensionMethods.html",
-          "hash": "QT6FDgZ1GapunwsrKBOT8g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html",
-          "hash": "dy0Z+pPot6mjAhs26ISCXQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Games.GrumpyBear.Core.InputSystem.InputActionPerformedListener.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Games.GrumpyBear.Core.InputSystem.InputActionPerformedListener.html",
-          "hash": "BKplV+++QHgYTkGgcevKlg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservable.html",
-          "hash": "i0GZjygNdMhatPIAsaLBxQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservableListener.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservableListener.html",
-          "hash": "pVgLWnnX0+KEv4OEzP9oZA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.html",
-          "hash": "L08N1ZofHQdfBIP+PzPs0Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Games.GrumpyBear.Core.InputSystem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Games.GrumpyBear.Core.InputSystem.html",
-          "hash": "31slDF+vi9Vuh7FzVypRDg=="
+          "hash": "wq0BISRpUTc8K7TouD1Ljg=="
         }
       },
       "is_incremental": false,
@@ -263,7 +191,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.Observable-1.html",
-          "hash": "B2nb0BTNL4gTlWdijUM+zw=="
+          "hash": "Nfcl4DmB4pW1TWaTHly2hQ=="
         }
       },
       "is_incremental": false,
@@ -275,7 +203,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ReadOnlyObservable-1.html",
-          "hash": "eQMjHevQTa1iO/uoYF6qTg=="
+          "hash": "s1oFn66Ki9Ws/kp31KTW9Q=="
         }
       },
       "is_incremental": false,
@@ -287,7 +215,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.html",
-          "hash": "WgSknSS3uKSdqRi178HSAg=="
+          "hash": "6HNL2yhKoo9LS9uwfBnZow=="
         }
       },
       "is_incremental": false,
@@ -299,7 +227,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservableListener.html",
-          "hash": "h9S1O+QSfvFpHZopi4gQQw=="
+          "hash": "U+LV7ah1jGhOmWRAcflqRw=="
         }
       },
       "is_incremental": false,
@@ -311,7 +239,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservable.html",
-          "hash": "pXkYg55C880S7x1Exn8zJQ=="
+          "hash": "gDf5ekd0FYImCAjvoINXFA=="
         }
       },
       "is_incremental": false,
@@ -323,7 +251,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableListener.html",
-          "hash": "3HJ/NLpJi/N11PByA3n/dg=="
+          "hash": "lUO0mxe7HzXZMpu+ap1AXA=="
         }
       },
       "is_incremental": false,
@@ -335,7 +263,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier.html",
-          "hash": "p6OKsVmkdRcgaS8i1Kd2hw=="
+          "hash": "GsYJsrdj129t+7clHbweyQ=="
         }
       },
       "is_incremental": false,
@@ -347,7 +275,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html",
-          "hash": "pO2xdssopPN3XACGYmPNeQ=="
+          "hash": "jWgOFalkeUuxZ3h8JZChjQ=="
         }
       },
       "is_incremental": false,
@@ -359,7 +287,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservableListener.html",
-          "hash": "Uq/+L3dWuwbl+HMCEuZThg=="
+          "hash": "rKcLr9oIWEmpC2oqb3uBiA=="
         }
       },
       "is_incremental": false,
@@ -371,7 +299,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.Observable-1.html",
-          "hash": "sdumR/0lvkPOdZ7LAZYqLg=="
+          "hash": "1JglU+dpeZZX/110iwZOzw=="
         }
       },
       "is_incremental": false,
@@ -383,7 +311,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ObservableListener-1.html",
-          "hash": "cL8YyhItYkVfDL44eDUTtg=="
+          "hash": "7+dYP+YxR4ZVN/I0JOKkhA=="
         }
       },
       "is_incremental": false,
@@ -395,7 +323,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html",
-          "hash": "CqSTPHy46Wmeuz9+Pqo5Ig=="
+          "hash": "y1zqxXp1fjSLyTtEUtWtFQ=="
         }
       },
       "is_incremental": false,
@@ -407,7 +335,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.RuntimeSet.html",
-          "hash": "WwEcGcb7BSHijf3kgeUgxA=="
+          "hash": "imkkIl8LgBxgWFufAJze7A=="
         }
       },
       "is_incremental": false,
@@ -419,7 +347,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.RuntimeSetMember.html",
-          "hash": "3764m99cV90mVHOxB2T/Sw=="
+          "hash": "LjBRLtUTMHiYb1cjw0xLBQ=="
         }
       },
       "is_incremental": false,
@@ -455,7 +383,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Settings.UI.FullscreenToggle.html",
-          "hash": "TwtV+3bPsX2XAP2iCfa3Yg=="
+          "hash": "XBCShNGTqQXnMqB6a72w4g=="
         }
       },
       "is_incremental": false,
@@ -467,19 +395,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Settings.UI.QualityDropdown.html",
-          "hash": "G5cJgoljfsvlKlHX4BJ3sg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Games.GrumpyBear.Core.Settings.UI.QualityTMPDropdown.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Games.GrumpyBear.Core.Settings.UI.QualityTMPDropdown.html",
-          "hash": "AbVnX/E4ijei46ra9O42ww=="
+          "hash": "QPcxuFRiqW+2yKSMvXoB+A=="
         }
       },
       "is_incremental": false,
@@ -491,19 +407,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown.html",
-          "hash": "5W19ognYBn9DftmmDVdGlA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Games.GrumpyBear.Core.Settings.UI.ResolutionTMPDropdown.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Games.GrumpyBear.Core.Settings.UI.ResolutionTMPDropdown.html",
-          "hash": "OBeHXj/AJF/YcQE1+rTi3Q=="
+          "hash": "BiG8ySNYPtOb18kHp19n8A=="
         }
       },
       "is_incremental": false,
@@ -515,7 +419,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Settings.UI.html",
-          "hash": "qDYIRxFEprDFwV3EC3ospA=="
+          "hash": "V3LfUSExjw++BYmWEFhySQ=="
         }
       },
       "is_incremental": false,
@@ -527,7 +431,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Settings.VideoSettings.ResolutionEntry.html",
-          "hash": "R/NhlZAeaHb2msiUeh9nww=="
+          "hash": "+QHYrHZykOgam5+V1DG/Gw=="
         }
       },
       "is_incremental": false,
@@ -539,7 +443,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Settings.VideoSettings.html",
-          "hash": "x9GGeiTnrmcffiWZVWT53A=="
+          "hash": "BBTPBzx2Uq+TTeZUvvZdbA=="
         }
       },
       "is_incremental": false,
@@ -563,7 +467,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Triggers.Trigger2D.html",
-          "hash": "WwT3SGPsRY23LxnqPTjG3g=="
+          "hash": "Z2h9H9NwYW8wUtPYvFYpIw=="
         }
       },
       "is_incremental": false,
@@ -575,7 +479,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Triggers.Trigger3D.html",
-          "hash": "SpDQpQzqqG6cwsR9TKVK7A=="
+          "hash": "+HPYK2Yge18ug2if7guCTw=="
         }
       },
       "is_incremental": false,
@@ -599,19 +503,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.UI.DropdownAutoScroll.html",
-          "hash": "hqdpjChZEX9YUKkH8/7uvQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.html",
-          "hash": "JrcB1A7jfDN/EP7ajNPtjQ=="
+          "hash": "8fTATP8sAeJ7X81VxRzZ9w=="
         }
       },
       "is_incremental": false,
@@ -623,7 +515,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.UI.html",
-          "hash": "pGaNn/xtlOmMxd74wkHXRA=="
+          "hash": "QhXZornfg1zOX4BTAOHZLQ=="
         }
       },
       "is_incremental": false,
@@ -647,7 +539,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "sjSkkl0AZeFWgAB1TmdI1Q=="
+          "hash": "+A9jfUxgAZULriDVMjaC6A=="
         }
       },
       "is_incremental": false,
@@ -732,7 +624,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 50,
+          "total_file_count": 41,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

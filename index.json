@@ -54,36 +54,6 @@
     "title": "Namespace Games.GrumpyBear.Core | Games.GrumpyBear.Core",
     "keywords": "Namespace Games.GrumpyBear.Core Classes ExtensionMethods"
   },
-  "api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html": {
-    "href": "api/Games.GrumpyBear.Core.InputSystem.ExtensionMethods.html",
-    "title": "Class ExtensionMethods | Games.GrumpyBear.Core",
-    "keywords": "Class ExtensionMethods Inheritance Object ExtensionMethods Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ToString() Object.ReferenceEquals(Object, Object) Namespace : Games.GrumpyBear.Core.InputSystem Assembly : Games.GrumpyBear.Core.InputSystem.dll Syntax public static class ExtensionMethods Methods GetEffectiveBinding(InputAction) Declaration public static InputBinding? GetEffectiveBinding(this InputAction action) Parameters Type Name Description InputAction action Returns Type Description Nullable < InputBinding > GetEffectiveBindingMask(InputAction) Declaration public static InputBinding? GetEffectiveBindingMask(this InputAction action) Parameters Type Name Description InputAction action Returns Type Description Nullable < InputBinding > GetKeyName(InputAction) Declaration public static string GetKeyName(this InputAction action) Parameters Type Name Description InputAction action Returns Type Description String GetKeyName(InputActionReference) Declaration public static string GetKeyName(this InputActionReference inputActionReference) Parameters Type Name Description InputActionReference inputActionReference Returns Type Description String GetKeyName(PlayerInput, String) Declaration public static string GetKeyName(this PlayerInput playerInput, string action) Parameters Type Name Description PlayerInput playerInput String action Returns Type Description String"
-  },
-  "api/Games.GrumpyBear.Core.InputSystem.html": {
-    "href": "api/Games.GrumpyBear.Core.InputSystem.html",
-    "title": "Namespace Games.GrumpyBear.Core.InputSystem | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.InputSystem Classes ExtensionMethods InputActionPerformedListener"
-  },
-  "api/Games.GrumpyBear.Core.InputSystem.InputActionPerformedListener.html": {
-    "href": "api/Games.GrumpyBear.Core.InputSystem.InputActionPerformedListener.html",
-    "title": "Class InputActionPerformedListener | Games.GrumpyBear.Core",
-    "keywords": "Class InputActionPerformedListener Inheritance Object InputActionPerformedListener Namespace : Games.GrumpyBear.Core.InputSystem Assembly : Games.GrumpyBear.Core.InputSystem.dll Syntax public class InputActionPerformedListener : MonoBehaviour"
-  },
-  "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.html": {
-    "href": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.html",
-    "title": "Namespace Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects Classes PlayerInputObservable PlayerInputObservableListener"
-  },
-  "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservable.html": {
-    "href": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservable.html",
-    "title": "Class PlayerInputObservable | Games.GrumpyBear.Core",
-    "keywords": "Class PlayerInputObservable Inheritance Object PlayerInputObservable Namespace : Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.InputSystem.dll Syntax public class PlayerInputObservable : Observable<PlayerInput>"
-  },
-  "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservableListener.html": {
-    "href": "api/Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects.PlayerInputObservableListener.html",
-    "title": "Class PlayerInputObservableListener | Games.GrumpyBear.Core",
-    "keywords": "Class PlayerInputObservableListener Inheritance Object PlayerInputObservableListener Namespace : Games.GrumpyBear.Core.InputSystem.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.InputSystem.dll Syntax public class PlayerInputObservableListener : ObservableListener<PlayerInput>"
-  },
   "api/Games.GrumpyBear.Core.Observables.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.html",
     "title": "Namespace Games.GrumpyBear.Core.Observables | Games.GrumpyBear.Core",
@@ -187,27 +157,17 @@
   "api/Games.GrumpyBear.Core.Settings.UI.html": {
     "href": "api/Games.GrumpyBear.Core.Settings.UI.html",
     "title": "Namespace Games.GrumpyBear.Core.Settings.UI | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.Settings.UI Classes FullscreenToggle QualityDropdown QualityTMPDropdown ResolutionDropdown ResolutionTMPDropdown"
+    "keywords": "Namespace Games.GrumpyBear.Core.Settings.UI Classes FullscreenToggle QualityDropdown ResolutionDropdown"
   },
   "api/Games.GrumpyBear.Core.Settings.UI.QualityDropdown.html": {
     "href": "api/Games.GrumpyBear.Core.Settings.UI.QualityDropdown.html",
     "title": "Class QualityDropdown | Games.GrumpyBear.Core",
     "keywords": "Class QualityDropdown Inheritance Object QualityDropdown Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class QualityDropdown : MonoBehaviour"
   },
-  "api/Games.GrumpyBear.Core.Settings.UI.QualityTMPDropdown.html": {
-    "href": "api/Games.GrumpyBear.Core.Settings.UI.QualityTMPDropdown.html",
-    "title": "Class QualityTMPDropdown | Games.GrumpyBear.Core",
-    "keywords": "Class QualityTMPDropdown Inheritance Object QualityTMPDropdown Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class QualityTMPDropdown : MonoBehaviour"
-  },
   "api/Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown.html": {
     "href": "api/Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown.html",
     "title": "Class ResolutionDropdown | Games.GrumpyBear.Core",
     "keywords": "Class ResolutionDropdown Inheritance Object ResolutionDropdown Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class ResolutionDropdown : MonoBehaviour"
-  },
-  "api/Games.GrumpyBear.Core.Settings.UI.ResolutionTMPDropdown.html": {
-    "href": "api/Games.GrumpyBear.Core.Settings.UI.ResolutionTMPDropdown.html",
-    "title": "Class ResolutionTMPDropdown | Games.GrumpyBear.Core",
-    "keywords": "Class ResolutionTMPDropdown Inheritance Object ResolutionTMPDropdown Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class ResolutionTMPDropdown : MonoBehaviour"
   },
   "api/Games.GrumpyBear.Core.Settings.VideoSettings.html": {
     "href": "api/Games.GrumpyBear.Core.Settings.VideoSettings.html",
@@ -242,12 +202,7 @@
   "api/Games.GrumpyBear.Core.UI.html": {
     "href": "api/Games.GrumpyBear.Core.UI.html",
     "title": "Namespace Games.GrumpyBear.Core.UI | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.UI Classes DropdownAutoScroll TMPDropdownAutoScroll"
-  },
-  "api/Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.html": {
-    "href": "api/Games.GrumpyBear.Core.UI.TMPDropdownAutoScroll.html",
-    "title": "Class TMPDropdownAutoScroll | Games.GrumpyBear.Core",
-    "keywords": "Class TMPDropdownAutoScroll Inheritance Object TMPDropdownAutoScroll Implements IPointerClickHandler Namespace : Games.GrumpyBear.Core.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class TMPDropdownAutoScroll : MonoBehaviour, IPointerClickHandler Methods OnPointerClick(PointerEventData) Declaration public void OnPointerClick(PointerEventData _) Parameters Type Name Description PointerEventData _ Implements IPointerClickHandler"
+    "keywords": "Namespace Games.GrumpyBear.Core.UI Classes DropdownAutoScroll"
   },
   "changelog/CHANGELOG.html": {
     "href": "changelog/CHANGELOG.html",
