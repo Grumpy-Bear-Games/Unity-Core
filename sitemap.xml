@@ -2,265 +2,265 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/changelog/CHANGELOG.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/license/LICENSE.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Editor.Events.VoidEventEditor.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Editor.Events.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Editor.Settings.VideoSettingsEditor.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Editor.Settings.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Events.EventT-1.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Events.EventTListener-1.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Events.VoidEvent.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Events.VoidEventListener.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Events.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.ExtensionMethods.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.IObservable-1.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.IReadonlyObservable-1.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.Observable-1.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ReadOnlyObservable-1.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservableListener.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservable.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableListener.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservableListener.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.Observable-1.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ObservableListener-1.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.RuntimeSet.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.RuntimeSetMember.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Observables.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Settings.UI.FullscreenToggle.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Settings.UI.QualityDropdown.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Settings.UI.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Settings.VideoSettings.ResolutionEntry.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Settings.VideoSettings.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Settings.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Triggers.Trigger2D.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Triggers.Trigger3D.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.Triggers.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.UI.DropdownAutoScroll.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.UI.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/api/Games.GrumpyBear.Core.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://grumpy-bear-games.github.io/Unity-Core/index.html</loc>
-    <lastmod>2022-11-07T07:44:49+00:00</lastmod>
+    <lastmod>2022-11-08T07:52:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
