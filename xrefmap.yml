@@ -805,6 +805,24 @@ references:
   commentId: T:Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier
   fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier
   nameWithType: CameraObservableNotifier
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservable
+  name: GameObjectObservable
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservable.html
+  commentId: T:Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservable
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservable
+  nameWithType: GameObjectObservable
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableListener
+  name: GameObjectObservableListener
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableListener.html
+  commentId: T:Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableListener
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableListener
+  nameWithType: GameObjectObservableListener
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableNotifier
+  name: GameObjectObservableNotifier
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableNotifier.html
+  commentId: T:Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableNotifier
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableNotifier
+  nameWithType: GameObjectObservableNotifier
 - uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable
   name: IntObservable
   href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CameraObservableNotifier
+    <title>Class GameObjectObservable
    | Games.GrumpyBear.Core </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CameraObservableNotifier
+    <meta name="title" content="Class GameObjectObservable
    | Games.GrumpyBear.Core ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -78,23 +78,55 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier">
+            <article class="content wrap" id="_content" data-uid="Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservable">
   
   
-  <h1 id="Games_GrumpyBear_Core_Observables_ScriptableObjects_CameraObservableNotifier" data-uid="Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier" class="text-break">Class CameraObservableNotifier
+  <h1 id="Games_GrumpyBear_Core_Observables_ScriptableObjects_GameObjectObservable" data-uid="Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservable" class="text-break">Class GameObjectObservable
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">CameraObservableNotifier</span></div>
+    <div class="level1"><a class="xref" href="Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html">ReadOnlyObservable</a>&lt;<span class="xref">GameObject</span>&gt;</div>
+    <div class="level2"><a class="xref" href="Games.GrumpyBear.Core.Observables.ScriptableObjects.Observable-1.html">Observable</a>&lt;<span class="xref">GameObject</span>&gt;</div>
+    <div class="level3"><span class="xref">GameObjectObservable</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Games.GrumpyBear.Core.Observables.IReadonlyObservable-1.html">IReadonlyObservable</a>&lt;<span class="xref">GameObject</span>&gt;</div>
+    <div><a class="xref" href="Games.GrumpyBear.Core.Observables.IObservable-1.html">IObservable</a>&lt;<span class="xref">GameObject</span>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Games.GrumpyBear.Core.Observables.ScriptableObjects.Observable-1.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_Observable_1_Value">Observable&lt;GameObject&gt;.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="Games.GrumpyBear.Core.Observables.ScriptableObjects.Observable-1.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_Observable_1_Set__0_">Observable&lt;GameObject&gt;.Set(GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_ReadOnlyObservable_1_OnChange">ReadOnlyObservable&lt;GameObject&gt;.OnChange</a>
+    </div>
+    <div>
+      <a class="xref" href="Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_ReadOnlyObservable_1_Subscribe_Action__0__">ReadOnlyObservable&lt;GameObject&gt;.Subscribe(Action&lt;GameObject&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_ReadOnlyObservable_1_Unsubscribe_Action__0__">ReadOnlyObservable&lt;GameObject&gt;.Unsubscribe(Action&lt;GameObject&gt;)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Games.GrumpyBear.Core.Observables.ScriptableObjects.html">Games.GrumpyBear.Core.Observables.ScriptableObjects</a></h6>
   <h6><strong>Assembly</strong>: Games.GrumpyBear.Core.dll</h6>
-  <h5 id="Games_GrumpyBear_Core_Observables_ScriptableObjects_CameraObservableNotifier_syntax">Syntax</h5>
+  <h5 id="Games_GrumpyBear_Core_Observables_ScriptableObjects_GameObjectObservable_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CameraObservableNotifier : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class GameObjectObservable : Observable&lt;GameObject&gt;, IReadonlyObservable&lt;GameObject&gt;, IObservable&lt;GameObject&gt;</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Games.GrumpyBear.Core.Observables.IReadonlyObservable-1.html">IReadonlyObservable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="Games.GrumpyBear.Core.Observables.IObservable-1.html">IObservable&lt;T&gt;</a>
   </div>
 </article>
           </div>

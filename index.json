@@ -102,12 +102,27 @@
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier.html",
     "title": "Class CameraObservableNotifier | Games.GrumpyBear.Core",
-    "keywords": "Class CameraObservableNotifier Inheritance Object CameraObservableNotifier Implements MonoBehaviour Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class CameraObservableNotifier : MonoBehaviour, MonoBehaviour Implements MonoBehaviour"
+    "keywords": "Class CameraObservableNotifier Inheritance Object CameraObservableNotifier Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class CameraObservableNotifier : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservable.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservable.html",
+    "title": "Class GameObjectObservable | Games.GrumpyBear.Core",
+    "keywords": "Class GameObjectObservable Inheritance Object ReadOnlyObservable < GameObject > Observable < GameObject > GameObjectObservable Implements IReadonlyObservable < GameObject > IObservable < GameObject > Inherited Members Observable<GameObject>.Value Observable<GameObject>.Set(GameObject) ReadOnlyObservable<GameObject>.OnChange ReadOnlyObservable<GameObject>.Subscribe(Action<GameObject>) ReadOnlyObservable<GameObject>.Unsubscribe(Action<GameObject>) Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class GameObjectObservable : Observable<GameObject>, IReadonlyObservable<GameObject>, IObservable<GameObject> Implements IReadonlyObservable<T> IObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableListener.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableListener.html",
+    "title": "Class GameObjectObservableListener | Games.GrumpyBear.Core",
+    "keywords": "Class GameObjectObservableListener Inheritance Object ObservableListener < GameObject > GameObjectObservableListener Inherited Members ObservableListener<GameObject>._observable ObservableListener<GameObject>._onChange Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class GameObjectObservableListener : ObservableListener<GameObject>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableNotifier.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GameObjectObservableNotifier.html",
+    "title": "Class GameObjectObservableNotifier | Games.GrumpyBear.Core",
+    "keywords": "Class GameObjectObservableNotifier Inheritance Object GameObjectObservableNotifier Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class GameObjectObservableNotifier : MonoBehaviour"
   },
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html",
     "title": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects Classes BoolObservable BoolObservableListener CameraObservable CameraObservableListener CameraObservableNotifier IntObservable IntObservableListener Observable<T> ObservableListener<T> ReadOnlyObservable<T> RuntimeSet RuntimeSetMember"
+    "keywords": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects Classes BoolObservable BoolObservableListener CameraObservable CameraObservableListener CameraObservableNotifier GameObjectObservable GameObjectObservableListener GameObjectObservableNotifier IntObservable IntObservableListener Observable<T> ObservableListener<T> ReadOnlyObservable<T> RuntimeSet RuntimeSetMember"
   },
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html",
@@ -122,12 +137,12 @@
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.Observable-1.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.Observable-1.html",
     "title": "Class Observable<T> | Games.GrumpyBear.Core",
-    "keywords": "Class Observable<T> Inheritance Object ReadOnlyObservable <T> Observable<T> BoolObservable CameraObservable IntObservable Implements IReadonlyObservable <T> IObservable <T> Inherited Members ReadOnlyObservable<T>.OnChange ReadOnlyObservable<T>.Subscribe(Action<T>) ReadOnlyObservable<T>.Unsubscribe(Action<T>) Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class Observable<T> : ReadOnlyObservable<T>, IReadonlyObservable<T>, IObservable<T> Type Parameters Name Description T Properties Value Declaration public T Value { get; set; } Property Value Type Description T Methods Set(T) Declaration public void Set(T value) Parameters Type Name Description T value Implements IReadonlyObservable<T> IObservable<T>"
+    "keywords": "Class Observable<T> Inheritance Object ReadOnlyObservable <T> Observable<T> BoolObservable CameraObservable GameObjectObservable IntObservable Implements IReadonlyObservable <T> IObservable <T> Inherited Members ReadOnlyObservable<T>.OnChange ReadOnlyObservable<T>.Subscribe(Action<T>) ReadOnlyObservable<T>.Unsubscribe(Action<T>) Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class Observable<T> : ReadOnlyObservable<T>, IReadonlyObservable<T>, IObservable<T> Type Parameters Name Description T Properties Value Declaration public T Value { get; set; } Property Value Type Description T Methods Set(T) Declaration public void Set(T value) Parameters Type Name Description T value Implements IReadonlyObservable<T> IObservable<T>"
   },
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ObservableListener-1.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ObservableListener-1.html",
     "title": "Class ObservableListener<T> | Games.GrumpyBear.Core",
-    "keywords": "Class ObservableListener<T> Inheritance Object ObservableListener<T> BoolObservableListener CameraObservableListener IntObservableListener Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class ObservableListener<T> : MonoBehaviour Type Parameters Name Description T Fields _observable Declaration protected Observable<T> _observable Field Value Type Description Observable <T> _onChange Declaration protected UnityEvent<T> _onChange Field Value Type Description UnityEvent <T>"
+    "keywords": "Class ObservableListener<T> Inheritance Object ObservableListener<T> BoolObservableListener CameraObservableListener GameObjectObservableListener IntObservableListener Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class ObservableListener<T> : MonoBehaviour Type Parameters Name Description T Fields _observable Declaration protected Observable<T> _observable Field Value Type Description Observable <T> _onChange Declaration protected UnityEvent<T> _onChange Field Value Type Description UnityEvent <T>"
   },
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html",
