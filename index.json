@@ -102,7 +102,7 @@
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.CameraObservableNotifier.html",
     "title": "Class CameraObservableNotifier | Games.GrumpyBear.Core",
-    "keywords": "Class CameraObservableNotifier Inheritance Object CameraObservableNotifier Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class CameraObservableNotifier : MonoBehaviour"
+    "keywords": "Class CameraObservableNotifier Inheritance Object CameraObservableNotifier Implements MonoBehaviour Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class CameraObservableNotifier : MonoBehaviour, MonoBehaviour Implements MonoBehaviour"
   },
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html",
