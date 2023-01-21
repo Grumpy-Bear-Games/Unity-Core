@@ -318,13 +318,13 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.ExtensionMethods.PickRandom
   nameWithType: ExtensionMethods.PickRandom
-- uid: Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(System.Collections.Generic.IReadOnlyList{``0})
+- uid: Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(IReadOnlyList{``0})
   name: PickRandom<T>(IReadOnlyList<T>)
-  href: api/Games.GrumpyBear.Core.ExtensionMethods.html#Games_GrumpyBear_Core_ExtensionMethods_PickRandom__1_System_Collections_Generic_IReadOnlyList___0__
-  commentId: M:Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(System.Collections.Generic.IReadOnlyList{``0})
+  href: api/Games.GrumpyBear.Core.ExtensionMethods.html#Games_GrumpyBear_Core_ExtensionMethods_PickRandom__1_IReadOnlyList___0__
+  commentId: M:Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(IReadOnlyList{``0})
   name.vb: PickRandom(Of T)(IReadOnlyList(Of T))
-  fullName: Games.GrumpyBear.Core.ExtensionMethods.PickRandom<T>(System.Collections.Generic.IReadOnlyList<T>)
-  fullName.vb: Games.GrumpyBear.Core.ExtensionMethods.PickRandom(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  fullName: Games.GrumpyBear.Core.ExtensionMethods.PickRandom<T>(IReadOnlyList<T>)
+  fullName.vb: Games.GrumpyBear.Core.ExtensionMethods.PickRandom(Of T)(IReadOnlyList(Of T))
   nameWithType: ExtensionMethods.PickRandom<T>(IReadOnlyList<T>)
   nameWithType.vb: ExtensionMethods.PickRandom(Of T)(IReadOnlyList(Of T))
 - uid: Games.GrumpyBear.Core.ExtensionMethods.QuadraticCurve(Vector2,Vector2,Vector2,System.Single)
@@ -829,6 +829,45 @@ references:
   commentId: T:Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable
   fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable
   nameWithType: IntObservable
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Add(System.Int32)
+  name: Add(Int32)
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_IntObservable_Add_System_Int32_
+  commentId: M:Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Add(System.Int32)
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Add(System.Int32)
+  nameWithType: IntObservable.Add(Int32)
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Add*
+  name: Add
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_IntObservable_Add_
+  commentId: Overload:Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Add
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Add
+  nameWithType: IntObservable.Add
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Decrement
+  name: Decrement()
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_IntObservable_Decrement
+  commentId: M:Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Decrement
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Decrement()
+  nameWithType: IntObservable.Decrement()
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Decrement*
+  name: Decrement
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_IntObservable_Decrement_
+  commentId: Overload:Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Decrement
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Decrement
+  nameWithType: IntObservable.Decrement
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Increment
+  name: Increment()
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_IntObservable_Increment
+  commentId: M:Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Increment
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Increment()
+  nameWithType: IntObservable.Increment()
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Increment*
+  name: Increment
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_IntObservable_Increment_
+  commentId: Overload:Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Increment
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.Increment
+  nameWithType: IntObservable.Increment
 - uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservableListener
   name: IntObservableListener
   href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservableListener.html

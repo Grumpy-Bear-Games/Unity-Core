@@ -155,7 +155,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.ExtensionMethods.html",
-          "hash": "wq0BISRpUTc8K7TouD1Ljg=="
+          "hash": "ZxtGrRpi2Ov4u79RczwsEg=="
         }
       },
       "is_incremental": false,
@@ -311,7 +311,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html",
-          "hash": "jWgOFalkeUuxZ3h8JZChjQ=="
+          "hash": "i5eXRs3ge1bcJUF5YUS+mw=="
         }
       },
       "is_incremental": false,
@@ -479,7 +479,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Settings.VideoSettings.html",
-          "hash": "BBTPBzx2Uq+TTeZUvvZdbA=="
+          "hash": "29+G93gjOuBCgAjOLbExzA=="
         }
       },
       "is_incremental": false,
