@@ -781,6 +781,19 @@ references:
   commentId: T:Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable
   fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable
   nameWithType: BoolObservable
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.Toggle
+  name: Toggle()
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_BoolObservable_Toggle
+  commentId: M:Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.Toggle
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.Toggle()
+  nameWithType: BoolObservable.Toggle()
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.Toggle*
+  name: Toggle
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_BoolObservable_Toggle_
+  commentId: Overload:Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.Toggle
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.Toggle
+  nameWithType: BoolObservable.Toggle
 - uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservableListener
   name: BoolObservableListener
   href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservableListener.html
@@ -951,6 +964,31 @@ references:
   fullName.vb: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable(Of T)
   nameWithType: ReadOnlyObservable<T>
   nameWithType.vb: ReadOnlyObservable(Of T)
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable`1.NotificationOrder
+  name: ReadOnlyObservable<T>.NotificationOrder
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.NotificationOrder.html
+  commentId: T:Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable`1.NotificationOrder
+  name.vb: ReadOnlyObservable(Of T).NotificationOrder
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable<T>.NotificationOrder
+  fullName.vb: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable(Of T).NotificationOrder
+  nameWithType: ReadOnlyObservable<T>.NotificationOrder
+  nameWithType.vb: ReadOnlyObservable(Of T).NotificationOrder
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable`1.NotificationOrder.ScriptsBeforeUnityEvents
+  name: ScriptsBeforeUnityEvents
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.NotificationOrder.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_ReadOnlyObservable_1_NotificationOrder_ScriptsBeforeUnityEvents
+  commentId: F:Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable`1.NotificationOrder.ScriptsBeforeUnityEvents
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable<T>.NotificationOrder.ScriptsBeforeUnityEvents
+  fullName.vb: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable(Of T).NotificationOrder.ScriptsBeforeUnityEvents
+  nameWithType: ReadOnlyObservable<T>.NotificationOrder.ScriptsBeforeUnityEvents
+  nameWithType.vb: ReadOnlyObservable(Of T).NotificationOrder.ScriptsBeforeUnityEvents
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable`1.NotificationOrder.UnityEventsBeforeScripts
+  name: UnityEventsBeforeScripts
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.NotificationOrder.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_ReadOnlyObservable_1_NotificationOrder_UnityEventsBeforeScripts
+  commentId: F:Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable`1.NotificationOrder.UnityEventsBeforeScripts
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable<T>.NotificationOrder.UnityEventsBeforeScripts
+  fullName.vb: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable(Of T).NotificationOrder.UnityEventsBeforeScripts
+  nameWithType: ReadOnlyObservable<T>.NotificationOrder.UnityEventsBeforeScripts
+  nameWithType.vb: ReadOnlyObservable(Of T).NotificationOrder.UnityEventsBeforeScripts
 - uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable`1.OnChange
   name: OnChange
   href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_ReadOnlyObservable_1_OnChange

@@ -82,7 +82,7 @@
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.html",
     "title": "Class BoolObservable | Games.GrumpyBear.Core",
-    "keywords": "Class BoolObservable Inheritance Object ReadOnlyObservable < Boolean > Observable < Boolean > BoolObservable Implements IReadonlyObservable < Boolean > IObservable < Boolean > Inherited Members Observable<Boolean>.Value Observable<Boolean>.Set(Boolean) ReadOnlyObservable<Boolean>.OnChange ReadOnlyObservable<Boolean>.Subscribe(Action<Boolean>) ReadOnlyObservable<Boolean>.Unsubscribe(Action<Boolean>) Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class BoolObservable : Observable<bool>, IReadonlyObservable<bool>, IObservable<bool> Implements IReadonlyObservable<T> IObservable<T>"
+    "keywords": "Class BoolObservable Inheritance Object ReadOnlyObservable < Boolean > Observable < Boolean > BoolObservable Implements IReadonlyObservable < Boolean > IObservable < Boolean > Inherited Members Observable<Boolean>.Value Observable<Boolean>.Set(Boolean) ReadOnlyObservable<Boolean>.OnChange ReadOnlyObservable<Boolean>.Subscribe(Action<Boolean>) ReadOnlyObservable<Boolean>.Unsubscribe(Action<Boolean>) Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class BoolObservable : Observable<bool>, IReadonlyObservable<bool>, IObservable<bool> Methods Toggle() Declaration public void Toggle() Implements IReadonlyObservable<T> IObservable<T>"
   },
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservableListener.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservableListener.html",
@@ -122,7 +122,7 @@
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html",
     "title": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects Classes BoolObservable BoolObservableListener CameraObservable CameraObservableListener CameraObservableNotifier GameObjectObservable GameObjectObservableListener GameObjectObservableNotifier IntObservable IntObservableListener Observable<T> ObservableListener<T> ReadOnlyObservable<T> RuntimeSet RuntimeSetMember"
+    "keywords": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects Classes BoolObservable BoolObservableListener CameraObservable CameraObservableListener CameraObservableNotifier GameObjectObservable GameObjectObservableListener GameObjectObservableNotifier IntObservable IntObservableListener Observable<T> ObservableListener<T> ReadOnlyObservable<T> RuntimeSet RuntimeSetMember Enums ReadOnlyObservable<T>.NotificationOrder"
   },
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html",
@@ -148,6 +148,11 @@
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.html",
     "title": "Class ReadOnlyObservable<T> | Games.GrumpyBear.Core",
     "keywords": "Class ReadOnlyObservable<T> Inheritance Object ReadOnlyObservable<T> Observable<T> RuntimeSet Implements IReadonlyObservable <T> Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class ReadOnlyObservable<T> : ScriptableObject, IReadonlyObservable<T> Type Parameters Name Description T Properties Value Declaration public T Value { get; protected set; } Property Value Type Description T Methods Set(T) Declaration protected void Set(T value) Parameters Type Name Description T value Subscribe(Action<T>) Declaration public void Subscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Unsubscribe(Action<T>) Declaration public void Unsubscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Events OnChange Declaration public event Action<T> OnChange Event Type Type Description Action <T> Operators Implicit(ReadOnlyObservable<T> to T) Declaration public static implicit operator T(ReadOnlyObservable<T> o) Parameters Type Name Description ReadOnlyObservable <T> o Returns Type Description T Implements IReadonlyObservable<T>"
+  },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.NotificationOrder.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.NotificationOrder.html",
+    "title": "Enum ReadOnlyObservable<T>.NotificationOrder | Games.GrumpyBear.Core",
+    "keywords": "Enum ReadOnlyObservable<T>.NotificationOrder Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public enum NotificationOrder Fields Name Description ScriptsBeforeUnityEvents UnityEventsBeforeScripts"
   },
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.RuntimeSet.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.RuntimeSet.html",

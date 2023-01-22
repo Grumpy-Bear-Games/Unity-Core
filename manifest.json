@@ -215,7 +215,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.BoolObservable.html",
-          "hash": "6HNL2yhKoo9LS9uwfBnZow=="
+          "hash": "0wTUK0GLBxw2LBCBkboLQQ=="
         }
       },
       "is_incremental": false,
@@ -355,6 +355,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.NotificationOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.NotificationOrder.html",
+          "hash": "DKUfzsVH6+VdIOX/fNgnNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.ReadOnlyObservable-1.yml",
       "output": {
         ".html": {
@@ -395,7 +407,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html",
-          "hash": "eI6FeKz7VbQ6aQ3Bsxrd+A=="
+          "hash": "m3N9jwC16Us5uXA0Q2WHBw=="
         }
       },
       "is_incremental": false,
@@ -575,7 +587,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "VkbYtLMhZpbOsURbVcKkIw=="
+          "hash": "LMz4coC30dqP2bPFenGWQA=="
         }
       },
       "is_incremental": false,
@@ -660,7 +672,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 44,
+          "total_file_count": 45,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
