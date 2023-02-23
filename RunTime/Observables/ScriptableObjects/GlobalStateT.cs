@@ -23,5 +23,9 @@ namespace Games.GrumpyBear.Core.Observables.ScriptableObjects
             _current.Set(this as T);
             OnEnter?.Invoke();
         }
+        
+        #if UNITY_EDITOR
+        public static void ResetCurrent() => _current.Set(null);
+        #endif
     }
 }

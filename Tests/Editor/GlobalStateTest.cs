@@ -4,19 +4,34 @@ using UnityEngine;
 
 namespace Games.GrumpyBear.Core
 {
+    [TestOf(typeof(GlobalStateT<>))]
     public class GlobalStateTest
     {
         public class TestGlobalState : GlobalStateT<TestGlobalState> { }
 
-        [Test]
-        public void GlobalStateTIsActive()
+        private TestGlobalState a;
+        private TestGlobalState b;
+
+        [SetUp]
+        public void Setup()
         {
-            var a = ScriptableObject.CreateInstance(typeof(TestGlobalState)) as TestGlobalState;
-            var b = ScriptableObject.CreateInstance(typeof(TestGlobalState)) as TestGlobalState;
-            
+            a = ScriptableObject.CreateInstance(typeof(TestGlobalState)) as TestGlobalState;
+            b = ScriptableObject.CreateInstance(typeof(TestGlobalState)) as TestGlobalState;
+
             Assume.That(a, Is.Not.Null);
             Assume.That(b, Is.Not.Null);
+        }
 
+        [TearDown]
+        public void TearDown()
+        {
+            TestGlobalState.ResetCurrent();
+        }
+
+        [Test]
+        [Description("Verify that GlobalStateT<T>.SetAction() and GlobalStateT<T>.IsActive works correctly")]
+        public void GlobalStateTIsActive()
+        {
             Assert.IsFalse(a.IsActive);
             Assert.IsFalse(b.IsActive);
             
@@ -30,17 +45,12 @@ namespace Games.GrumpyBear.Core
         }
 
         [Test]
+        [Description("Verify that GlobalStateT<T>.OnEnter and GlobalStateT<T>.OnEnter triggers correctly")]
         public void GlobalStateTOnEnterOnLeave()
         {
-            var a = ScriptableObject.CreateInstance(typeof(TestGlobalState)) as TestGlobalState;
-            var b = ScriptableObject.CreateInstance(typeof(TestGlobalState)) as TestGlobalState;
-
             var onEnterObserver = new ObservablesTest.CallbackObserver();
             var onLeaveObserver = new ObservablesTest.CallbackObserver();
             
-            Assume.That(a, Is.Not.Null);
-            Assume.That(b, Is.Not.Null);
-
             a.OnEnter += onEnterObserver.Callback;
             a.OnLeave += onLeaveObserver.Callback;
             
@@ -57,16 +67,12 @@ namespace Games.GrumpyBear.Core
         }
         
         [Test]
+        [Description("Verify that GlobalStateT<T>.Subscribe() triggers the right callbacks, and that GlobalStateT<T>.Current holds the correct value")]
         public void GlobalStateTSubscribe()
         {
-            var a = ScriptableObject.CreateInstance(typeof(TestGlobalState)) as TestGlobalState;
-            var b = ScriptableObject.CreateInstance(typeof(TestGlobalState)) as TestGlobalState;
-
             var observer = new ObservablesTest.CallbackObserver<TestGlobalState>();
             TestGlobalState.Subscribe(observer.Callback);
             
-            Assume.That(a, Is.Not.Null);
-            Assume.That(b, Is.Not.Null);
             Assume.That(TestGlobalState.Current, Is.Null);
             
             Assert.That(observer.CallCount, Is.EqualTo(1));
