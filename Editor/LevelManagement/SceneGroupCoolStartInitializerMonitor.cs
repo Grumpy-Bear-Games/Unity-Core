@@ -1,6 +1,7 @@
 ﻿#if UNITY_EDITOR
 using Games.GrumpyBear.Core.LevelManagement;
 using UnityEditor;
+using UnityEngine;
 
 namespace Games.GrumpyBear.Core.Editor.LevelManagement
 {
@@ -28,6 +29,13 @@ namespace Games.GrumpyBear.Core.Editor.LevelManagement
             {
                 var initializer = rootGameObject.GetComponentInChildren<SceneGroupColdStartInitializer>();
                 if (initializer == null) continue;
+                var sceneGroup = initializer.SceneGroup;
+                if (!sceneGroup.ContainsScene(initializer.gameObject.scene))
+                {
+                    Debug.LogError("Scene Group does not contain current scene", initializer);
+                    return;
+                }
+
                 initializer.SceneGroup.LoadInEditor();
                 return;
             }

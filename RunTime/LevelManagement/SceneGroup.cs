@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Games.GrumpyBear.Core.LevelManagement
 {
@@ -11,6 +13,8 @@ namespace Games.GrumpyBear.Core.LevelManagement
         public IReadOnlyList<SceneReference> Scenes => _scenes;
         public SceneReference ActiveScene => _scenes[0];
         public SceneManager Manager => _manager;
+
+        public bool ContainsScene(Scene scene) => _scenes.Any(sceneReference => sceneReference.ScenePath == scene.path);
 
         public void Load() => _manager.Load(this);
         public IEnumerator Load_CO() => _manager.Load_CO(this);

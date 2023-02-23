@@ -15,6 +15,12 @@ namespace Games.GrumpyBear.Core.LevelManagement
         private IEnumerator Start()
         {
             if (_initialized) yield break;
+            if (!_sceneGroup.ContainsScene(gameObject.scene))
+            {
+                Debug.LogError("Scene Group does not contain this scene!");
+                yield break;
+            }
+
             yield return _sceneGroup.Load_CO();
             _initialized = true;
         }
