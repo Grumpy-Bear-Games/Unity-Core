@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Games.GrumpyBear.Core.SaveSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Games.GrumpyBear.Core.LevelManagement
 {
-    public class SceneGroup : ScriptableObject
+    public class SceneGroup : SerializableScriptableObject<SceneGroup>
     {
         [HideInInspector][SerializeField] private SceneManager _manager;
         [SerializeField] private List<SceneReference> _scenes = new();
