@@ -1,5 +1,4 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
@@ -7,12 +6,12 @@ namespace Games.GrumpyBear.Core.SaveSystem
 {
     public abstract class SerializableScriptableObject<T>: ScriptableObject where T: SerializableScriptableObject<T>
     {
-        [SerializeField] private string _guid;
-        public string GUID => _guid;
+        
+        [field: SerializeField] public ObjectGuid ObjectGuid { get; private set; }
 
-        private static Dictionary<string, T> _instances = null;
+        private static Dictionary<ObjectGuid, T> _instances;
 
-        public static T GetByGUID(string guid)
+        public static T GetByGuid(ObjectGuid guid)
         {
             if (_instances == null) FindAllInstances();
             _instances.TryGetValue(guid, out var instance);
@@ -21,20 +20,23 @@ namespace Games.GrumpyBear.Core.SaveSystem
 
         private static void FindAllInstances()
         {
-            _instances = new Dictionary<string, T>();
+            _instances = new Dictionary<ObjectGuid, T>();
             foreach (var instance in Resources.FindObjectsOfTypeAll<T>())
             {
-                _instances.Add(instance._guid, instance);
+                _instances.Add(instance.ObjectGuid, instance);
             }
         }
 
         #if UNITY_EDITOR
         private void OnValidate()
         {
-            var path = AssetDatabase.GetAssetPath(this);
-            var guid = AssetDatabase.AssetPathToGUID(path);
-            if (_guid == guid) return;
-            _guid = guid;
+            if (!AssetDatabase.TryGetGUIDAndLocalFileIdentifier(this, out var guid, out long localId)) return;
+            var objectGuid = new ObjectGuid(guid, localId);
+            if (objectGuid == ObjectGuid) return;
+            if (_instances != null && _instances.TryGetValue(ObjectGuid, out var entry) && entry == this as T) _instances.Remove(ObjectGuid);
+            ObjectGuid = objectGuid;
+            _instances?.Add(ObjectGuid, this as T);
+            EditorUtility.SetDirty(this);
             AssetDatabase.SaveAssetIfDirty(this);
         }
         #endif
