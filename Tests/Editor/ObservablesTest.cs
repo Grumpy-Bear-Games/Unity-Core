@@ -3,13 +3,13 @@ using NUnit.Framework;
 
 namespace Games.GrumpyBear.Core
 {
-    public class ObservablesTest
+    public partial class ObservablesTest
     {
         [Test]
         public void ObservableTOnChange()
         {
             var o = new Observable<int>();
-            var observer = new Observer<int>();
+            var observer = new CallbackObserver<int>();
 
             o.OnChange += observer.Callback;
             Assert.AreEqual(observer.CallCount, 0);  // Manually subscribing to OnChange shouldn't do anything
@@ -29,7 +29,7 @@ namespace Games.GrumpyBear.Core
         public void ObservableTSubscribeUnsubscribe()
         {
             var o = new Observable<int>();
-            var observer = new Observer<int>();
+            var observer = new CallbackObserver<int>();
             o.Set(42);
             
             o.Subscribe(observer.Callback);
@@ -46,24 +46,6 @@ namespace Games.GrumpyBear.Core
             o.Unsubscribe(observer.Callback);
             o.Set(44);
             Assert.AreEqual(observer.CallCount, 2); // CallCount should not go up after unsubscribing
-        }
-        
-        public class Observer<T>
-        {
-            public T Value;
-            public int CallCount = 0;
-
-            public void Reset()
-            {
-                Value = default;
-                CallCount = 0;
-            }
-
-            public void Callback(T value)
-            {
-                Value = value;
-                CallCount++;
-            }
         }
     }
 }
