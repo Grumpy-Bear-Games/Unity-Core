@@ -32,8 +32,8 @@ namespace Games.GrumpyBear.Core.Editor.LevelManagement
             {
                 bindingPath = "_scenes"
             };
-            myInspector.Add(scenesProperty);
             myInspector.Add(nameProperty);
+            myInspector.Add(scenesProperty);
             myInspector.Bind(serializedObject);
             nameProperty.RegisterValueChangeCallback(UpdateAssetDatabase);
             
