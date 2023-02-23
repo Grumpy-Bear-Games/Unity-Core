@@ -1,6 +1,8 @@
 ﻿using Games.GrumpyBear.Core.LevelManagement;
 using UnityEditor;
+using UnityEditor.UIElements;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace Games.GrumpyBear.Core.Editor.LevelManagement
 {
@@ -10,6 +12,8 @@ namespace Games.GrumpyBear.Core.Editor.LevelManagement
     {
         private SerializedProperty _locationProperty;
         private SceneGroupColdStartInitializer _sceneGroupColdStartInitializer;
+        private Button _loadButton;
+        private HelpBox _helpBox;
 
         private void OnEnable()
         {
@@ -17,20 +21,66 @@ namespace Games.GrumpyBear.Core.Editor.LevelManagement
             _sceneGroupColdStartInitializer = target as SceneGroupColdStartInitializer;
         }
 
-        
-        public override void OnInspectorGUI()
+        public override VisualElement CreateInspectorGUI()
         {
-            base.OnInspectorGUI();
+            var root = new VisualElement
+            {
+                style =
+                {
+                    flexDirection = FlexDirection.Column
+                }
+            };
+            var sceneGroupField = new PropertyField(_locationProperty);
+            sceneGroupField.RegisterValueChangeCallback(evt => UpdateEditor());
             
-            var sceneGroup = _locationProperty.objectReferenceValue as SceneGroup;
+            root.Add(sceneGroupField);
+
+            _helpBox = new HelpBox
+            {
+                style =
+                {
+                    display = DisplayStyle.None
+                },
+                messageType = HelpBoxMessageType.Error,
+            };
+            root.Add(_helpBox);
             
-            if (sceneGroup == null) EditorGUILayout.HelpBox("Scene Group missing", MessageType.Warning);
-            if (!sceneGroup.ContainsScene(_sceneGroupColdStartInitializer.gameObject.scene)) EditorGUILayout.HelpBox("Scene Group does not contain this scene", MessageType.Error);
-            
-            var canLoad = (sceneGroup != null) && (sceneGroup.Scenes.Count > 0);  
-            GUI.enabled = canLoad;
-            if (GUILayout.Button("Load Scene Group")) sceneGroup.LoadInEditor();
-            GUI.enabled = true;
+            _loadButton = new Button
+            {
+                text = "Load Scene group",
+                style = {
+                    alignSelf = Align.Center,
+                    marginTop = 20,
+                },
+            };
+            _loadButton.clicked += () => _sceneGroupColdStartInitializer.SceneGroup.LoadInEditor();
+            root.Add(_loadButton);
+
+            UpdateEditor();
+
+            return root;
+        }
+
+        private void UpdateEditor()
+        {
+            var sceneGroup = _sceneGroupColdStartInitializer.SceneGroup;
+            var scene = _sceneGroupColdStartInitializer.gameObject.scene;
+            if (sceneGroup == null)
+            {
+                _loadButton.SetEnabled(false);
+                _helpBox.text = "Scene Group missing";
+                _helpBox.style.display = DisplayStyle.Flex;
+            } else if (!sceneGroup.ContainsScene(scene))
+            {
+                _loadButton.SetEnabled(false);
+                _helpBox.text = "Scene Group does not contain this scene";
+                _helpBox.style.display = DisplayStyle.Flex;
+            }
+            else
+            {
+                _loadButton.SetEnabled(true);
+                _helpBox.style.display = DisplayStyle.None;
+            }
         }
     }
 }
