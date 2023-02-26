@@ -28,6 +28,11 @@ namespace Games.GrumpyBear.Core.LevelManagement
             sceneGroup._scenes = new List<SceneReference>();
             return sceneGroup;
         }
+
+        public static class Fields
+        {
+            public const string Scenes = nameof(SceneGroup._scenes);
+        }
         #endif
     }
 }

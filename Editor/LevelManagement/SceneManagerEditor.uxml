@@ -1,7 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
-    <ui:VisualElement>
-        <ui:ListView focusable="true" name="GlobalScenes" binding-path="_globalScenes" virtualization-method="DynamicHeight" show-alternating-row-backgrounds="ContentOnly" reorderable="true" header-title="Global Scenes" show-add-remove-footer="true" show-bound-collection-size="false" reorder-mode="Animated" show-foldout-header="true" />
-        <ui:Label tabindex="-1" text="Scene Groups" display-tooltip-when-elided="true" style="margin-top: 10px;" />
-        <ui:ListView focusable="true" binding-path="_sceneGroups" reorderable="true" show-alternating-row-backgrounds="ContentOnly" show-bound-collection-size="false" show-foldout-header="false" name="SceneGroups" show-border="false" virtualization-method="DynamicHeight" show-add-remove-footer="true" reorder-mode="Animated" />
-    </ui:VisualElement>
-</ui:UXML>

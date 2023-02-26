@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="SceneGroup" class="scene-group-editor">
+        <ui:TextField name="NameField" picking-mode="Ignore" label="Name" class="scene-group-editor__name-field" />
+        <ui:VisualElement class="scene-group-editor__scenes">
+            <ui:Label tabindex="-1" text="Scenes" display-tooltip-when-elided="true" class="scene-group-editor__scenes__header" />
+            <ui:ListView focusable="true" binding-path="_scenes" virtualization-method="DynamicHeight"
+                         show-bound-collection-size="false" reorder-mode="Animated" show-add-remove-footer="true"
+                         header-title="Scenes" class="scene-group-editor__scenes__list-view"/>
+        </ui:VisualElement>
+        <ui:Button name="LoadInEditorButton" class="scene-group-editor__load-in-editor-button"
+                   text="Load in editor"
+        />
+    </ui:VisualElement>
+</ui:UXML>
