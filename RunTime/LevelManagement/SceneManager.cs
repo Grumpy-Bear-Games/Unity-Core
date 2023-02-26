@@ -45,6 +45,18 @@ namespace Games.GrumpyBear.Core.LevelManagement
         }
 
         #if UNITY_EDITOR
+        #if CORE_GAME_UTILITIES_EXPERIMENTAL
+        public bool OnSceneMove(string source, string destination)
+        {
+            var hasChanged = false;
+            foreach (var sceneReference in GlobalScenes)
+            {
+                if (sceneReference.OnSceneMove(source, destination)) hasChanged = true;
+            }
+            return hasChanged;
+        }
+        #endif
+        
         public static class Fields
         {
             public const string GlobalScenes = nameof(_globalScenes);

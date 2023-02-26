@@ -21,6 +21,18 @@ namespace Games.GrumpyBear.Core.LevelManagement
         public IEnumerator Load_CO() => _manager.Load_CO(this);
         
         #if UNITY_EDITOR
+        #if CORE_GAME_UTILITIES_EXPERIMENTAL
+        public bool OnSceneMove(string source, string destination)
+        {
+            var hasChanged = false;
+            foreach (var sceneReference in _scenes)
+            {
+                if (sceneReference.OnSceneMove(source, destination)) hasChanged = true;
+            }
+            return hasChanged;
+        }
+        #endif
+
         public static SceneGroup CreateInstance(SceneManager sceneManager)
         {
             var sceneGroup = ScriptableObject.CreateInstance<SceneGroup>();
