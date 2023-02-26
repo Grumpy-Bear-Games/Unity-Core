@@ -2,14 +2,66 @@
 // ReSharper disable UnusedMember.Global
 // ReSharper disable UnusedType.Global
 
+using System;
 using System.Linq;
 using Games.GrumpyBear.Core.LevelManagement;
+using UnityEditor;
 using UnityEditor.SceneManagement;
 
 namespace Games.GrumpyBear.Core.Editor.LevelManagement
 {
     public static class ExtensionMethods
     {
+        #region SceneReference
+        public static bool IsEmpty(this SceneReference sceneReference) => string.IsNullOrEmpty(sceneReference.ScenePath);
+
+        public static bool IsValidScene(this SceneReference sceneReference)
+        {
+            if (sceneReference.IsEmpty()) return false;
+            var sceneAsset = AssetDatabase.LoadAssetAtPath<SceneAsset>(sceneReference.ScenePath);
+            return sceneAsset != null;
+        }
+
+        public static bool IsInBuild(this SceneReference sceneReference)
+        {
+            if (!sceneReference.IsValidScene()) return false;
+            return sceneReference.BuildIndex != -1;
+        }
+
+        public static SceneReferenceStatus Validate(this SceneReference sceneReference)
+        {
+            if (sceneReference.IsEmpty()) return SceneReferenceStatus.NoSceneSelected;
+            var sceneAsset = AssetDatabase.LoadAssetAtPath<SceneAsset>(sceneReference.ScenePath);
+            if (sceneAsset == null) return SceneReferenceStatus.InvalidScenePath;
+            return sceneReference.BuildIndex == -1 ? SceneReferenceStatus.SceneMissingFromBuild : SceneReferenceStatus.Valid;
+        }
+
+        public enum SceneReferenceStatus {
+            Valid,
+            NoSceneSelected,
+            InvalidScenePath,
+            SceneMissingFromBuild
+        }
+
+        public static void AddToBuild(this SceneReference sceneReference)
+        {
+            if (sceneReference.IsInBuild()) return;
+            var editorBuildSettingsScenes = EditorBuildSettings.scenes.ToList();
+
+            try
+            {
+                var scene = editorBuildSettingsScenes.First(scene => scene.path == sceneReference.ScenePath);
+                scene.enabled = true;
+            }
+            catch (InvalidOperationException) {
+                editorBuildSettingsScenes.Add(new EditorBuildSettingsScene(sceneReference.ScenePath, true));
+            }
+            
+            EditorBuildSettings.scenes = editorBuildSettingsScenes.ToArray();
+        }
+        #endregion
+        
+        
         #region SceneGroup
         public static void LoadInEditor(this SceneGroup sceneGroup)
         {
@@ -34,6 +86,18 @@ namespace Games.GrumpyBear.Core.Editor.LevelManagement
                 EditorSceneManager.CloseScene(openScene, true);
             }
         }
+
+        public static bool AllScenesInBuild(this SceneGroup sceneGroup) =>
+            sceneGroup.Scenes.All(sceneReference => sceneReference.IsInBuild());
+
+        #endregion
+
+        
+        #region SceneManager
+        public static bool AllScenesInBuild(this SceneManager sceneManager) =>
+            sceneManager.GlobalScenes.All(sceneReference => sceneReference.IsInBuild()) &&
+            sceneManager.SceneGroups.All(group => group.AllScenesInBuild());
+
         #endregion
     }
 }

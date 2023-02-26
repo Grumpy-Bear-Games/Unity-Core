@@ -1,0 +1,25 @@
+.scene-reference-editor HelpBox {
+    display: none;
+    flex-wrap: wrap;
+}
+
+.scene-reference-editor HelpBox Button Label {
+    flex-basis: 100%;
+}
+
+.scene-reference-editor HelpBox Button {
+    width: 100%;
+    white-space: normal;
+}
+
+.NoSceneSelected .scene-reference-editor_no-scene-error {
+    display: flex;
+}
+
+.InvalidScenePath .scene-reference-editor_invalid-scene-error {
+    display: flex;
+}
+
+.MissingFromBuild .scene-reference-editor_missing-from-build-warning {
+    display: flex;
+}

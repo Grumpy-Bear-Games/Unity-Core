@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement class="scene-reference-editor">
+        <uie:ObjectField name="SceneSelector" class="scene-reference-editor__scene-picker"
+                         label="Scene"
+        />
+        <ui:TextField name="ScenePath" class="scene-reference-editor_scene-path" 
+                      picking-mode="Ignore" label="Scene Path"
+        />
+        <ui:HelpBox class="scene-reference-editor_no-scene-error"
+                    text="No scene selected!" message-type="Error"
+        />
+        <ui:HelpBox class="scene-reference-editor_invalid-scene-error"
+                    text="Invalid Scene Path" message-type="Error"/>
+        <ui:HelpBox class="scene-reference-editor_missing-from-build-warning"
+                    text="Scene is missing from build configuration" message-type="Warning">
+            <ui:Button name="AddToBuildButton" text="Add scene to build configuration"/>
+        </ui:HelpBox>
+    </ui:VisualElement>
+</ui:UXML>
