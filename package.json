@@ -1,10 +1,10 @@
 {
   "name": "games.grumpybear.core",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "displayName": "Core Game Utilities",
   "description": "",
-  "unity": "2021.1",
-  "unityRelease": "7f1",
+  "unity": "2022.2",
+  "unityRelease": "1f1",
   "license": "Apache-2.0",
   "dependencies": {
     "com.unity.textmeshpro": "3.0.6"
