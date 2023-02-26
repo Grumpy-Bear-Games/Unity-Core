@@ -45,8 +45,11 @@ namespace Games.GrumpyBear.Core.LevelManagement
         }
 
         #if UNITY_EDITOR
-        public const string GlobalScenesPropertyName = nameof(_globalScenes);
-        public const string SceneGroupsPropertyName = nameof(_sceneGroups);
+        public static class Fields
+        {
+            public const string GlobalScenes = nameof(_globalScenes);
+            public const string SceneGroups = nameof(_sceneGroups);
+        }
         #endif
     }
 }

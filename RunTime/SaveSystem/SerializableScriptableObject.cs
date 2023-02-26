@@ -28,7 +28,7 @@ namespace Games.GrumpyBear.Core.SaveSystem
         }
 
         #if UNITY_EDITOR
-        private void OnValidate()
+        protected virtual void OnValidate()
         {
             if (!AssetDatabase.TryGetGUIDAndLocalFileIdentifier(this, out var guid, out long localId)) return;
             var objectGuid = new ObjectGuid(guid, localId);

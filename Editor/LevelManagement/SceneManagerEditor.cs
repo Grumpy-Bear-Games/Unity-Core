@@ -30,7 +30,7 @@ namespace Games.GrumpyBear.Core.Editor.LevelManagement
         private void OnEnable()
         {
             _sceneManager = target as SceneManager;
-            _sceneGroupsProperty = serializedObject.FindProperty(SceneManager.SceneGroupsPropertyName);
+            _sceneGroupsProperty = serializedObject.FindProperty(SceneManager.Fields.SceneGroups);
         }
 
         public override VisualElement CreateInspectorGUI()
