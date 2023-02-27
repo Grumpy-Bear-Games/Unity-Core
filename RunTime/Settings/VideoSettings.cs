@@ -8,6 +8,7 @@ namespace Games.GrumpyBear.Core.Settings
     [CreateAssetMenu(menuName = "Grumpy Bear Games/Core/Settings/Video Settings", fileName = "Video Settings")]
     public class VideoSettings: ScriptableObject
     {
+        [Header("PlayerPrefs Keys")]
         [SerializeField] private string _fullscreenSettingsKey = "Settings/Video/Fullscreen";
         [SerializeField] private string _qualityIndexSettingsKey = "Settings/Video/QualityIndex";
         [SerializeField] private string _resolutionIndexSettingsKey = "Settings/Video/ResolutionIndex";
@@ -103,9 +104,13 @@ namespace Games.GrumpyBear.Core.Settings
                 return result != 0 ? result : Height.CompareTo(other.Height);
             }
 
+            public static bool operator ==(ResolutionEntry a, ResolutionEntry b) => a is not null && a.Equals(b);
+            public static bool operator !=(ResolutionEntry a, ResolutionEntry b) => !(a == b);
+
+
             public override bool Equals(object other)
             {
-                if (!(other is ResolutionEntry entry)) return false; 
+                if (other is not ResolutionEntry entry) return false; 
                 return Height == entry.Height && Width == entry.Width;
             }
 

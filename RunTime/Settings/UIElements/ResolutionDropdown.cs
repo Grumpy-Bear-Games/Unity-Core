@@ -56,7 +56,7 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
             if (evt.oldRect == Rect.zero && evt.newRect != Rect.zero) UpdateUI();
         }
 
-        private static string FormatResolution(VideoSettings.ResolutionEntry entry) => entry == null ? "" : entry.ToString();
+        private static string FormatResolution(VideoSettings.ResolutionEntry entry) => entry is null ? "" : entry.ToString();
 
         private void SetResolution(ChangeEvent<VideoSettings.ResolutionEntry> evt)
         {
