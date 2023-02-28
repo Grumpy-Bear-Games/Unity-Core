@@ -81,7 +81,7 @@ namespace Games.GrumpyBear.Core.Settings
                 Width = width;
             }
             
-            internal static ResolutionEntry FromResolution(Resolution resolution) => new ResolutionEntry(resolution.width, resolution.height);
+            internal static ResolutionEntry FromResolution(Resolution resolution) => new(resolution.width, resolution.height);
 
             internal static ResolutionEntry FromString(string resolution)
             {

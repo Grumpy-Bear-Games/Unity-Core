@@ -16,8 +16,8 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
                 UpdateUI();
             }
         }
-        
-        public abstract void UpdateUI();
+
+        protected abstract void UpdateUI();
     }
 }
 #endif

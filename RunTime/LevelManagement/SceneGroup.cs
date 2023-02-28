@@ -43,7 +43,7 @@ namespace Games.GrumpyBear.Core.LevelManagement
 
         public static class Fields
         {
-            public const string Scenes = nameof(SceneGroup._scenes);
+            public const string Scenes = nameof(_scenes);
         }
         #endif
     }

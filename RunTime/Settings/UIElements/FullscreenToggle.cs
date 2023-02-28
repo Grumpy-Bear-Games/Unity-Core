@@ -23,13 +23,11 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {
                 base.Init(ve, bag, cc);
-
-                var fullscreenToggle = (ve as FullscreenToggle); 
-                
+                if (ve is not FullscreenToggle fullscreenToggle) return;
                 fullscreenToggle.label = labelAttr.GetValueFromBag(bag, cc);
                 fullscreenToggle.text = textAttr.GetValueFromBag(bag, cc);
             }
-        };
+        }
 
         public string label
         {
@@ -45,7 +43,7 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
 
         private readonly Toggle _toggle;
 
-        public override void UpdateUI() => _toggle.SetValueWithoutNotify(VideoSettings != null && VideoSettings.Fullscreen);
+        protected override void UpdateUI() => _toggle.SetValueWithoutNotify(VideoSettings != null && VideoSettings.Fullscreen);
 
         public FullscreenToggle()
         {

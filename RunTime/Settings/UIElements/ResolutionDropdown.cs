@@ -20,12 +20,10 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {
                 base.Init(ve, bag, cc);
-
-                var resolutionDropdown = (ve as ResolutionDropdown); 
-                
+                if (ve is not ResolutionDropdown resolutionDropdown) return;
                 resolutionDropdown.label = labelAttr.GetValueFromBag(bag, cc);
             }
-        };
+        }
 
         public string label
         {
@@ -33,7 +31,7 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
             set => _dropdown.label = value;
         }
 
-        public override void UpdateUI()
+        protected override void UpdateUI()
         {
             _dropdown.choices = VideoSettings.Resolutions;
             _dropdown.SetValueWithoutNotify(VideoSettings != null ? VideoSettings.Resolution : null);

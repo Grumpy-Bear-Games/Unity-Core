@@ -54,7 +54,7 @@ namespace Games.GrumpyBear.Core.SaveSystem
             saveableComponent.GetType().ToString();
         
         #if UNITY_EDITOR
-        private static readonly Dictionary<string, SaveableEntity> globalLookup = new();
+        private static readonly Dictionary<string, SaveableEntity> _globalLookup = new();
         
         private void Update() {
             if (Application.IsPlaying(gameObject)) return;
@@ -69,23 +69,23 @@ namespace Games.GrumpyBear.Core.SaveSystem
                 serializedObject.ApplyModifiedProperties();
             }
 
-            globalLookup[property.stringValue] = this;
+            _globalLookup[property.stringValue] = this;
         }
 
         private bool IsUnique(string candidate)
         {
-            if (!globalLookup.ContainsKey(candidate)) return true;
+            if (!_globalLookup.ContainsKey(candidate)) return true;
 
-            if (globalLookup[candidate] == this) return true;
+            if (_globalLookup[candidate] == this) return true;
 
-            if (globalLookup[candidate] == null)
+            if (_globalLookup[candidate] is null)
             {
-                globalLookup.Remove(candidate);
+                _globalLookup.Remove(candidate);
                 return true;
             }
 
-            if (globalLookup[candidate]._id == candidate) return false;
-            globalLookup.Remove(candidate);
+            if (_globalLookup[candidate]._id == candidate) return false;
+            _globalLookup.Remove(candidate);
             return true;
 
         }
