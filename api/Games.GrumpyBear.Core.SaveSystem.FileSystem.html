@@ -194,12 +194,13 @@
   
   
   <a id="Games_GrumpyBear_Core_SaveSystem_FileSystem_LoadFile_" data-uid="Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile*"></a>
-  <h4 id="Games_GrumpyBear_Core_SaveSystem_FileSystem_LoadFile_System_String_" data-uid="Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile(System.String)">LoadFile(String)</h4>
+  <h4 id="Games_GrumpyBear_Core_SaveSystem_FileSystem_LoadFile__1_System_String_" data-uid="Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile``1(System.String)">LoadFile&lt;T&gt;(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, Dictionary&lt;string, object&gt;&gt; LoadFile(string saveFile)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T LoadFile&lt;T&gt;(string saveFile)
+    where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -228,7 +229,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">Dictionary</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a>&gt;&gt;</td>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -236,12 +252,12 @@
   
   
   <a id="Games_GrumpyBear_Core_SaveSystem_FileSystem_SaveFile_" data-uid="Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile*"></a>
-  <h4 id="Games_GrumpyBear_Core_SaveSystem_FileSystem_SaveFile_System_String_Dictionary_System_String_Dictionary_System_String_System_Object___" data-uid="Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile(System.String,Dictionary{System.String,Dictionary{System.String,System.Object}})">SaveFile(String, Dictionary&lt;String, Dictionary&lt;String, Object&gt;&gt;)</h4>
+  <h4 id="Games_GrumpyBear_Core_SaveSystem_FileSystem_SaveFile_System_String_System_Object_" data-uid="Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile(System.String,System.Object)">SaveFile(String, Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveFile(string saveFile, Dictionary&lt;string, Dictionary&lt;string, object&gt;&gt; state)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SaveFile(string saveFile, object state)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -259,7 +275,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">Dictionary</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a>&gt;&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></td>
         <td><span class="parametername">state</span></td>
         <td></td>
       </tr>

@@ -1748,12 +1748,6 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.SaveSystem.FileSystem.Exists
   nameWithType: FileSystem.Exists
-- uid: Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile(System.String)
-  name: LoadFile(String)
-  href: api/Games.GrumpyBear.Core.SaveSystem.FileSystem.html#Games_GrumpyBear_Core_SaveSystem_FileSystem_LoadFile_System_String_
-  commentId: M:Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile(System.String)
-  fullName: Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile(System.String)
-  nameWithType: FileSystem.LoadFile(String)
 - uid: Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile*
   name: LoadFile
   href: api/Games.GrumpyBear.Core.SaveSystem.FileSystem.html#Games_GrumpyBear_Core_SaveSystem_FileSystem_LoadFile_
@@ -1761,15 +1755,21 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile
   nameWithType: FileSystem.LoadFile
-- uid: Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile(System.String,Dictionary{System.String,Dictionary{System.String,System.Object}})
-  name: SaveFile(String, Dictionary<String, Dictionary<String, Object>>)
-  href: api/Games.GrumpyBear.Core.SaveSystem.FileSystem.html#Games_GrumpyBear_Core_SaveSystem_FileSystem_SaveFile_System_String_Dictionary_System_String_Dictionary_System_String_System_Object___
-  commentId: M:Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile(System.String,Dictionary{System.String,Dictionary{System.String,System.Object}})
-  name.vb: SaveFile(String, Dictionary(Of String, Dictionary(Of String, Object)))
-  fullName: Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile(System.String, Dictionary<System.String, Dictionary<System.String, System.Object>>)
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile(System.String, Dictionary(Of System.String, Dictionary(Of System.String, System.Object)))
-  nameWithType: FileSystem.SaveFile(String, Dictionary<String, Dictionary<String, Object>>)
-  nameWithType.vb: FileSystem.SaveFile(String, Dictionary(Of String, Dictionary(Of String, Object)))
+- uid: Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile``1(System.String)
+  name: LoadFile<T>(String)
+  href: api/Games.GrumpyBear.Core.SaveSystem.FileSystem.html#Games_GrumpyBear_Core_SaveSystem_FileSystem_LoadFile__1_System_String_
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile``1(System.String)
+  name.vb: LoadFile(Of T)(String)
+  fullName: Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile<T>(System.String)
+  fullName.vb: Games.GrumpyBear.Core.SaveSystem.FileSystem.LoadFile(Of T)(System.String)
+  nameWithType: FileSystem.LoadFile<T>(String)
+  nameWithType.vb: FileSystem.LoadFile(Of T)(String)
+- uid: Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile(System.String,System.Object)
+  name: SaveFile(String, Object)
+  href: api/Games.GrumpyBear.Core.SaveSystem.FileSystem.html#Games_GrumpyBear_Core_SaveSystem_FileSystem_SaveFile_System_String_System_Object_
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile(System.String,System.Object)
+  fullName: Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile(System.String, System.Object)
+  nameWithType: FileSystem.SaveFile(String, Object)
 - uid: Games.GrumpyBear.Core.SaveSystem.FileSystem.SaveFile*
   name: SaveFile
   href: api/Games.GrumpyBear.Core.SaveSystem.FileSystem.html#Games_GrumpyBear_Core_SaveSystem_FileSystem_SaveFile_
