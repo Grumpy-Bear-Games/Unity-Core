@@ -1,5 +1,4 @@
-﻿#if UNITY_2022_1_OR_NEWER
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace Games.GrumpyBear.Core.Settings.UIElements
@@ -20,12 +19,10 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {
                 base.Init(ve, bag, cc);
-
-                var resolutionDropdown = (ve as QualityDropdown); 
-                
-                resolutionDropdown.label = labelAttr.GetValueFromBag(bag, cc);
+                if (ve is not QualityDropdown qualityDropdown) return;
+                qualityDropdown.label = labelAttr.GetValueFromBag(bag, cc);
             }
-        };
+        }
 
         public string label
         {
@@ -33,7 +30,7 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
             set => _dropdown.label = value;
         }
 
-        public override void UpdateUI()
+        protected override void UpdateUI()
         {
             _dropdown.SetValueWithoutNotify(VideoSettings != null ? VideoSettings.QualityNames[VideoSettings.QualityIndex] : "");
         }
@@ -66,4 +63,3 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
         }
     }
 }
-#endif

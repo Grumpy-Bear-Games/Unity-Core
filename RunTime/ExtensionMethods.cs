@@ -61,7 +61,7 @@ namespace Games.GrumpyBear.Core
         #endregion
         
         #region Rect
-        public static Rect Copy(this Rect rect) => new Rect(rect.position, rect.size);
+        public static Rect Copy(this Rect rect) => new(rect.position, rect.size);
 
         public static Rect SetWidth(this Rect rect, float width)
         {

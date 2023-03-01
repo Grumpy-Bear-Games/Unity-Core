@@ -6,7 +6,7 @@ namespace Games.GrumpyBear.Core.Observables.ScriptableObjects
     public class GameObjectObservableNotifier : MonoBehaviour
     {
         [SerializeField] private GameObjectObservable _gameObjectObservable;
-        [SerializeField] private bool _registerOnAwake = false;
+        [SerializeField] private bool _registerOnAwake;
 
         private void Awake()
         {

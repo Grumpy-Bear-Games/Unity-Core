@@ -1,20 +1,31 @@
 ﻿using Games.GrumpyBear.Core.Events;
 using UnityEditor;
-using UnityEngine;
+using UnityEditor.UIElements;
+using UnityEngine.UIElements;
 
 namespace Games.GrumpyBear.Core.Editor.Events
 {
     [CustomEditor(typeof(VoidEvent))]
     public class VoidEventEditor : UnityEditor.Editor
     {
-        public override void OnInspectorGUI()
+        public override VisualElement CreateInspectorGUI()
         {
-            base.OnInspectorGUI();
+            var root = new VisualElement();
+            InspectorElement.FillDefaultInspector(root, serializedObject, this);
 
-            if (!Application.isPlaying) return;
-            GUILayout.Space(20);
-            if (!GUILayout.Button("Trigger")) return;
-            if (target is VoidEvent voidEvent) voidEvent.Invoke();
+            var triggerButton = new Button
+            {
+                text = "Trigger event"
+            };
+            triggerButton.clicked += () =>
+            {
+                if (target is VoidEvent voidEvent) voidEvent.Invoke();
+            };
+            
+            triggerButton.SetEnabled(EditorApplication.isPlayingOrWillChangePlaymode);
+            root.Add(triggerButton);
+
+            return root;
         }
     }
 }

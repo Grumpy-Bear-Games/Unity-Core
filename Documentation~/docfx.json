@@ -5,7 +5,8 @@
         {
           "files": [
             "Runtime/**.cs",
-            "Editor/**.cs"
+            "Editor/AssetUtility.cs",
+            "Editor/LevelManagement/ExtensionMethods.cs"
           ],
           "src": ".."
         }

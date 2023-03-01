@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7d64e66a3a154dd88356874ecbe80929
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _sceneManagerStyleSheet: {fileID: 7433441132597879392, guid: 60722639467e4122a9b71ccdc163270a, type: 3}
+  - _sceneManagerVisualTreeAsset: {fileID: 9197481963319205126, guid: 09c9df524c2a46be91c4c8fd7c2b6477, type: 3}
+  - _sceneGroupStyleSheet: {fileID: 7433441132597879392, guid: b00677bb7ff7464c801230a706b6f91d, type: 3}
+  - _sceneGroupVisualTreeAsset: {fileID: 9197481963319205126, guid: 5dfea581d5fd4d74b19aaabe34741bf9, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

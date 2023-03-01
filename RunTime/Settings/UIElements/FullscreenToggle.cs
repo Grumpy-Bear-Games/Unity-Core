@@ -1,5 +1,4 @@
-﻿#if UNITY_2022_1_OR_NEWER
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace Games.GrumpyBear.Core.Settings.UIElements
@@ -23,13 +22,11 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {
                 base.Init(ve, bag, cc);
-
-                var fullscreenToggle = (ve as FullscreenToggle); 
-                
+                if (ve is not FullscreenToggle fullscreenToggle) return;
                 fullscreenToggle.label = labelAttr.GetValueFromBag(bag, cc);
                 fullscreenToggle.text = textAttr.GetValueFromBag(bag, cc);
             }
-        };
+        }
 
         public string label
         {
@@ -45,7 +42,7 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
 
         private readonly Toggle _toggle;
 
-        public override void UpdateUI() => _toggle.SetValueWithoutNotify(VideoSettings != null && VideoSettings.Fullscreen);
+        protected override void UpdateUI() => _toggle.SetValueWithoutNotify(VideoSettings != null && VideoSettings.Fullscreen);
 
         public FullscreenToggle()
         {
@@ -67,4 +64,3 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
         }
     }
 }
-#endif

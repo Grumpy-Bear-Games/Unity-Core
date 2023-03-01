@@ -1,0 +1,11 @@
+﻿.scene-manager-editor_scene-groups-label {
+    margin-top: 10px;
+}
+
+.scene-manager-editor HelpBox {
+    display: none;
+}
+
+.ScenesMissingFromBuild .scene-manager-editor_scenes-missing-from-build-message {
+    display: flex;
+}

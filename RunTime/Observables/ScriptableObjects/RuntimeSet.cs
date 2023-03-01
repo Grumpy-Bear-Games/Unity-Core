@@ -6,7 +6,7 @@ namespace Games.GrumpyBear.Core.Observables.ScriptableObjects
     [CreateAssetMenu(menuName = "Grumpy Bear Games/Core/Observables/Runtime Set", fileName = "Runtime Set")]
     public class RuntimeSet: ReadOnlyObservable<int>
     {
-        private readonly HashSet<GameObject> _runtimeSet = new HashSet<GameObject>();
+        private readonly HashSet<GameObject> _runtimeSet = new();
         
         public void Register(GameObject instance)
         {

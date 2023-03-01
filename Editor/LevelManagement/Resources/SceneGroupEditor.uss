@@ -1,0 +1,30 @@
+﻿.scene-group-editor {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-radius: 5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    padding: 0;
+}
+
+.scene-group-editor__name-field {
+    flex-grow: 1;
+    background-color: rgb(43, 43, 43);
+    padding: 3px 2px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.scene-group-editor__scenes {
+    padding: 5px 3px;
+}
+
+.scene-group-editor__scenes__header {
+    margin-bottom: 3px;
+}
