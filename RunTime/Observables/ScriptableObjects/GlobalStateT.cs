@@ -1,9 +1,10 @@
 ﻿using System;
+using Games.GrumpyBear.Core.SaveSystem;
 using UnityEngine;
 
 namespace Games.GrumpyBear.Core.Observables.ScriptableObjects
 {
-    public abstract class GlobalStateT<T> : ScriptableObject where T: GlobalStateT<T>
+    public abstract class GlobalStateT<T> : SerializableScriptableObject<T> where T: GlobalStateT<T>
     {
         private static readonly Games.GrumpyBear.Core.Observables.Observable<T> _current = new();
         public static T Current => _current.Value;

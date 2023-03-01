@@ -47,8 +47,15 @@ namespace Games.GrumpyBear.Core
         [Test]
         public void ObjectGuidEqualOperator()
         {
-            Assert.That(a==b, Is.True);
-            Assert.That(a==c, Is.False);
+            ObjectGuid leftNull = null;
+            ObjectGuid rightNull = null;
+            
+            Assert.That(leftNull != b, Is.True, "null != b");
+            Assert.That(leftNull == rightNull, Is.True, "null == null");
+            Assert.That(a != rightNull, Is.True, "a != null");
+            
+            Assert.That(a==b, Is.True, "a == b");
+            Assert.That(a!=c, Is.True, "a != c");
         }
 
         [Test]

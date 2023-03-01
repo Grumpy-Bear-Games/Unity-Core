@@ -78,7 +78,7 @@ namespace Games.GrumpyBear.Core.SaveSystem
 
             if (_globalLookup[candidate] == this) return true;
 
-            if (_globalLookup[candidate] is null)
+            if (_globalLookup[candidate] == null)
             {
                 _globalLookup.Remove(candidate);
                 return true;

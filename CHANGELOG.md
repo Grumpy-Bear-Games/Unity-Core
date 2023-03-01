@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1
+
+- Make SaveSystem.FileSystem more generic
+- Make GlobalStateT<T> inherit from SerializableScriptableObject<T>
+- [bugfix] Stop SaveSystem.SaveableEntry from needlessly regenerate IDs
+- [bugfix] Hide ObjectID field in SaveSystem.SerializableScriptableObject<T> from inspector
+- [bugfix] Fix ObjectGuid.operator== when both sides are null
+
 ## 0.1.0
 This release contains many changes (some of them incomplete), so don't upgrade if you strictly depend on old behavior. Please make special note of the breaking changes.
 

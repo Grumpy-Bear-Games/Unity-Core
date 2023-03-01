@@ -7,7 +7,7 @@ namespace Games.GrumpyBear.Core.SaveSystem
     public abstract class SerializableScriptableObject<T>: ScriptableObject where T: SerializableScriptableObject<T>
     {
         
-        [field: SerializeField] public ObjectGuid ObjectGuid { get; private set; }
+        [field: SerializeField][field: HideInInspector] public ObjectGuid ObjectGuid { get; private set; }
 
         private static Dictionary<ObjectGuid, T> _instances;
 

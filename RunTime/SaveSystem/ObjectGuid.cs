@@ -54,7 +54,7 @@ namespace Games.GrumpyBear.Core.SaveSystem
         #endregion
 
         #region Comparison
-        public static bool operator ==([CanBeNull] ObjectGuid a, [CanBeNull] ObjectGuid b) => a is not null && a.Equals(b);
+        public static bool operator ==([CanBeNull] ObjectGuid a, [CanBeNull] ObjectGuid b) => a?.Equals(b) ?? b is null;
         public static bool operator !=([CanBeNull] ObjectGuid a, [CanBeNull] ObjectGuid b) => !(a == b);
         public bool Equals(ObjectGuid other) => other?._data is not null && _data is not null && _data.SequenceEqual(other._data);
         public override bool Equals(object obj) => (obj is ObjectGuid otherGuid) && Equals(otherGuid);

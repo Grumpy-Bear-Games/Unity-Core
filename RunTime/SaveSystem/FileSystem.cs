@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -25,19 +24,19 @@ namespace Games.GrumpyBear.Core.SaveSystem
 
         public static bool Exists(string saveFile) => File.Exists(GetPathFromSaveFile(saveFile));
         
-        public static Dictionary<string, Dictionary<string, object>> LoadFile(string saveFile)
+        public static T LoadFile<T>(string saveFile) where T : class
         {
             var path = GetPathFromSaveFile(saveFile);
             if (!File.Exists(path))
             {
-                return new Dictionary<string, Dictionary<string, object>>();
+                return null;
             }
 
             using var stream = File.Open(path, FileMode.Open);
-            return (Dictionary<string, Dictionary<string, object>>)_formatter.Deserialize(stream);
+            return _formatter.Deserialize(stream) as T;
         }        
         
-        public static void SaveFile(string saveFile, Dictionary<string, Dictionary<string, object>> state)
+        public static void SaveFile(string saveFile, object state)
         {
             var path = GetPathFromSaveFile(saveFile);
             using var stream = File.Open(path, FileMode.Create);
