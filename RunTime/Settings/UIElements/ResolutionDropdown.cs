@@ -1,5 +1,4 @@
-﻿#if UNITY_2022_1_OR_NEWER
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace Games.GrumpyBear.Core.Settings.UIElements
@@ -63,4 +62,3 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
         }
     }
 }
-#endif

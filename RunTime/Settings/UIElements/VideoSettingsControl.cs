@@ -1,5 +1,4 @@
-﻿#if UNITY_2022_1_OR_NEWER
-using UnityEngine.UIElements;
+﻿using UnityEngine.UIElements;
 
 namespace Games.GrumpyBear.Core.Settings.UIElements
 {
@@ -20,4 +19,3 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
         protected abstract void UpdateUI();
     }
 }
-#endif

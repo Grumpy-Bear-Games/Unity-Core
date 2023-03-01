@@ -6,9 +6,6 @@
   "unity": "2022.2",
   "unityRelease": "1f1",
   "license": "Apache-2.0",
-  "dependencies": {
-    "com.unity.textmeshpro": "3.0.6"
-  },
   "hideInEditor": false,
   "repository": {
     "url": "https://github.com/Grumpy-Bear-Games/Unity-Core.git",
