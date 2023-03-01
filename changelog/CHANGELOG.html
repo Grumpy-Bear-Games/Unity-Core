@@ -72,6 +72,34 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="changelog">Changelog</h1>
 
+<h2 id="010">0.1.0</h2>
+<p>This release contains many changes (some of them incomplete), so don&#39;t upgrade if you strictly depend on old behavior. Please make special note of the breaking changes.</p>
+<h3 id="known-problems">Known problems</h3>
+<ul>
+<li>A lot of this package is still undocumented.</li>
+</ul>
+<h3 id="new-features">New features</h3>
+<ul>
+<li>Added Observables.ScriptableObjects.GlobalStateT. This class is useful for situations, where you need a global (singleton) enum-like state, e.g. the game state.</li>
+<li>Added SaveSystem. This is a collection of classes useful for building a custom save system from.</li>
+<li>Migrated GrumpyBearGames.LevelManagement into this package.</li>
+<li>All editors rewritten using UI Toolkit</li>
+<li>This package now supports optional experimental features. Experimental features are enable under Tools/Core Game Utilities/Package Settings </li>
+</ul>
+<h3 id="breaking-changes">Breaking changes</h3>
+<ul>
+<li>This release drops support for the old IMGUI system and goes all in on UI Elements.</li>
+<li>There is currently no way to automatically migrate from GrumpyBearGames.LevelManagement to GrumpyBearGames.Core.LevelManagement. This needs to be done manually.</li>
+<li>This package now requires Unity 2022.2.1f1 or newer.</li>
+</ul>
+<h3 id="bug-fixes">Bug fixes</h3>
+<ul>
+<li>LevelManagement.SceneGroupColdStartInitializer will refuse to load a scene group, if it&#39;s not part of it. This was a bug inherited from GrumpyBearGames.LevelManagement</li>
+<li>(Experimental) SceneReferences will no longer loose track of scenes, if you move or rename them <em>inside the editor</em>. Moving or renaming scenes <em>outside</em> the editor will still break the reference. Note that this is an experimental features, which needs to be explicitly enabled.</li>
+<li>Scene Groups are now implemented using SerializableScriptableObject, so you can save and load a reference to them.</li>
+</ul>
+<h2 id="001">0.0.1</h2>
+<p>Initial version. This is very much work in progress.</p>
 </article>
           </div>
           

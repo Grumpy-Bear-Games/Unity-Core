@@ -1,48 +1,53 @@
 {
-  "api/Games.GrumpyBear.Core.Editor.Events.html": {
-    "href": "api/Games.GrumpyBear.Core.Editor.Events.html",
-    "title": "Namespace Games.GrumpyBear.Core.Editor.Events | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.Editor.Events Classes VoidEventEditor"
+  "api/Games.GrumpyBear.Core.Editor.AssetUtility.html": {
+    "href": "api/Games.GrumpyBear.Core.Editor.AssetUtility.html",
+    "title": "Class AssetUtility | Games.GrumpyBear.Core",
+    "keywords": "Class AssetUtility Inheritance Object AssetUtility Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ToString() Object.ReferenceEquals(Object, Object) Namespace : Games.GrumpyBear.Core.Editor Assembly : Games.GrumpyBear.Core.Editor.dll Syntax public static class AssetUtility Methods RenameAsset(Object, String) Declaration public static void RenameAsset(Object obj, string newName) Parameters Type Name Description Object obj String newName"
   },
-  "api/Games.GrumpyBear.Core.Editor.Events.VoidEventEditor.html": {
-    "href": "api/Games.GrumpyBear.Core.Editor.Events.VoidEventEditor.html",
-    "title": "Class VoidEventEditor | Games.GrumpyBear.Core",
-    "keywords": "Class VoidEventEditor Inheritance Object VoidEventEditor Namespace : Games.GrumpyBear.Core.Editor.Events Assembly : Games.GrumpyBear.Core.Editor.dll Syntax public class VoidEventEditor : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  "api/Games.GrumpyBear.Core.Editor.html": {
+    "href": "api/Games.GrumpyBear.Core.Editor.html",
+    "title": "Namespace Games.GrumpyBear.Core.Editor | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Editor Classes AssetUtility"
   },
-  "api/Games.GrumpyBear.Core.Editor.Settings.html": {
-    "href": "api/Games.GrumpyBear.Core.Editor.Settings.html",
-    "title": "Namespace Games.GrumpyBear.Core.Editor.Settings | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.Editor.Settings Classes VideoSettingsEditor"
+  "api/Games.GrumpyBear.Core.Editor.LevelManagement.ExtensionMethods.html": {
+    "href": "api/Games.GrumpyBear.Core.Editor.LevelManagement.ExtensionMethods.html",
+    "title": "Class ExtensionMethods | Games.GrumpyBear.Core",
+    "keywords": "Class ExtensionMethods Inheritance Object ExtensionMethods Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ToString() Object.ReferenceEquals(Object, Object) Namespace : Games.GrumpyBear.Core.Editor.LevelManagement Assembly : Games.GrumpyBear.Core.Editor.dll Syntax public static class ExtensionMethods Methods AddToBuild(SceneReference) Declaration public static void AddToBuild(this SceneReference sceneReference) Parameters Type Name Description SceneReference sceneReference AllScenesInBuild(SceneGroup) Declaration public static bool AllScenesInBuild(this SceneGroup sceneGroup) Parameters Type Name Description SceneGroup sceneGroup Returns Type Description Boolean AllScenesInBuild(SceneManager) Declaration public static bool AllScenesInBuild(this SceneManager sceneManager) Parameters Type Name Description SceneManager sceneManager Returns Type Description Boolean IsEmpty(SceneReference) Declaration public static bool IsEmpty(this SceneReference sceneReference) Parameters Type Name Description SceneReference sceneReference Returns Type Description Boolean IsInBuild(SceneReference) Declaration public static bool IsInBuild(this SceneReference sceneReference) Parameters Type Name Description SceneReference sceneReference Returns Type Description Boolean IsValidScene(SceneReference) Declaration public static bool IsValidScene(this SceneReference sceneReference) Parameters Type Name Description SceneReference sceneReference Returns Type Description Boolean LoadInEditor(SceneGroup) Declaration public static void LoadInEditor(this SceneGroup sceneGroup) Parameters Type Name Description SceneGroup sceneGroup Validate(SceneReference) Declaration public static ExtensionMethods.SceneReferenceStatus Validate(this SceneReference sceneReference) Parameters Type Name Description SceneReference sceneReference Returns Type Description ExtensionMethods.SceneReferenceStatus"
   },
-  "api/Games.GrumpyBear.Core.Editor.Settings.VideoSettingsEditor.html": {
-    "href": "api/Games.GrumpyBear.Core.Editor.Settings.VideoSettingsEditor.html",
-    "title": "Class VideoSettingsEditor | Games.GrumpyBear.Core",
-    "keywords": "Class VideoSettingsEditor Inheritance Object VideoSettingsEditor Namespace : Games.GrumpyBear.Core.Editor.Settings Assembly : Games.GrumpyBear.Core.Editor.dll Syntax public class VideoSettingsEditor : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  "api/Games.GrumpyBear.Core.Editor.LevelManagement.ExtensionMethods.SceneReferenceStatus.html": {
+    "href": "api/Games.GrumpyBear.Core.Editor.LevelManagement.ExtensionMethods.SceneReferenceStatus.html",
+    "title": "Enum ExtensionMethods.SceneReferenceStatus | Games.GrumpyBear.Core",
+    "keywords": "Enum ExtensionMethods.SceneReferenceStatus Namespace : Games.GrumpyBear.Core.Editor.LevelManagement Assembly : Games.GrumpyBear.Core.Editor.dll Syntax public enum SceneReferenceStatus Fields Name Description InvalidScenePath NoSceneSelected SceneMissingFromBuild Valid"
+  },
+  "api/Games.GrumpyBear.Core.Editor.LevelManagement.html": {
+    "href": "api/Games.GrumpyBear.Core.Editor.LevelManagement.html",
+    "title": "Namespace Games.GrumpyBear.Core.Editor.LevelManagement | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Editor.LevelManagement Classes ExtensionMethods Enums ExtensionMethods.SceneReferenceStatus"
   },
   "api/Games.GrumpyBear.Core.Events.EventT-1.html": {
     "href": "api/Games.GrumpyBear.Core.Events.EventT-1.html",
     "title": "Class EventT<T> | Games.GrumpyBear.Core",
-    "keywords": "Class EventT<T> Inheritance Object EventT<T> Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class EventT<T> : ScriptableObject Type Parameters Name Description T Methods Invoke(T) Declaration public void Invoke(T value) Parameters Type Name Description T value Events Listeners Declaration public event Action<T> Listeners Event Type Type Description Action <T>"
+    "keywords": "Class EventT<T> A generic reference-able event with a event payload used to propagate data among components in a Pub-Sub fashion without neither producers nor consumers knowing about each other. This is similar to VoidEvent but with an event payload. Because instances of EventT<T> are ScriptableObjects they can be referenced in serialized fields and UnityEvents . Inheritance Object EventT<T> Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class EventT<T> : ScriptableObject Type Parameters Name Description T Type of the payload being passed from producers to consumers Remarks Because Unity can't instantiate generics directly, you must override the class type. [CreateAssetMenu(menuName = \"Integer Event\", fileName = \"Integer Event\")] public class IntEvent: EventT<t> {} Examples Imagine you have a player health component and a UI components, which spawns a small floating popup every time the player loses health. Using EventT<T> we can have the health component broadcast the damage amount to the UI components without any of them knowing about or depending on each other. public class PlayerHealth: MonoBehaviour { [SerializeField] private EventT<int> _onDamage; public void DamagePlayer(int damage) { /* Update player health */ _onDamage.Invoke(damage); } } public class DamagePopupUI: MonoBehaviour { [SerializeField] private EventT<int> _onDamage; private void OnEnable() => _onDamage.Listeners += OnDamage; private void OnDisable() => _onDamage.Listeners -= OnDamage; private void OnDamage(int damage) { /* Spawn floating popup showing the player damage for a few seconds */ } } Methods Invoke(T) Producers can trigger the event by calling this method and providing the event payload. Declaration public void Invoke(T value) Parameters Type Name Description T value The event payload Events Listeners Subscribers to the event should add themselves to this delegate. Declaration public event Action<T> Listeners Event Type Type Description Action <T> Remarks Remember to unsubscribe for the event before destroying your listener. In a MonoBehaviour component, this is often done in OnDisable or OnDestroy See Also VoidEvent EventTListener <T>"
   },
   "api/Games.GrumpyBear.Core.Events.EventTListener-1.html": {
     "href": "api/Games.GrumpyBear.Core.Events.EventTListener-1.html",
     "title": "Class EventTListener<T> | Games.GrumpyBear.Core",
-    "keywords": "Class EventTListener<T> Inheritance Object EventTListener<T> Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class EventTListener<T> : MonoBehaviour Type Parameters Name Description T Fields _event Declaration protected EventT<T> _event Field Value Type Description EventT <T> _onTrigger Declaration protected UnityEvent<T> _onTrigger Field Value Type Description UnityEvent <T>"
+    "keywords": "Class EventTListener<T> Companion helper class to EventT<T> to call methods on other component, when the event trigger. The event payload can be provided to these methods as a parameter. This is similar to VoidEventListener but with an event payload. Inheritance Object EventTListener<T> Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class EventTListener<T> : MonoBehaviour Type Parameters Name Description T The event payload type Remarks Because Unity can't instantiate generics directly, you must override the class type. public class IntEventListener: EventTListener<t> {} Fields _event The EventT<T> which this component should subscribe to. Declaration protected EventT<T> _event Field Value Type Description EventT <T> _onTrigger The UnityEvent<T> which gets invoked, when this component receives an event. The event payload is passed to UnityEvent<T>.Invoke() . Declaration protected UnityEvent<T> _onTrigger Field Value Type Description UnityEvent <T> See Also EventT <T>"
   },
   "api/Games.GrumpyBear.Core.Events.html": {
     "href": "api/Games.GrumpyBear.Core.Events.html",
     "title": "Namespace Games.GrumpyBear.Core.Events | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.Events Classes EventT<T> EventTListener<T> VoidEvent VoidEventListener"
+    "keywords": "Namespace Games.GrumpyBear.Core.Events Classes EventT<T> A generic reference-able event with a event payload used to propagate data among components in a Pub-Sub fashion without neither producers nor consumers knowing about each other. This is similar to VoidEvent but with an event payload. Because instances of EventT<T> are ScriptableObjects they can be referenced in serialized fields and UnityEvents . EventTListener<T> Companion helper class to EventT<T> to call methods on other component, when the event trigger. The event payload can be provided to these methods as a parameter. This is similar to VoidEventListener but with an event payload. VoidEvent A generic reference-able event used to send signals between components in a Pub-Sub fashion without neither invoker nor listener knowing about each other. This is similar to EventT<T> but without an event payload. Because instances of VoidEvent are ScriptableObjects they can be referenced in serialized fields and UnityEvents . VoidEventListener Companion helper class to VoidEvent to call methods on other component, when the event trigger. This is similar to EventTListener<T> but without an event payload."
   },
   "api/Games.GrumpyBear.Core.Events.VoidEvent.html": {
     "href": "api/Games.GrumpyBear.Core.Events.VoidEvent.html",
     "title": "Class VoidEvent | Games.GrumpyBear.Core",
-    "keywords": "Class VoidEvent Inheritance Object VoidEvent Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class VoidEvent : ScriptableObject Methods Invoke() Declaration public void Invoke() Events Listeners Declaration public event Action Listeners Event Type Type Description Action"
+    "keywords": "Class VoidEvent A generic reference-able event used to send signals between components in a Pub-Sub fashion without neither invoker nor listener knowing about each other. This is similar to EventT<T> but without an event payload. Because instances of VoidEvent are ScriptableObjects they can be referenced in serialized fields and UnityEvents . Inheritance Object VoidEvent Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class VoidEvent : ScriptableObject Examples Imagine you have a player health component and a UI components, which shows a Game Over screen when the player dies. Using VoidEvent we can have the health component broadcast when the player dies to the UI components without any of them knowing about or depending on each other. public class PlayerHealth: MonoBehaviour { [SerializeField] private VoidEvent _onPlayerDied; private int _health; public void DamagePlayer(int damage) { /* Update player health */ if (_health <= 0) { _onPlayerDies.Invoke(); } } } public class GameOverUI: MonoBehaviour { [SerializeField] private VoidEvent _onPlayerDied; private void OnEnable() => _onPlayerDied.Listeners += OnPlayerDied; private void OnDisable() => _onPlayerDied.Listeners -= OnPlayerDied; private void OnPlayerDied() { /* Show Game Over screen */ } } Methods Invoke() Invokers can trigger the event by calling this method. Declaration public void Invoke() Events Listeners Subscribers to the event should add themselves to this delegate. Declaration public event Action Listeners Event Type Type Description Action Remarks Remember to unsubscribe for the event before destroying your listener. In a MonoBehaviour component, this is often done in OnDisable or OnDestroy See Also EventT <T> VoidEventListener"
   },
   "api/Games.GrumpyBear.Core.Events.VoidEventListener.html": {
     "href": "api/Games.GrumpyBear.Core.Events.VoidEventListener.html",
     "title": "Class VoidEventListener | Games.GrumpyBear.Core",
-    "keywords": "Class VoidEventListener Inheritance Object VoidEventListener Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class VoidEventListener : MonoBehaviour Fields _event Declaration protected VoidEvent _event Field Value Type Description VoidEvent _onTrigger Declaration protected UnityEvent _onTrigger Field Value Type Description UnityEvent"
+    "keywords": "Class VoidEventListener Companion helper class to VoidEvent to call methods on other component, when the event trigger. This is similar to EventTListener<T> but without an event payload. Inheritance Object VoidEventListener Namespace : Games.GrumpyBear.Core.Events Assembly : Games.GrumpyBear.Core.dll Syntax public class VoidEventListener : MonoBehaviour Fields _event The VoidEvent which this component should subscribe to. Declaration protected VoidEvent _event Field Value Type Description VoidEvent _onTrigger The UnityEvent which gets invoked, when this component receives an event. Declaration protected UnityEvent _onTrigger Field Value Type Description UnityEvent See Also VoidEvent"
   },
   "api/Games.GrumpyBear.Core.ExtensionMethods.html": {
     "href": "api/Games.GrumpyBear.Core.ExtensionMethods.html",
@@ -53,6 +58,41 @@
     "href": "api/Games.GrumpyBear.Core.html",
     "title": "Namespace Games.GrumpyBear.Core | Games.GrumpyBear.Core",
     "keywords": "Namespace Games.GrumpyBear.Core Classes ExtensionMethods"
+  },
+  "api/Games.GrumpyBear.Core.LevelManagement.html": {
+    "href": "api/Games.GrumpyBear.Core.LevelManagement.html",
+    "title": "Namespace Games.GrumpyBear.Core.LevelManagement | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.LevelManagement Classes SceneGroup SceneGroupColdStartInitializer SceneLoader SceneManager SceneManagerListener SceneReference"
+  },
+  "api/Games.GrumpyBear.Core.LevelManagement.SceneGroup.html": {
+    "href": "api/Games.GrumpyBear.Core.LevelManagement.SceneGroup.html",
+    "title": "Class SceneGroup | Games.GrumpyBear.Core",
+    "keywords": "Class SceneGroup Inheritance Object SceneGroup Namespace : Games.GrumpyBear.Core.LevelManagement Assembly : Games.GrumpyBear.Core.dll Syntax public class SceneGroup : SerializableScriptableObject<SceneGroup> Properties ActiveScene Declaration public SceneReference ActiveScene { get; } Property Value Type Description SceneReference Manager Declaration public SceneManager Manager { get; } Property Value Type Description SceneManager Scenes Declaration public IReadOnlyList<SceneReference> Scenes { get; } Property Value Type Description IReadOnlyList < SceneReference > Methods ContainsScene(Scene) Declaration public bool ContainsScene(Scene scene) Parameters Type Name Description Scene scene Returns Type Description Boolean Load() Declaration public void Load() Load_CO() Declaration public IEnumerator Load_CO() Returns Type Description IEnumerator"
+  },
+  "api/Games.GrumpyBear.Core.LevelManagement.SceneGroupColdStartInitializer.html": {
+    "href": "api/Games.GrumpyBear.Core.LevelManagement.SceneGroupColdStartInitializer.html",
+    "title": "Class SceneGroupColdStartInitializer | Games.GrumpyBear.Core",
+    "keywords": "Class SceneGroupColdStartInitializer Inheritance Object SceneGroupColdStartInitializer Namespace : Games.GrumpyBear.Core.LevelManagement Assembly : Games.GrumpyBear.Core.dll Syntax public class SceneGroupColdStartInitializer : MonoBehaviour Properties SceneGroup Declaration public SceneGroup SceneGroup { get; } Property Value Type Description SceneGroup"
+  },
+  "api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html": {
+    "href": "api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html",
+    "title": "Class SceneLoader | Games.GrumpyBear.Core",
+    "keywords": "Class SceneLoader Inheritance Object SceneLoader Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ToString() Object.ReferenceEquals(Object, Object) Namespace : Games.GrumpyBear.Core.LevelManagement Assembly : Games.GrumpyBear.Core.dll Syntax public static class SceneLoader Methods LoadExactlyByBuildIndex(IEnumerable<Int32>, Int32) Make sure a specific set of scenes by loading and unloading scenes. Declaration public static IEnumerator LoadExactlyByBuildIndex(IEnumerable<int> buildIndices, int activeBuildIndex) Parameters Type Name Description IEnumerable < Int32 > buildIndices Int32 activeBuildIndex Returns Type Description IEnumerator LoadExactlyByScenePath(IEnumerable<String>, String) Make sure a specific set of scenes by loading and unloading scenes. Declaration public static IEnumerator LoadExactlyByScenePath(IEnumerable<string> scenePaths, string activeScenePath) Parameters Type Name Description IEnumerable < String > scenePaths String activeScenePath Returns Type Description IEnumerator LoadScenesByBuildIndex(IEnumerable<Int32>) Load scenes by build index as a coroutine. Declaration public static IEnumerator LoadScenesByBuildIndex(IEnumerable<int> buildIndices) Parameters Type Name Description IEnumerable < Int32 > buildIndices Returns Type Description IEnumerator LoadScenesByBuildIndex(IEnumerable<Int32>, Int32) Load scenes by build index and set active scene as a coroutine. Declaration public static IEnumerator LoadScenesByBuildIndex(IEnumerable<int> buildIndices, int activeBuildIndex) Parameters Type Name Description IEnumerable < Int32 > buildIndices Int32 activeBuildIndex Returns Type Description IEnumerator LoadScenesByPath(IEnumerable<String>) Load scenes by path as a coroutine. Declaration public static IEnumerator LoadScenesByPath(IEnumerable<string> scenePaths) Parameters Type Name Description IEnumerable < String > scenePaths Returns Type Description IEnumerator LoadScenesByPath(IEnumerable<String>, String) Load scenes by path and set active scene as a coroutine. Declaration public static IEnumerator LoadScenesByPath(IEnumerable<string> scenePaths, string activeScenePath) Parameters Type Name Description IEnumerable < String > scenePaths String activeScenePath Returns Type Description IEnumerator UnloadScenes(IEnumerable<Scene>) Unload scenes as a coroutine. Declaration public static IEnumerator UnloadScenes(IEnumerable<Scene> scenes) Parameters Type Name Description IEnumerable < Scene > scenes Returns Type Description IEnumerator"
+  },
+  "api/Games.GrumpyBear.Core.LevelManagement.SceneManager.html": {
+    "href": "api/Games.GrumpyBear.Core.LevelManagement.SceneManager.html",
+    "title": "Class SceneManager | Games.GrumpyBear.Core",
+    "keywords": "Class SceneManager Inheritance Object SceneManager Namespace : Games.GrumpyBear.Core.LevelManagement Assembly : Games.GrumpyBear.Core.dll Syntax public class SceneManager : ScriptableObject Fields SceneGroupCurrentlyLoading Declaration public static SceneGroup SceneGroupCurrentlyLoading Field Value Type Description SceneGroup Properties GlobalScenes Declaration public IReadOnlyList<SceneReference> GlobalScenes { get; } Property Value Type Description IReadOnlyList < SceneReference > IsLoadingSceneGroup Declaration public static bool IsLoadingSceneGroup { get; } Property Value Type Description Boolean SceneGroups Declaration public IReadOnlyList<SceneGroup> SceneGroups { get; } Property Value Type Description IReadOnlyList < SceneGroup > Methods Load(SceneGroup) Declaration public void Load(SceneGroup sceneGroup) Parameters Type Name Description SceneGroup sceneGroup Load_CO(SceneGroup) Declaration public IEnumerator Load_CO(SceneGroup sceneGroup) Parameters Type Name Description SceneGroup sceneGroup Returns Type Description IEnumerator WaitForLoadingCompleted() Declaration public static IEnumerator WaitForLoadingCompleted() Returns Type Description IEnumerator Events OnSceneGroupChanged Declaration public static event Action<SceneGroup> OnSceneGroupChanged Event Type Type Description Action < SceneGroup >"
+  },
+  "api/Games.GrumpyBear.Core.LevelManagement.SceneManagerListener.html": {
+    "href": "api/Games.GrumpyBear.Core.LevelManagement.SceneManagerListener.html",
+    "title": "Class SceneManagerListener | Games.GrumpyBear.Core",
+    "keywords": "Class SceneManagerListener Inheritance Object SceneManagerListener Namespace : Games.GrumpyBear.Core.LevelManagement Assembly : Games.GrumpyBear.Core.dll Syntax public class SceneManagerListener : MonoBehaviour"
+  },
+  "api/Games.GrumpyBear.Core.LevelManagement.SceneReference.html": {
+    "href": "api/Games.GrumpyBear.Core.LevelManagement.SceneReference.html",
+    "title": "Class SceneReference | Games.GrumpyBear.Core",
+    "keywords": "Class SceneReference Inheritance Object SceneReference Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ToString() Object.ReferenceEquals(Object, Object) Namespace : Games.GrumpyBear.Core.LevelManagement Assembly : Games.GrumpyBear.Core.dll Syntax public class SceneReference Properties BuildIndex Declaration public int BuildIndex { get; } Property Value Type Description Int32 Scene Declaration public Scene Scene { get; } Property Value Type Description Scene ScenePath Declaration public string ScenePath { get; } Property Value Type Description String"
   },
   "api/Games.GrumpyBear.Core.Observables.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.html",
@@ -119,10 +159,15 @@
     "title": "Class GameObjectObservableNotifier | Games.GrumpyBear.Core",
     "keywords": "Class GameObjectObservableNotifier Inheritance Object GameObjectObservableNotifier Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class GameObjectObservableNotifier : MonoBehaviour"
   },
+  "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT-1.html": {
+    "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT-1.html",
+    "title": "Class GlobalStateT<T> | Games.GrumpyBear.Core",
+    "keywords": "Class GlobalStateT<T> Inheritance Object GlobalStateT<T> Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public abstract class GlobalStateT<T> : ScriptableObject where T : GlobalStateT<T> Type Parameters Name Description T Properties Current Declaration public static T Current { get; } Property Value Type Description T IsActive Declaration public bool IsActive { get; } Property Value Type Description Boolean Methods SetActive() Declaration public void SetActive() Subscribe(Action<T>) Declaration public static void Subscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Unsubscribe(Action<T>) Declaration public static void Unsubscribe(Action<T> subscriber) Parameters Type Name Description Action <T> subscriber Events OnEnter Declaration public event Action OnEnter Event Type Type Description Action OnLeave Declaration public event Action OnLeave Event Type Type Description Action"
+  },
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.html",
     "title": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects Classes BoolObservable BoolObservableListener CameraObservable CameraObservableListener CameraObservableNotifier GameObjectObservable GameObjectObservableListener GameObjectObservableNotifier IntObservable IntObservableListener Observable<T> ObservableListener<T> ReadOnlyObservable<T> RuntimeSet RuntimeSetMember Enums ReadOnlyObservable<T>.NotificationOrder"
+    "keywords": "Namespace Games.GrumpyBear.Core.Observables.ScriptableObjects Classes BoolObservable BoolObservableListener CameraObservable CameraObservableListener CameraObservableNotifier GameObjectObservable GameObjectObservableListener GameObjectObservableNotifier GlobalStateT<T> IntObservable IntObservableListener Observable<T> ObservableListener<T> ReadOnlyObservable<T> RuntimeSet RuntimeSetMember Enums ReadOnlyObservable<T>.NotificationOrder"
   },
   "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html": {
     "href": "api/Games.GrumpyBear.Core.Observables.ScriptableObjects.IntObservable.html",
@@ -164,30 +209,100 @@
     "title": "Class RuntimeSetMember | Games.GrumpyBear.Core",
     "keywords": "Class RuntimeSetMember Inheritance Object RuntimeSetMember Namespace : Games.GrumpyBear.Core.Observables.ScriptableObjects Assembly : Games.GrumpyBear.Core.dll Syntax public class RuntimeSetMember : MonoBehaviour"
   },
+  "api/Games.GrumpyBear.Core.SaveSystem.FileSystem.html": {
+    "href": "api/Games.GrumpyBear.Core.SaveSystem.FileSystem.html",
+    "title": "Class FileSystem | Games.GrumpyBear.Core",
+    "keywords": "Class FileSystem Inheritance Object FileSystem Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ToString() Object.ReferenceEquals(Object, Object) Namespace : Games.GrumpyBear.Core.SaveSystem Assembly : Games.GrumpyBear.Core.dll Syntax public static class FileSystem Methods Delete(String) Declaration public static void Delete(string saveFile) Parameters Type Name Description String saveFile Exists(String) Declaration public static bool Exists(string saveFile) Parameters Type Name Description String saveFile Returns Type Description Boolean LoadFile(String) Declaration public static Dictionary<string, Dictionary<string, object>> LoadFile(string saveFile) Parameters Type Name Description String saveFile Returns Type Description Dictionary < String , Dictionary < String , Object >> SaveFile(String, Dictionary<String, Dictionary<String, Object>>) Declaration public static void SaveFile(string saveFile, Dictionary<string, Dictionary<string, object>> state) Parameters Type Name Description String saveFile Dictionary < String , Dictionary < String , Object >> state"
+  },
+  "api/Games.GrumpyBear.Core.SaveSystem.html": {
+    "href": "api/Games.GrumpyBear.Core.SaveSystem.html",
+    "title": "Namespace Games.GrumpyBear.Core.SaveSystem | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.SaveSystem Classes FileSystem ObjectGuid SaveableEntity SerializableScriptableObject<T> Vector3Surrogate Interfaces ISaveableComponent"
+  },
+  "api/Games.GrumpyBear.Core.SaveSystem.ISaveableComponent.html": {
+    "href": "api/Games.GrumpyBear.Core.SaveSystem.ISaveableComponent.html",
+    "title": "Interface ISaveableComponent | Games.GrumpyBear.Core",
+    "keywords": "Interface ISaveableComponent Namespace : Games.GrumpyBear.Core.SaveSystem Assembly : Games.GrumpyBear.Core.dll Syntax public interface ISaveableComponent Methods CaptureState() Declaration object CaptureState() Returns Type Description Object RestoreState(Object) Declaration void RestoreState(object state) Parameters Type Name Description Object state"
+  },
+  "api/Games.GrumpyBear.Core.SaveSystem.ObjectGuid.html": {
+    "href": "api/Games.GrumpyBear.Core.SaveSystem.ObjectGuid.html",
+    "title": "Class ObjectGuid | Games.GrumpyBear.Core",
+    "keywords": "Class ObjectGuid Inheritance Object ObjectGuid Namespace : Games.GrumpyBear.Core.SaveSystem Assembly : Games.GrumpyBear.Core.dll Syntax public sealed class ObjectGuid : IEquatable<ObjectGuid> Constructors ObjectGuid() Declaration public ObjectGuid() ObjectGuid(Guid, Int64) Declaration public ObjectGuid(Guid guid, long localId) Parameters Type Name Description Guid guid Int64 localId ObjectGuid(ref Byte[]) Declaration public ObjectGuid(ref byte[] bytes) Parameters Type Name Description Byte [] bytes ObjectGuid(ref Byte[], Guid, Int64) Declaration public ObjectGuid(ref byte[] bytes, Guid guid, long localId) Parameters Type Name Description Byte [] bytes Guid guid Int64 localId ObjectGuid(ref Byte[], String, Int64) Declaration public ObjectGuid(ref byte[] bytes, string guid, long localId) Parameters Type Name Description Byte [] bytes String guid Int64 localId ObjectGuid(String, Int64) Declaration public ObjectGuid(string guid, long localId) Parameters Type Name Description String guid Int64 localId Properties Bytes Declaration public ReadOnlySpan<byte> Bytes { get; } Property Value Type Description ReadOnlySpan < Byte > Guid Declaration public Guid Guid { get; set; } Property Value Type Description Guid LocalId Declaration public long LocalId { get; set; } Property Value Type Description Int64 Methods Equals(ObjectGuid) Declaration public bool Equals(ObjectGuid other) Parameters Type Name Description ObjectGuid other Returns Type Description Boolean Equals(Object) Declaration public override bool Equals(object obj) Parameters Type Name Description Object obj Returns Type Description Boolean GetHashCode() Declaration public override int GetHashCode() Returns Type Description Int32 ToString() Declaration public override string ToString() Returns Type Description String Operators Equality(ObjectGuid, ObjectGuid) Declaration public static bool operator ==(ObjectGuid a, ObjectGuid b) Parameters Type Name Description ObjectGuid a ObjectGuid b Returns Type Description Boolean Inequality(ObjectGuid, ObjectGuid) Declaration public static bool operator !=(ObjectGuid a, ObjectGuid b) Parameters Type Name Description ObjectGuid a ObjectGuid b Returns Type Description Boolean"
+  },
+  "api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html": {
+    "href": "api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html",
+    "title": "Class SaveableEntity | Games.GrumpyBear.Core",
+    "keywords": "Class SaveableEntity Inheritance Object SaveableEntity Namespace : Games.GrumpyBear.Core.SaveSystem Assembly : Games.GrumpyBear.Core.dll Syntax public class SaveableEntity : MonoBehaviour Methods CaptureEntityStates(Dictionary<String, Dictionary<String, Object>>) Declaration public static void CaptureEntityStates(Dictionary<string, Dictionary<string, object>> state) Parameters Type Name Description Dictionary < String , Dictionary < String , Object >> state RestoreEntityStates(Dictionary<String, Dictionary<String, Object>>) Declaration public static void RestoreEntityStates(Dictionary<string, Dictionary<string, object>> state) Parameters Type Name Description Dictionary < String , Dictionary < String , Object >> state"
+  },
+  "api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html": {
+    "href": "api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html",
+    "title": "Class SerializableScriptableObject<T> | Games.GrumpyBear.Core",
+    "keywords": "Class SerializableScriptableObject<T> Inheritance Object SerializableScriptableObject<T> Namespace : Games.GrumpyBear.Core.SaveSystem Assembly : Games.GrumpyBear.Core.dll Syntax public abstract class SerializableScriptableObject<T> : ScriptableObject where T : SerializableScriptableObject<T> Type Parameters Name Description T Properties ObjectGuid Declaration public ObjectGuid ObjectGuid { get; } Property Value Type Description ObjectGuid Methods GetByGuid(ObjectGuid) Declaration public static T GetByGuid(ObjectGuid guid) Parameters Type Name Description ObjectGuid guid Returns Type Description T"
+  },
+  "api/Games.GrumpyBear.Core.SaveSystem.Vector3Surrogate.html": {
+    "href": "api/Games.GrumpyBear.Core.SaveSystem.Vector3Surrogate.html",
+    "title": "Class Vector3Surrogate | Games.GrumpyBear.Core",
+    "keywords": "Class Vector3Surrogate Inheritance Object Vector3Surrogate Namespace : Games.GrumpyBear.Core.SaveSystem Assembly : Games.GrumpyBear.Core.dll Syntax public class Vector3Surrogate : ISerializationSurrogate Methods GetObjectData(Object, SerializationInfo, StreamingContext) Declaration public void GetObjectData(object obj, SerializationInfo info, StreamingContext context) Parameters Type Name Description Object obj SerializationInfo info StreamingContext context SetObjectData(Object, SerializationInfo, StreamingContext, ISurrogateSelector) Declaration public object SetObjectData(object obj, SerializationInfo info, StreamingContext context, ISurrogateSelector selector) Parameters Type Name Description Object obj SerializationInfo info StreamingContext context ISurrogateSelector selector Returns Type Description Object"
+  },
   "api/Games.GrumpyBear.Core.Settings.html": {
     "href": "api/Games.GrumpyBear.Core.Settings.html",
     "title": "Namespace Games.GrumpyBear.Core.Settings | Games.GrumpyBear.Core",
     "keywords": "Namespace Games.GrumpyBear.Core.Settings Classes VideoSettings VideoSettings.ResolutionEntry"
   },
-  "api/Games.GrumpyBear.Core.Settings.UI.FullscreenToggle.html": {
-    "href": "api/Games.GrumpyBear.Core.Settings.UI.FullscreenToggle.html",
+  "api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.html",
     "title": "Class FullscreenToggle | Games.GrumpyBear.Core",
-    "keywords": "Class FullscreenToggle Inheritance Object FullscreenToggle Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class FullscreenToggle : MonoBehaviour"
+    "keywords": "Class FullscreenToggle Inheritance Object VideoSettingsControl FullscreenToggle Inherited Members VideoSettingsControl.VideoSettings Namespace : Games.GrumpyBear.Core.Settings.UIElements Assembly : Games.GrumpyBear.Core.dll Syntax public sealed class FullscreenToggle : VideoSettingsControl Constructors FullscreenToggle() Declaration public FullscreenToggle() Properties label Declaration public string label { get; set; } Property Value Type Description String text Declaration public string text { get; set; } Property Value Type Description String Methods UpdateUI() Declaration protected override void UpdateUI() Overrides VideoSettingsControl.UpdateUI()"
   },
-  "api/Games.GrumpyBear.Core.Settings.UI.html": {
-    "href": "api/Games.GrumpyBear.Core.Settings.UI.html",
-    "title": "Namespace Games.GrumpyBear.Core.Settings.UI | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.Settings.UI Classes FullscreenToggle QualityDropdown ResolutionDropdown"
+  "api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlFactory.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlFactory.html",
+    "title": "Class FullscreenToggle.UxmlFactory | Games.GrumpyBear.Core",
+    "keywords": "Class FullscreenToggle.UxmlFactory Inheritance Object FullscreenToggle.UxmlFactory Namespace : Games.GrumpyBear.Core.Settings.UIElements Assembly : Games.GrumpyBear.Core.dll Syntax public class UxmlFactory : FullscreenToggle.UxmlFactory<FullscreenToggle, FullscreenToggle.UxmlTraits>"
   },
-  "api/Games.GrumpyBear.Core.Settings.UI.QualityDropdown.html": {
-    "href": "api/Games.GrumpyBear.Core.Settings.UI.QualityDropdown.html",
+  "api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.html",
+    "title": "Class FullscreenToggle.UxmlTraits | Games.GrumpyBear.Core",
+    "keywords": "Class FullscreenToggle.UxmlTraits Inheritance Object FullscreenToggle.UxmlTraits Namespace : Games.GrumpyBear.Core.Settings.UIElements Assembly : Games.GrumpyBear.Core.dll Syntax public class UxmlTraits : VisualElement.UxmlTraits Methods Init(VisualElement, IUxmlAttributes, CreationContext) Declaration public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc) Parameters Type Name Description VisualElement ve IUxmlAttributes bag CreationContext cc"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UIElements.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.html",
+    "title": "Namespace Games.GrumpyBear.Core.Settings.UIElements | Games.GrumpyBear.Core",
+    "keywords": "Namespace Games.GrumpyBear.Core.Settings.UIElements Classes FullscreenToggle FullscreenToggle.UxmlFactory FullscreenToggle.UxmlTraits QualityDropdown QualityDropdown.UxmlFactory QualityDropdown.UxmlTraits ResolutionDropdown ResolutionDropdown.UxmlFactory ResolutionDropdown.UxmlTraits VideoSettingsControl"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.html",
     "title": "Class QualityDropdown | Games.GrumpyBear.Core",
-    "keywords": "Class QualityDropdown Inheritance Object QualityDropdown Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class QualityDropdown : MonoBehaviour"
+    "keywords": "Class QualityDropdown Inheritance Object VideoSettingsControl QualityDropdown Inherited Members VideoSettingsControl.VideoSettings Namespace : Games.GrumpyBear.Core.Settings.UIElements Assembly : Games.GrumpyBear.Core.dll Syntax public sealed class QualityDropdown : VideoSettingsControl Constructors QualityDropdown() Declaration public QualityDropdown() Properties label Declaration public string label { get; set; } Property Value Type Description String Methods UpdateUI() Declaration protected override void UpdateUI() Overrides VideoSettingsControl.UpdateUI()"
   },
-  "api/Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown.html": {
-    "href": "api/Games.GrumpyBear.Core.Settings.UI.ResolutionDropdown.html",
+  "api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlFactory.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlFactory.html",
+    "title": "Class QualityDropdown.UxmlFactory | Games.GrumpyBear.Core",
+    "keywords": "Class QualityDropdown.UxmlFactory Inheritance Object QualityDropdown.UxmlFactory Namespace : Games.GrumpyBear.Core.Settings.UIElements Assembly : Games.GrumpyBear.Core.dll Syntax public class UxmlFactory : QualityDropdown.UxmlFactory<QualityDropdown, QualityDropdown.UxmlTraits>"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.html",
+    "title": "Class QualityDropdown.UxmlTraits | Games.GrumpyBear.Core",
+    "keywords": "Class QualityDropdown.UxmlTraits Inheritance Object QualityDropdown.UxmlTraits Namespace : Games.GrumpyBear.Core.Settings.UIElements Assembly : Games.GrumpyBear.Core.dll Syntax public class UxmlTraits : VisualElement.UxmlTraits Methods Init(VisualElement, IUxmlAttributes, CreationContext) Declaration public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc) Parameters Type Name Description VisualElement ve IUxmlAttributes bag CreationContext cc"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.html",
     "title": "Class ResolutionDropdown | Games.GrumpyBear.Core",
-    "keywords": "Class ResolutionDropdown Inheritance Object ResolutionDropdown Namespace : Games.GrumpyBear.Core.Settings.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class ResolutionDropdown : MonoBehaviour"
+    "keywords": "Class ResolutionDropdown Inheritance Object VideoSettingsControl ResolutionDropdown Inherited Members VideoSettingsControl.VideoSettings Namespace : Games.GrumpyBear.Core.Settings.UIElements Assembly : Games.GrumpyBear.Core.dll Syntax public sealed class ResolutionDropdown : VideoSettingsControl Constructors ResolutionDropdown() Declaration public ResolutionDropdown() Properties label Declaration public string label { get; set; } Property Value Type Description String Methods UpdateUI() Declaration protected override void UpdateUI() Overrides VideoSettingsControl.UpdateUI()"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlFactory.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlFactory.html",
+    "title": "Class ResolutionDropdown.UxmlFactory | Games.GrumpyBear.Core",
+    "keywords": "Class ResolutionDropdown.UxmlFactory Inheritance Object ResolutionDropdown.UxmlFactory Namespace : Games.GrumpyBear.Core.Settings.UIElements Assembly : Games.GrumpyBear.Core.dll Syntax public class UxmlFactory : ResolutionDropdown.UxmlFactory<ResolutionDropdown, ResolutionDropdown.UxmlTraits>"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.html",
+    "title": "Class ResolutionDropdown.UxmlTraits | Games.GrumpyBear.Core",
+    "keywords": "Class ResolutionDropdown.UxmlTraits Inheritance Object ResolutionDropdown.UxmlTraits Namespace : Games.GrumpyBear.Core.Settings.UIElements Assembly : Games.GrumpyBear.Core.dll Syntax public class UxmlTraits : VisualElement.UxmlTraits Methods Init(VisualElement, IUxmlAttributes, CreationContext) Declaration public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc) Parameters Type Name Description VisualElement ve IUxmlAttributes bag CreationContext cc"
+  },
+  "api/Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.html": {
+    "href": "api/Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.html",
+    "title": "Class VideoSettingsControl | Games.GrumpyBear.Core",
+    "keywords": "Class VideoSettingsControl Inheritance Object VideoSettingsControl FullscreenToggle QualityDropdown ResolutionDropdown Namespace : Games.GrumpyBear.Core.Settings.UIElements Assembly : Games.GrumpyBear.Core.dll Syntax public abstract class VideoSettingsControl : VisualElement Properties VideoSettings Declaration public VideoSettings VideoSettings { get; set; } Property Value Type Description VideoSettings Methods UpdateUI() Declaration protected abstract void UpdateUI()"
   },
   "api/Games.GrumpyBear.Core.Settings.VideoSettings.html": {
     "href": "api/Games.GrumpyBear.Core.Settings.VideoSettings.html",
@@ -197,7 +312,7 @@
   "api/Games.GrumpyBear.Core.Settings.VideoSettings.ResolutionEntry.html": {
     "href": "api/Games.GrumpyBear.Core.Settings.VideoSettings.ResolutionEntry.html",
     "title": "Class VideoSettings.ResolutionEntry | Games.GrumpyBear.Core",
-    "keywords": "Class VideoSettings.ResolutionEntry Inheritance Object VideoSettings.ResolutionEntry Namespace : Games.GrumpyBear.Core.Settings Assembly : Games.GrumpyBear.Core.dll Syntax public class ResolutionEntry : IComparable<VideoSettings.ResolutionEntry> Fields Height Declaration public readonly int Height Field Value Type Description Int32 Width Declaration public readonly int Width Field Value Type Description Int32 Methods CompareTo(VideoSettings.ResolutionEntry) Declaration public int CompareTo(VideoSettings.ResolutionEntry other) Parameters Type Name Description VideoSettings.ResolutionEntry other Returns Type Description Int32 Equals(Object) Declaration public override bool Equals(object other) Parameters Type Name Description Object other Returns Type Description Boolean GetHashCode() Declaration public override int GetHashCode() Returns Type Description Int32 ToString() Declaration public override string ToString() Returns Type Description String"
+    "keywords": "Class VideoSettings.ResolutionEntry Inheritance Object VideoSettings.ResolutionEntry Namespace : Games.GrumpyBear.Core.Settings Assembly : Games.GrumpyBear.Core.dll Syntax public class ResolutionEntry : IComparable<VideoSettings.ResolutionEntry> Fields Height Declaration public readonly int Height Field Value Type Description Int32 Width Declaration public readonly int Width Field Value Type Description Int32 Methods CompareTo(VideoSettings.ResolutionEntry) Declaration public int CompareTo(VideoSettings.ResolutionEntry other) Parameters Type Name Description VideoSettings.ResolutionEntry other Returns Type Description Int32 Equals(Object) Declaration public override bool Equals(object other) Parameters Type Name Description Object other Returns Type Description Boolean GetHashCode() Declaration public override int GetHashCode() Returns Type Description Int32 ToString() Declaration public override string ToString() Returns Type Description String Operators Equality(VideoSettings.ResolutionEntry, VideoSettings.ResolutionEntry) Declaration public static bool operator ==(VideoSettings.ResolutionEntry a, VideoSettings.ResolutionEntry b) Parameters Type Name Description VideoSettings.ResolutionEntry a VideoSettings.ResolutionEntry b Returns Type Description Boolean Inequality(VideoSettings.ResolutionEntry, VideoSettings.ResolutionEntry) Declaration public static bool operator !=(VideoSettings.ResolutionEntry a, VideoSettings.ResolutionEntry b) Parameters Type Name Description VideoSettings.ResolutionEntry a VideoSettings.ResolutionEntry b Returns Type Description Boolean"
   },
   "api/Games.GrumpyBear.Core.Triggers.html": {
     "href": "api/Games.GrumpyBear.Core.Triggers.html",
@@ -214,20 +329,10 @@
     "title": "Class Trigger3D | Games.GrumpyBear.Core",
     "keywords": "Class Trigger3D Inheritance Object Trigger3D Namespace : Games.GrumpyBear.Core.Triggers Assembly : Games.GrumpyBear.Core.dll Syntax public class Trigger3D : MonoBehaviour"
   },
-  "api/Games.GrumpyBear.Core.UI.DropdownAutoScroll.html": {
-    "href": "api/Games.GrumpyBear.Core.UI.DropdownAutoScroll.html",
-    "title": "Class DropdownAutoScroll | Games.GrumpyBear.Core",
-    "keywords": "Class DropdownAutoScroll Inheritance Object DropdownAutoScroll Implements IPointerClickHandler Namespace : Games.GrumpyBear.Core.UI Assembly : Games.GrumpyBear.Core.dll Syntax public class DropdownAutoScroll : MonoBehaviour, IPointerClickHandler Methods OnPointerClick(PointerEventData) Declaration public void OnPointerClick(PointerEventData _) Parameters Type Name Description PointerEventData _ Implements IPointerClickHandler"
-  },
-  "api/Games.GrumpyBear.Core.UI.html": {
-    "href": "api/Games.GrumpyBear.Core.UI.html",
-    "title": "Namespace Games.GrumpyBear.Core.UI | Games.GrumpyBear.Core",
-    "keywords": "Namespace Games.GrumpyBear.Core.UI Classes DropdownAutoScroll"
-  },
   "changelog/CHANGELOG.html": {
     "href": "changelog/CHANGELOG.html",
     "title": "Changelog | Games.GrumpyBear.Core",
-    "keywords": "Changelog"
+    "keywords": "Changelog 0.1.0 This release contains many changes (some of them incomplete), so don't upgrade if you strictly depend on old behavior. Please make special note of the breaking changes. Known problems A lot of this package is still undocumented. New features Added Observables.ScriptableObjects.GlobalStateT. This class is useful for situations, where you need a global (singleton) enum-like state, e.g. the game state. Added SaveSystem. This is a collection of classes useful for building a custom save system from. Migrated GrumpyBearGames.LevelManagement into this package. All editors rewritten using UI Toolkit This package now supports optional experimental features. Experimental features are enable under Tools/Core Game Utilities/Package Settings Breaking changes This release drops support for the old IMGUI system and goes all in on UI Elements. There is currently no way to automatically migrate from GrumpyBearGames.LevelManagement to GrumpyBearGames.Core.LevelManagement. This needs to be done manually. This package now requires Unity 2022.2.1f1 or newer. Bug fixes LevelManagement.SceneGroupColdStartInitializer will refuse to load a scene group, if it's not part of it. This was a bug inherited from GrumpyBearGames.LevelManagement (Experimental) SceneReferences will no longer loose track of scenes, if you move or rename them inside the editor . Moving or renaming scenes outside the editor will still break the reference. Note that this is an experimental features, which needs to be explicitly enabled. Scene Groups are now implemented using SerializableScriptableObject, so you can save and load a reference to them. 0.0.1 Initial version. This is very much work in progress."
   },
   "index.html": {
     "href": "index.html",

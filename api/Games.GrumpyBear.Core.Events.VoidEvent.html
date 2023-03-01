@@ -83,7 +83,12 @@
   
   <h1 id="Games_GrumpyBear_Core_Events_VoidEvent" data-uid="Games.GrumpyBear.Core.Events.VoidEvent" class="text-break">Class VoidEvent
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A generic reference-able event used to send signals between components in a Pub-Sub fashion without
+neither invoker nor listener knowing about each other. This is similar to <a class="xref" href="Games.GrumpyBear.Core.Events.EventT-1.html">EventT&lt;T&gt;</a>
+but without an event payload.</p>
+<p>Because instances of <a class="xref" href="Games.GrumpyBear.Core.Events.VoidEvent.html">VoidEvent</a> are <code>ScriptableObjects</code>
+they can be referenced in serialized fields and <code>UnityEvents</code>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -96,13 +101,44 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class VoidEvent : ScriptableObject</code></pre>
   </div>
+  <h5 id="Games_GrumpyBear_Core_Events_VoidEvent_examples"><strong>Examples</strong></h5>
+  <p>Imagine you have a player health component and a UI components, which shows a Game Over screen
+when the player dies. Using <a class="xref" href="Games.GrumpyBear.Core.Events.VoidEvent.html">VoidEvent</a> we can have the health component broadcast
+when the player dies to the UI components without any of them knowing about or depending on each
+other.</p>
+<pre><code>public class PlayerHealth: MonoBehaviour {
+  [SerializeField] private VoidEvent _onPlayerDied;
+  private int _health;
+
+  public void DamagePlayer(int damage) {
+    /* Update player health */
+    if (_health &lt;= 0) {
+      _onPlayerDies.Invoke();
+    }
+  }
+}
+
+
+public class GameOverUI: MonoBehaviour {
+  [SerializeField] private VoidEvent _onPlayerDied;
+
+  private void OnEnable() => _onPlayerDied.Listeners += OnPlayerDied;
+
+  private void OnDisable() => _onPlayerDied.Listeners -= OnPlayerDied;
+
+  private void OnPlayerDied() {
+    /* Show Game Over screen */
+  }
+}</code></pre>
+
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="Games_GrumpyBear_Core_Events_VoidEvent_Invoke_" data-uid="Games.GrumpyBear.Core.Events.VoidEvent.Invoke*"></a>
   <h4 id="Games_GrumpyBear_Core_Events_VoidEvent_Invoke" data-uid="Games.GrumpyBear.Core.Events.VoidEvent.Invoke">Invoke()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Invokers can trigger the event by calling this method.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -113,7 +149,8 @@
   
   
   <h4 id="Games_GrumpyBear_Core_Events_VoidEvent_Listeners" data-uid="Games.GrumpyBear.Core.Events.VoidEvent.Listeners">Listeners</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Subscribers to the event should add themselves to this delegate.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -134,6 +171,16 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="Games_GrumpyBear_Core_Events_VoidEvent_Listeners_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Remember to unsubscribe for the event before destroying your listener. In a
+<code>MonoBehaviour</code> component, this is often done in <code>OnDisable</code>
+or <code>OnDestroy</code></p>
+</div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Games.GrumpyBear.Core.Events.EventT-1.html">EventT</a>&lt;T&gt;</div>
+      <div><a class="xref" href="Games.GrumpyBear.Core.Events.VoidEventListener.html">VoidEventListener</a></div>
+  </div>
 </article>
           </div>
           

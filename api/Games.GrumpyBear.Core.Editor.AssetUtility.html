@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Games.GrumpyBear.Core.Events
+    <title>Class AssetUtility
    | Games.GrumpyBear.Core </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Games.GrumpyBear.Core.Events
+    <meta name="title" content="Class AssetUtility
    | Games.GrumpyBear.Core ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -78,39 +78,82 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Games.GrumpyBear.Core.Events">
+            <article class="content wrap" id="_content" data-uid="Games.GrumpyBear.Core.Editor.AssetUtility">
   
-  <h1 id="Games_GrumpyBear_Core_Events" data-uid="Games.GrumpyBear.Core.Events" class="text-break">Namespace Games.GrumpyBear.Core.Events
+  
+  <h1 id="Games_GrumpyBear_Core_Editor_AssetUtility" data-uid="Games.GrumpyBear.Core.Editor.AssetUtility" class="text-break">Class AssetUtility
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">AssetUtility</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Games.GrumpyBear.Core.Editor.html">Games.GrumpyBear.Core.Editor</a></h6>
+  <h6><strong>Assembly</strong>: Games.GrumpyBear.Core.Editor.dll</h6>
+  <h5 id="Games_GrumpyBear_Core_Editor_AssetUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AssetUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="Games.GrumpyBear.Core.Events.EventT-1.html">EventT&lt;T&gt;</a></h4>
-      <section><p>A generic reference-able event with a event payload used to propagate data among components in a
-Pub-Sub fashion without neither producers nor consumers knowing about each other. This is similar
-to <a class="xref" href="Games.GrumpyBear.Core.Events.VoidEvent.html">VoidEvent</a> but with an event payload.</p>
-<p>Because instances of <a class="xref" href="Games.GrumpyBear.Core.Events.EventT-1.html">EventT&lt;T&gt;</a> are <code>ScriptableObjects</code>
-they can be referenced in serialized fields and <code>UnityEvents</code>.</p>
-</section>
-      <h4><a class="xref" href="Games.GrumpyBear.Core.Events.EventTListener-1.html">EventTListener&lt;T&gt;</a></h4>
-      <section><p>Companion helper class to <a class="xref" href="Games.GrumpyBear.Core.Events.EventT-1.html">EventT&lt;T&gt;</a> to call methods on other component,
-when the event trigger. The event payload can be provided to these methods as a parameter.
-This is similar to <a class="xref" href="Games.GrumpyBear.Core.Events.VoidEventListener.html">VoidEventListener</a> but with an event payload.</p>
-</section>
-      <h4><a class="xref" href="Games.GrumpyBear.Core.Events.VoidEvent.html">VoidEvent</a></h4>
-      <section><p>A generic reference-able event used to send signals between components in a Pub-Sub fashion without
-neither invoker nor listener knowing about each other. This is similar to <a class="xref" href="Games.GrumpyBear.Core.Events.EventT-1.html">EventT&lt;T&gt;</a>
-but without an event payload.</p>
-<p>Because instances of <a class="xref" href="Games.GrumpyBear.Core.Events.VoidEvent.html">VoidEvent</a> are <code>ScriptableObjects</code>
-they can be referenced in serialized fields and <code>UnityEvents</code>.</p>
-</section>
-      <h4><a class="xref" href="Games.GrumpyBear.Core.Events.VoidEventListener.html">VoidEventListener</a></h4>
-      <section><p>Companion helper class to <a class="xref" href="Games.GrumpyBear.Core.Events.VoidEvent.html">VoidEvent</a> to call methods on other component,
-when the event trigger. This is similar to <a class="xref" href="Games.GrumpyBear.Core.Events.EventTListener-1.html">EventTListener&lt;T&gt;</a> but without
-an event payload.</p>
-</section>
+  
+  
+  <a id="Games_GrumpyBear_Core_Editor_AssetUtility_RenameAsset_" data-uid="Games.GrumpyBear.Core.Editor.AssetUtility.RenameAsset*"></a>
+  <h4 id="Games_GrumpyBear_Core_Editor_AssetUtility_RenameAsset_Object_System_String_" data-uid="Games.GrumpyBear.Core.Editor.AssetUtility.RenameAsset(Object,System.String)">RenameAsset(Object, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RenameAsset(Object obj, string newName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">newName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
