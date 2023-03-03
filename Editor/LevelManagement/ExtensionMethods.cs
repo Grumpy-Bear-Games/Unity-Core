@@ -66,7 +66,7 @@ namespace Games.GrumpyBear.Core.Editor.LevelManagement
         public static void LoadInEditor(this SceneGroup sceneGroup)
         {
             var sceneManager = sceneGroup.Manager;
-            var openScenes = Enumerable.Range(0, EditorSceneManager.loadedSceneCount)
+            var openScenes = Enumerable.Range(0, UnityEngine.SceneManagement.SceneManager.loadedSceneCount)
                 .Select(UnityEngine.SceneManagement.SceneManager.GetSceneAt)
                 .Where(scene => sceneGroup.Scenes.All(x => scene.path != x.ScenePath))
                 .Where(scene => sceneManager.GlobalScenes.All(x => scene.path != x.ScenePath))
