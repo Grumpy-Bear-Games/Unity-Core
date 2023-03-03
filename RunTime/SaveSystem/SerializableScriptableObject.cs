@@ -6,7 +6,6 @@ namespace Games.GrumpyBear.Core.SaveSystem
 {
     public abstract class SerializableScriptableObject<T>: ScriptableObject where T: SerializableScriptableObject<T>
     {
-        
         [field: SerializeField][field: HideInInspector] public ObjectGuid ObjectGuid { get; private set; }
 
         private static Dictionary<ObjectGuid, T> _instances;
@@ -28,6 +27,8 @@ namespace Games.GrumpyBear.Core.SaveSystem
         }
 
         #if UNITY_EDITOR
+        protected virtual void Reset() => OnValidate();
+
         protected virtual void OnValidate()
         {
             if (!AssetDatabase.TryGetGUIDAndLocalFileIdentifier(this, out var guid, out long localId)) return;
@@ -37,7 +38,7 @@ namespace Games.GrumpyBear.Core.SaveSystem
             ObjectGuid = objectGuid;
             _instances?.Add(ObjectGuid, this as T);
             EditorUtility.SetDirty(this);
-            AssetDatabase.SaveAssetIfDirty(this);
+            EditorApplication.delayCall += () => AssetDatabase.SaveAssetIfDirty(this);
         }
         #endif
     }

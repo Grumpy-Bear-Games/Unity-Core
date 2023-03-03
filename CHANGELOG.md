@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+- [bugfix] Fix SerializableScriptableObject initialization
+
+
 ## 0.1.1
 
 - Make SaveSystem.FileSystem more generic
@@ -7,6 +12,7 @@
 - [bugfix] Stop SaveSystem.SaveableEntry from needlessly regenerate IDs
 - [bugfix] Hide ObjectID field in SaveSystem.SerializableScriptableObject<T> from inspector
 - [bugfix] Fix ObjectGuid.operator== when both sides are null
+
 
 ## 0.1.0
 This release contains many changes (some of them incomplete), so don't upgrade if you strictly depend on old behavior. Please make special note of the breaking changes.
@@ -30,6 +36,7 @@ This release contains many changes (some of them incomplete), so don't upgrade i
 - LevelManagement.SceneGroupColdStartInitializer will refuse to load a scene group, if it's not part of it. This was a bug inherited from GrumpyBearGames.LevelManagement
 - (Experimental) SceneReferences will no longer loose track of scenes, if you move or rename them _inside the editor_. Moving or renaming scenes _outside_ the editor will still break the reference. Note that this is an experimental features, which needs to be explicitly enabled.
 - Scene Groups are now implemented using SerializableScriptableObject, so you can save and load a reference to them.
+
 
 ## 0.0.1
 Initial version. This is very much work in progress.
