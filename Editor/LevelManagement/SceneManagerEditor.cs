@@ -64,12 +64,12 @@ namespace Games.GrumpyBear.Core.Editor.LevelManagement
             foreach (var index in indicies)
             {
                 var sceneGroup = SceneGroup.CreateInstance(_sceneManager);
-                AssetDatabase.AddObjectToAsset(sceneGroup, target);
                 sceneGroup.name = $"<new scene group {index}>";
+                AssetDatabase.AddObjectToAsset(sceneGroup, target);
                 _sceneGroupsProperty.GetArrayElementAtIndex(index).objectReferenceValue = sceneGroup;
             }
-            AssetDatabase.SaveAssetIfDirty(target);
             serializedObject.ApplyModifiedProperties();
+            AssetDatabase.SaveAssetIfDirty(target);
         }
 
         private void OnSceneGroupsDeleted(IEnumerable<int> ints)

@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -10,7 +9,7 @@ namespace Games.GrumpyBear.Core.Editor
     {
         private Toggle _experimentalCheckBox;
 
-        [MenuItem("Tools/Core Game Utilities/Package Settings")]
+        [MenuItem("Tools/Core Game Utilities/Package Settings", false, 100)]
         private static void ShowWindow()
         {
             var window = GetWindow<PackageSettings>();
@@ -40,7 +39,7 @@ namespace Games.GrumpyBear.Core.Editor
             }
         }
 
-        private void OnEnable()
+        private void CreateGUI()
         {
             var label = new Label("Optional features:")
             {

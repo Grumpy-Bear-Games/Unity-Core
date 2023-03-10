@@ -10,51 +10,41 @@ namespace Games.GrumpyBear.Core.Editor.LevelManagement
     [CustomEditor(typeof(SceneGroupColdStartInitializer))]
     public class SceneGroupColdStartInitializerEditor: UnityEditor.Editor
     {
-        private SerializedProperty _locationProperty;
+        [SerializeField] private StyleSheet _styleSheet;
+        [SerializeField] private VisualTreeAsset _visualTreeAsset;
+        
+        private SerializedProperty _sceneGroupProperty;
         private SceneGroupColdStartInitializer _sceneGroupColdStartInitializer;
+
         private Button _loadButton;
         private HelpBox _helpBox;
 
         private void OnEnable()
         {
-            _locationProperty = serializedObject.FindProperty("_sceneGroup");
+            _sceneGroupProperty = serializedObject.FindProperty(SceneGroupColdStartInitializer.Fields.SceneGroup);
             _sceneGroupColdStartInitializer = target as SceneGroupColdStartInitializer;
         }
 
         public override VisualElement CreateInspectorGUI()
         {
-            var root = new VisualElement
-            {
-                style =
-                {
-                    flexDirection = FlexDirection.Column
-                }
-            };
-            var sceneGroupField = new PropertyField(_locationProperty);
-            sceneGroupField.RegisterValueChangeCallback(evt => UpdateEditor());
-            
-            root.Add(sceneGroupField);
+            var root = _visualTreeAsset.Instantiate();
+            root.styleSheets.Add(_styleSheet);
+            root.Q<PropertyField>("SceneGroup").RegisterValueChangeCallback(_ => UpdateEditor());
 
-            _helpBox = new HelpBox
-            {
-                style =
-                {
-                    display = DisplayStyle.None
-                },
-                messageType = HelpBoxMessageType.Error,
-            };
-            root.Add(_helpBox);
-            
-            _loadButton = new Button
-            {
-                text = "Load Scene group",
-                style = {
-                    alignSelf = Align.Center,
-                    marginTop = 20,
-                },
-            };
+            _helpBox = root.Q<HelpBox>();
+            _loadButton = root.Q<Button>("LoadSceneGroupButton");
             _loadButton.clicked += () => _sceneGroupColdStartInitializer.SceneGroup.LoadInEditor();
-            root.Add(_loadButton);
+
+            _helpBox.Q<Button>().clicked += () =>
+            {
+                var scene = _sceneGroupColdStartInitializer.gameObject.scene;
+                var sceneGroup = SceneGroup.FindFirstWithScene(scene);
+                if (sceneGroup == null || sceneGroup == _sceneGroupProperty.objectReferenceValue) return;
+
+                serializedObject.UpdateIfRequiredOrScript();
+                _sceneGroupProperty.objectReferenceValue = sceneGroup;
+                serializedObject.ApplyModifiedProperties();
+            };
 
             UpdateEditor();
 
@@ -65,19 +55,18 @@ namespace Games.GrumpyBear.Core.Editor.LevelManagement
         {
             var sceneGroup = _sceneGroupColdStartInitializer.SceneGroup;
             var scene = _sceneGroupColdStartInitializer.gameObject.scene;
+            
             if (sceneGroup == null)
             {
                 _loadButton.SetEnabled(false);
-                _helpBox.text = "Scene Group missing";
+                _helpBox.text = "Scene Group has not been set";
                 _helpBox.style.display = DisplayStyle.Flex;
             } else if (!sceneGroup.ContainsScene(scene))
             {
                 _loadButton.SetEnabled(false);
                 _helpBox.text = "Scene Group does not contain this scene";
                 _helpBox.style.display = DisplayStyle.Flex;
-            }
-            else
-            {
+            } else {
                 _loadButton.SetEnabled(true);
                 _helpBox.style.display = DisplayStyle.None;
             }

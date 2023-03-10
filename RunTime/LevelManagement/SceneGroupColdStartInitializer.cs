@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Games.GrumpyBear.Core.LevelManagement
 {
@@ -8,6 +9,7 @@ namespace Games.GrumpyBear.Core.LevelManagement
         private const string DEFAULT_NAME = "[Scene Group Coldstart Initializer]";
         
         [SerializeField] private SceneGroup _sceneGroup;
+        [SerializeField] private UnityEvent<SceneGroup> _afterLoad;
         public SceneGroup SceneGroup => _sceneGroup;
 
         private static bool _initialized;
@@ -22,6 +24,7 @@ namespace Games.GrumpyBear.Core.LevelManagement
             }
 
             yield return _sceneGroup.Load_CO();
+            _afterLoad.Invoke(_sceneGroup);
             _initialized = true;
         }
 
@@ -40,6 +43,12 @@ namespace Games.GrumpyBear.Core.LevelManagement
             UnityEditor.GameObjectUtility.SetParentAndAlign(go, menuCommand.context as GameObject);
             UnityEditor.Undo.RegisterCreatedObjectUndo(go, "Create " + go.name);
             UnityEditor.Selection.activeObject = go;
+        }
+        
+        public static class Fields
+        {
+            public const string SceneGroup = nameof(_sceneGroup);
+            public const string AfterLoad = nameof(_afterLoad);
         }
         #endif
     }

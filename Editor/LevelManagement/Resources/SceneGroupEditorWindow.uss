@@ -1,0 +1,14 @@
+﻿.scene-group-editor-window__scene-manager {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.scene-group-editor-window__scene-group-entry {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.scene-group-editor-window__scene-group-entry Label {
+    flex-grow: 1;
+}

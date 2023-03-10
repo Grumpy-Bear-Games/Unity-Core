@@ -1,0 +1,19 @@
+﻿
+
+.scene-group-cold-start-initializer-editor HelpBox {
+    flex-wrap: wrap;
+}
+
+.scene-group-cold-start-initializer-editor HelpBox Button Label {
+    flex-basis: 100%;
+}
+
+.scene-group-cold-start-initializer-editor HelpBox Button {
+    width: 100%;
+    white-space: normal;
+}
+
+
+.scene-group-cold-start-initializer-editor__load-scene-group {
+    margin-top: 20px;
+}

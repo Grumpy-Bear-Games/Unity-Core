@@ -1,0 +1,13 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="SceneGroupColdStartInitializer" class="scene-group-cold-start-initializer-editor">
+        <uie:PropertyField name="SceneGroup" binding-path="_sceneGroup"/>
+        <uie:PropertyField name="AfterLoad" binding-path="_afterLoad"/>
+
+        <ui:HelpBox class="scene-group-cold-start-initializer-editor__error" message-type="Error">
+            <ui:Button name="AttemptToFixButton" text="Attempt to fix"/>
+        </ui:HelpBox>
+        <ui:Button name="LoadSceneGroupButton" text="Load Scene Group"
+                   class="scene-group-cold-start-initializer-editor__load-scene-group"                   
+        />
+    </ui:VisualElement>
+</ui:UXML>

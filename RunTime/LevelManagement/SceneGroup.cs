@@ -33,6 +33,9 @@ namespace Games.GrumpyBear.Core.LevelManagement
         }
         #endif
 
+        public static SceneGroup FindFirstWithScene(string scenePath) => Resources.FindObjectsOfTypeAll<SceneGroup>().FirstOrDefault(sceneGroup => sceneGroup._scenes.Any(reference => reference.ScenePath == scenePath));
+        public static SceneGroup FindFirstWithScene(Scene scene) => Resources.FindObjectsOfTypeAll<SceneGroup>().FirstOrDefault(sceneGroup => sceneGroup._scenes.Any(reference => reference.ScenePath == scene.path));
+
         public static SceneGroup CreateInstance(SceneManager sceneManager)
         {
             var sceneGroup = ScriptableObject.CreateInstance<SceneGroup>();
