@@ -23,7 +23,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "uSXOjXnd/VhnH1x/ZOvaVA=="
+          "hash": "RIVXJp4rC5zY8IlDm7JymA=="
         }
       },
       "is_incremental": false,
@@ -167,7 +167,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.ExtensionMethods.html",
-          "hash": "ZxtGrRpi2Ov4u79RczwsEg=="
+          "hash": "wq0BISRpUTc8K7TouD1Ljg=="
         }
       },
       "is_incremental": false,
@@ -179,7 +179,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.LevelManagement.SceneGroup.html",
-          "hash": "567RvkRIefPiJJ5Wpded4w=="
+          "hash": "D8RImDKjROMizorhWBU5iQ=="
         }
       },
       "is_incremental": false,
@@ -203,7 +203,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html",
-          "hash": "oDG8b6qV9KvCjSYi/fxX3A=="
+          "hash": "KTWitW7qZqjV+CTaqMF4kA=="
         }
       },
       "is_incremental": false,
@@ -215,7 +215,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.LevelManagement.SceneManager.html",
-          "hash": "LacNGFOS1hIwgE44mBxVjQ=="
+          "hash": "JBp8JH6XFM14jzR1rpsDkw=="
         }
       },
       "is_incremental": false,
@@ -575,7 +575,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html",
-          "hash": "44+PjhnjgrGQ8sKL1WNHAw=="
+          "hash": "/u/gZHIeRoWeLaav0uWL1g=="
         }
       },
       "is_incremental": false,
@@ -767,7 +767,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Games.GrumpyBear.Core.Settings.VideoSettings.html",
-          "hash": "29+G93gjOuBCgAjOLbExzA=="
+          "hash": "BBTPBzx2Uq+TTeZUvvZdbA=="
         }
       },
       "is_incremental": false,
