@@ -1,31 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace Games.GrumpyBear.Core.SaveSystem
 {
-    public abstract class SerializableScriptableObject<T>: ScriptableObject where T: SerializableScriptableObject<T>
+    public abstract class SerializableScriptableObject : ScriptableObject
     {
         [field: SerializeField][field: HideInInspector] public ObjectGuid ObjectGuid { get; private set; }
-
-        private static Dictionary<ObjectGuid, T> _instances;
-
-        public static T GetByGuid(ObjectGuid guid)
+        
+        protected static Dictionary<ObjectGuid, SerializableScriptableObject> _instances;
+        
+        public static SerializableScriptableObject GetByGuid(ObjectGuid guid)
         {
-            if (_instances == null) FindAllInstances();
+            FindAllInstances();
             _instances.TryGetValue(guid, out var instance);
             return instance;
         }
 
-        private static void FindAllInstances()
+        protected static void FindAllInstances()
         {
-            _instances = new Dictionary<ObjectGuid, T>();
-            foreach (var instance in Resources.FindObjectsOfTypeAll<T>())
+            if (_instances != null) return;
+            _instances = new Dictionary<ObjectGuid, SerializableScriptableObject>();
+            foreach (var instance in Resources.FindObjectsOfTypeAll<SerializableScriptableObject>())
             {
                 _instances.Add(instance.ObjectGuid, instance);
             }
         }
+
+        protected virtual void OnEnable()
+        {
+            if (_instances == null) return;
+            if (_instances.TryGetValue(ObjectGuid, out var entry) && entry == this) return;
+            if (entry != null)
+            {
+                Debug.Log($"Duplicate ObjectGuid {ObjectGuid}. This should really not happen", this);
+                _instances.Remove(ObjectGuid);
+            }
+            _instances.Add(ObjectGuid, this);
+        }
+
+        protected virtual void OnDestroy() => _instances?.Remove(ObjectGuid);
 
         #if UNITY_EDITOR
         protected virtual void Reset() => OnValidate();
@@ -35,12 +51,12 @@ namespace Games.GrumpyBear.Core.SaveSystem
             if (!AssetDatabase.TryGetGUIDAndLocalFileIdentifier(this, out var guid, out long localId)) return;
             var objectGuid = new ObjectGuid(guid, localId);
             if (objectGuid == ObjectGuid) return;
-            if (_instances != null && _instances.TryGetValue(ObjectGuid, out var entry) && entry == this as T) _instances.Remove(ObjectGuid);
+            if (_instances != null && _instances.ContainsKey(ObjectGuid)) _instances.Remove(ObjectGuid);
+            _instances?.Add(objectGuid, this);
             ObjectGuid = objectGuid;
-            _instances?.Add(ObjectGuid, this as T);
             EditorUtility.SetDirty(this);
             EditorApplication.delayCall += () => AssetDatabase.SaveAssetIfDirty(this);
         }
-        #endif
+        #endif        
     }
 }

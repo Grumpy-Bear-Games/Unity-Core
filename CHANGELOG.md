@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.4
+- Add documentation to ObjectGuid
+- [bugfix] Make SerializableScriptableObject<T> work in game mode as well.
+- Introduce SerializableScriptableObject base-class to SerializableScriptableObject<T>. This will allow serialization
+  of assorted SerializableScriptableObject<T> and it should be safe as their asset ObjectGuids should never overlap.
+
 ## 0.1.3
 
 - Add new editor window under Tools/Core Game Utilities/Scene Groups, which makes it easy to quickly switch between
