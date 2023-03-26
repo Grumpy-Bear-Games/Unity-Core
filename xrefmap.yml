@@ -432,13 +432,13 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.ExtensionMethods.PickRandom
   nameWithType: ExtensionMethods.PickRandom
-- uid: Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(System.Collections.Generic.IReadOnlyList{``0})
+- uid: Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(IReadOnlyList{``0})
   name: PickRandom<T>(IReadOnlyList<T>)
-  href: api/Games.GrumpyBear.Core.ExtensionMethods.html#Games_GrumpyBear_Core_ExtensionMethods_PickRandom__1_System_Collections_Generic_IReadOnlyList___0__
-  commentId: M:Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(System.Collections.Generic.IReadOnlyList{``0})
+  href: api/Games.GrumpyBear.Core.ExtensionMethods.html#Games_GrumpyBear_Core_ExtensionMethods_PickRandom__1_IReadOnlyList___0__
+  commentId: M:Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(IReadOnlyList{``0})
   name.vb: PickRandom(Of T)(IReadOnlyList(Of T))
-  fullName: Games.GrumpyBear.Core.ExtensionMethods.PickRandom<T>(System.Collections.Generic.IReadOnlyList<T>)
-  fullName.vb: Games.GrumpyBear.Core.ExtensionMethods.PickRandom(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  fullName: Games.GrumpyBear.Core.ExtensionMethods.PickRandom<T>(IReadOnlyList<T>)
+  fullName.vb: Games.GrumpyBear.Core.ExtensionMethods.PickRandom(Of T)(IReadOnlyList(Of T))
   nameWithType: ExtensionMethods.PickRandom<T>(IReadOnlyList<T>)
   nameWithType.vb: ExtensionMethods.PickRandom(Of T)(IReadOnlyList(Of T))
 - uid: Games.GrumpyBear.Core.ExtensionMethods.QuadraticCurve(Vector2,Vector2,Vector2,System.Single)
@@ -643,13 +643,13 @@ references:
   commentId: T:Games.GrumpyBear.Core.LevelManagement.SceneLoader
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader
   nameWithType: SceneLoader
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(IEnumerable{System.Int32},System.Int32)
   name: LoadExactlyByBuildIndex(IEnumerable<Int32>, Int32)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadExactlyByBuildIndex_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadExactlyByBuildIndex_IEnumerable_System_Int32__System_Int32_
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(IEnumerable{System.Int32},System.Int32)
   name.vb: LoadExactlyByBuildIndex(IEnumerable(Of Int32), Int32)
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(System.Collections.Generic.IEnumerable<System.Int32>, System.Int32)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(System.Collections.Generic.IEnumerable(Of System.Int32), System.Int32)
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(IEnumerable<System.Int32>, System.Int32)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(IEnumerable(Of System.Int32), System.Int32)
   nameWithType: SceneLoader.LoadExactlyByBuildIndex(IEnumerable<Int32>, Int32)
   nameWithType.vb: SceneLoader.LoadExactlyByBuildIndex(IEnumerable(Of Int32), Int32)
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex*
@@ -659,13 +659,13 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex
   nameWithType: SceneLoader.LoadExactlyByBuildIndex
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(System.Collections.Generic.IEnumerable{System.String},System.String)
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(IEnumerable{System.String},System.String)
   name: LoadExactlyByScenePath(IEnumerable<String>, String)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadExactlyByScenePath_System_Collections_Generic_IEnumerable_System_String__System_String_
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(System.Collections.Generic.IEnumerable{System.String},System.String)
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadExactlyByScenePath_IEnumerable_System_String__System_String_
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(IEnumerable{System.String},System.String)
   name.vb: LoadExactlyByScenePath(IEnumerable(Of String), String)
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(System.Collections.Generic.IEnumerable<System.String>, System.String)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(System.Collections.Generic.IEnumerable(Of System.String), System.String)
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(IEnumerable<System.String>, System.String)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(IEnumerable(Of System.String), System.String)
   nameWithType: SceneLoader.LoadExactlyByScenePath(IEnumerable<String>, String)
   nameWithType.vb: SceneLoader.LoadExactlyByScenePath(IEnumerable(Of String), String)
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath*
@@ -675,22 +675,22 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath
   nameWithType: SceneLoader.LoadExactlyByScenePath
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32})
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable{System.Int32})
   name: LoadScenesByBuildIndex(IEnumerable<Int32>)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByBuildIndex_System_Collections_Generic_IEnumerable_System_Int32__
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32})
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByBuildIndex_IEnumerable_System_Int32__
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable{System.Int32})
   name.vb: LoadScenesByBuildIndex(IEnumerable(Of Int32))
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable<System.Int32>)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable(Of System.Int32))
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable<System.Int32>)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable(Of System.Int32))
   nameWithType: SceneLoader.LoadScenesByBuildIndex(IEnumerable<Int32>)
   nameWithType.vb: SceneLoader.LoadScenesByBuildIndex(IEnumerable(Of Int32))
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable{System.Int32},System.Int32)
   name: LoadScenesByBuildIndex(IEnumerable<Int32>, Int32)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByBuildIndex_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByBuildIndex_IEnumerable_System_Int32__System_Int32_
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable{System.Int32},System.Int32)
   name.vb: LoadScenesByBuildIndex(IEnumerable(Of Int32), Int32)
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable<System.Int32>, System.Int32)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable(Of System.Int32), System.Int32)
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable<System.Int32>, System.Int32)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable(Of System.Int32), System.Int32)
   nameWithType: SceneLoader.LoadScenesByBuildIndex(IEnumerable<Int32>, Int32)
   nameWithType.vb: SceneLoader.LoadScenesByBuildIndex(IEnumerable(Of Int32), Int32)
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex*
@@ -700,22 +700,22 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex
   nameWithType: SceneLoader.LoadScenesByBuildIndex
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable{System.String})
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable{System.String})
   name: LoadScenesByPath(IEnumerable<String>)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByPath_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable{System.String})
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByPath_IEnumerable_System_String__
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable{System.String})
   name.vb: LoadScenesByPath(IEnumerable(Of String))
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable(Of System.String))
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable<System.String>)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable(Of System.String))
   nameWithType: SceneLoader.LoadScenesByPath(IEnumerable<String>)
   nameWithType.vb: SceneLoader.LoadScenesByPath(IEnumerable(Of String))
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable{System.String},System.String)
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable{System.String},System.String)
   name: LoadScenesByPath(IEnumerable<String>, String)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByPath_System_Collections_Generic_IEnumerable_System_String__System_String_
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable{System.String},System.String)
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByPath_IEnumerable_System_String__System_String_
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable{System.String},System.String)
   name.vb: LoadScenesByPath(IEnumerable(Of String), String)
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable<System.String>, System.String)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable(Of System.String), System.String)
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable<System.String>, System.String)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable(Of System.String), System.String)
   nameWithType: SceneLoader.LoadScenesByPath(IEnumerable<String>, String)
   nameWithType.vb: SceneLoader.LoadScenesByPath(IEnumerable(Of String), String)
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath*
@@ -725,13 +725,13 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath
   nameWithType: SceneLoader.LoadScenesByPath
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(System.Collections.Generic.IEnumerable{Scene})
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(IEnumerable{Scene})
   name: UnloadScenes(IEnumerable<Scene>)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_UnloadScenes_System_Collections_Generic_IEnumerable_Scene__
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(System.Collections.Generic.IEnumerable{Scene})
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_UnloadScenes_IEnumerable_Scene__
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(IEnumerable{Scene})
   name.vb: UnloadScenes(IEnumerable(Of Scene))
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(System.Collections.Generic.IEnumerable<Scene>)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(System.Collections.Generic.IEnumerable(Of Scene))
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(IEnumerable<Scene>)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(IEnumerable(Of Scene))
   nameWithType: SceneLoader.UnloadScenes(IEnumerable<Scene>)
   nameWithType.vb: SceneLoader.UnloadScenes(IEnumerable(Of Scene))
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes*
@@ -1983,13 +1983,13 @@ references:
   commentId: T:Games.GrumpyBear.Core.SaveSystem.SaveableEntity
   fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity
   nameWithType: SaveableEntity
-- uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.Object}})
+- uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(Dictionary{System.String,Dictionary{System.String,System.Object}})
   name: CaptureEntityStates(Dictionary<String, Dictionary<String, Object>>)
-  href: api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html#Games_GrumpyBear_Core_SaveSystem_SaveableEntity_CaptureEntityStates_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_Dictionary_System_String_System_Object___
-  commentId: M:Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.Object}})
+  href: api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html#Games_GrumpyBear_Core_SaveSystem_SaveableEntity_CaptureEntityStates_Dictionary_System_String_Dictionary_System_String_System_Object___
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(Dictionary{System.String,Dictionary{System.String,System.Object}})
   name.vb: CaptureEntityStates(Dictionary(Of String, Dictionary(Of String, Object)))
-  fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.Dictionary<System.String, System.Object>>)
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.Dictionary(Of System.String, System.Object)))
+  fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(Dictionary<System.String, Dictionary<System.String, System.Object>>)
+  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(Dictionary(Of System.String, Dictionary(Of System.String, System.Object)))
   nameWithType: SaveableEntity.CaptureEntityStates(Dictionary<String, Dictionary<String, Object>>)
   nameWithType.vb: SaveableEntity.CaptureEntityStates(Dictionary(Of String, Dictionary(Of String, Object)))
 - uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates*
@@ -1999,13 +1999,13 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates
   nameWithType: SaveableEntity.CaptureEntityStates
-- uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.Object}})
+- uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(Dictionary{System.String,Dictionary{System.String,System.Object}})
   name: RestoreEntityStates(Dictionary<String, Dictionary<String, Object>>)
-  href: api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html#Games_GrumpyBear_Core_SaveSystem_SaveableEntity_RestoreEntityStates_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_Dictionary_System_String_System_Object___
-  commentId: M:Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.Object}})
+  href: api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html#Games_GrumpyBear_Core_SaveSystem_SaveableEntity_RestoreEntityStates_Dictionary_System_String_Dictionary_System_String_System_Object___
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(Dictionary{System.String,Dictionary{System.String,System.Object}})
   name.vb: RestoreEntityStates(Dictionary(Of String, Dictionary(Of String, Object)))
-  fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.Dictionary<System.String, System.Object>>)
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.Dictionary(Of System.String, System.Object)))
+  fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(Dictionary<System.String, Dictionary<System.String, System.Object>>)
+  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(Dictionary(Of System.String, Dictionary(Of System.String, System.Object)))
   nameWithType: SaveableEntity.RestoreEntityStates(Dictionary<String, Dictionary<String, Object>>)
   nameWithType.vb: SaveableEntity.RestoreEntityStates(Dictionary(Of String, Dictionary(Of String, Object)))
 - uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates*
@@ -2015,6 +2015,83 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates
   nameWithType: SaveableEntity.RestoreEntityStates
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject
+  name: SerializableScriptableObject
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html
+  commentId: T:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject
+  nameWithType: SerializableScriptableObject
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject._instances
+  name: _instances
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject__instances
+  commentId: F:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject._instances
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject._instances
+  nameWithType: SerializableScriptableObject._instances
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.FindAllInstances
+  name: FindAllInstances()
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_FindAllInstances
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.FindAllInstances
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.FindAllInstances()
+  nameWithType: SerializableScriptableObject.FindAllInstances()
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.FindAllInstances*
+  name: FindAllInstances
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_FindAllInstances_
+  commentId: Overload:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.FindAllInstances
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.FindAllInstances
+  nameWithType: SerializableScriptableObject.FindAllInstances
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.GetByGuid(Games.GrumpyBear.Core.SaveSystem.ObjectGuid)
+  name: GetByGuid(ObjectGuid)
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_GetByGuid_Games_GrumpyBear_Core_SaveSystem_ObjectGuid_
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.GetByGuid(Games.GrumpyBear.Core.SaveSystem.ObjectGuid)
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.GetByGuid(Games.GrumpyBear.Core.SaveSystem.ObjectGuid)
+  nameWithType: SerializableScriptableObject.GetByGuid(ObjectGuid)
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.GetByGuid*
+  name: GetByGuid
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_GetByGuid_
+  commentId: Overload:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.GetByGuid
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.GetByGuid
+  nameWithType: SerializableScriptableObject.GetByGuid
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.ObjectGuid
+  name: ObjectGuid
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_ObjectGuid
+  commentId: P:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.ObjectGuid
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.ObjectGuid
+  nameWithType: SerializableScriptableObject.ObjectGuid
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.ObjectGuid*
+  name: ObjectGuid
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_ObjectGuid_
+  commentId: Overload:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.ObjectGuid
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.ObjectGuid
+  nameWithType: SerializableScriptableObject.ObjectGuid
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnDestroy
+  name: OnDestroy()
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_OnDestroy
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnDestroy
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnDestroy()
+  nameWithType: SerializableScriptableObject.OnDestroy()
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnDestroy*
+  name: OnDestroy
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_OnDestroy_
+  commentId: Overload:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnDestroy
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnDestroy
+  nameWithType: SerializableScriptableObject.OnDestroy
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnEnable
+  name: OnEnable()
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_OnEnable
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnEnable
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnEnable()
+  nameWithType: SerializableScriptableObject.OnEnable()
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnEnable*
+  name: OnEnable
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_OnEnable_
+  commentId: Overload:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnEnable
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject.OnEnable
+  nameWithType: SerializableScriptableObject.OnEnable
 - uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1
   name: SerializableScriptableObject<T>
   href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html
@@ -2041,23 +2118,40 @@ references:
   fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).GetByGuid
   nameWithType: SerializableScriptableObject<T>.GetByGuid
   nameWithType.vb: SerializableScriptableObject(Of T).GetByGuid
-- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.ObjectGuid
-  name: ObjectGuid
-  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_1_ObjectGuid
-  commentId: P:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.ObjectGuid
-  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject<T>.ObjectGuid
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).ObjectGuid
-  nameWithType: SerializableScriptableObject<T>.ObjectGuid
-  nameWithType.vb: SerializableScriptableObject(Of T).ObjectGuid
-- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.ObjectGuid*
-  name: ObjectGuid
-  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_1_ObjectGuid_
-  commentId: Overload:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.ObjectGuid
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnDestroy
+  name: OnDestroy()
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_1_OnDestroy
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnDestroy
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject<T>.OnDestroy()
+  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).OnDestroy()
+  nameWithType: SerializableScriptableObject<T>.OnDestroy()
+  nameWithType.vb: SerializableScriptableObject(Of T).OnDestroy()
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnDestroy*
+  name: OnDestroy
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_1_OnDestroy_
+  commentId: Overload:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnDestroy
   isSpec: "True"
-  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject<T>.ObjectGuid
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).ObjectGuid
-  nameWithType: SerializableScriptableObject<T>.ObjectGuid
-  nameWithType.vb: SerializableScriptableObject(Of T).ObjectGuid
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject<T>.OnDestroy
+  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).OnDestroy
+  nameWithType: SerializableScriptableObject<T>.OnDestroy
+  nameWithType.vb: SerializableScriptableObject(Of T).OnDestroy
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnEnable
+  name: OnEnable()
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_1_OnEnable
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnEnable
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject<T>.OnEnable()
+  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).OnEnable()
+  nameWithType: SerializableScriptableObject<T>.OnEnable()
+  nameWithType.vb: SerializableScriptableObject(Of T).OnEnable()
+- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnEnable*
+  name: OnEnable
+  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_1_OnEnable_
+  commentId: Overload:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnEnable
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject<T>.OnEnable
+  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).OnEnable
+  nameWithType: SerializableScriptableObject<T>.OnEnable
+  nameWithType.vb: SerializableScriptableObject(Of T).OnEnable
 - uid: Games.GrumpyBear.Core.SaveSystem.Vector3Surrogate
   name: Vector3Surrogate
   href: api/Games.GrumpyBear.Core.SaveSystem.Vector3Surrogate.html
