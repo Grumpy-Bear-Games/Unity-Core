@@ -2118,40 +2118,6 @@ references:
   fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).GetByGuid
   nameWithType: SerializableScriptableObject<T>.GetByGuid
   nameWithType.vb: SerializableScriptableObject(Of T).GetByGuid
-- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnDestroy
-  name: OnDestroy()
-  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_1_OnDestroy
-  commentId: M:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnDestroy
-  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject<T>.OnDestroy()
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).OnDestroy()
-  nameWithType: SerializableScriptableObject<T>.OnDestroy()
-  nameWithType.vb: SerializableScriptableObject(Of T).OnDestroy()
-- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnDestroy*
-  name: OnDestroy
-  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_1_OnDestroy_
-  commentId: Overload:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnDestroy
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject<T>.OnDestroy
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).OnDestroy
-  nameWithType: SerializableScriptableObject<T>.OnDestroy
-  nameWithType.vb: SerializableScriptableObject(Of T).OnDestroy
-- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnEnable
-  name: OnEnable()
-  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_1_OnEnable
-  commentId: M:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnEnable
-  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject<T>.OnEnable()
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).OnEnable()
-  nameWithType: SerializableScriptableObject<T>.OnEnable()
-  nameWithType.vb: SerializableScriptableObject(Of T).OnEnable()
-- uid: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnEnable*
-  name: OnEnable
-  href: api/Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject-1.html#Games_GrumpyBear_Core_SaveSystem_SerializableScriptableObject_1_OnEnable_
-  commentId: Overload:Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject`1.OnEnable
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject<T>.OnEnable
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SerializableScriptableObject(Of T).OnEnable
-  nameWithType: SerializableScriptableObject<T>.OnEnable
-  nameWithType.vb: SerializableScriptableObject(Of T).OnEnable
 - uid: Games.GrumpyBear.Core.SaveSystem.Vector3Surrogate
   name: Vector3Surrogate
   href: api/Games.GrumpyBear.Core.SaveSystem.Vector3Surrogate.html
