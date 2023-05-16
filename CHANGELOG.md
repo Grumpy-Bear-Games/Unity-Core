@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.5
+
+### Breaking change
+- Get rid of wrapping VisualElement in custom VideoSettings controls. This _might_ be a breaking change for 
+  you, if you're referencing the old `VideoSettingsControl` base class. If so, please use the new
+  `IVideoSettingsControl` interface instead.
+
+### Changes
+- Fix broken sample
+
 ## 0.1.4
 - Add documentation to ObjectGuid
 - [bugfix] Make SerializableScriptableObject<T> work in game mode as well.
