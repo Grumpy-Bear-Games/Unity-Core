@@ -3,49 +3,28 @@ using UnityEngine.UIElements;
 
 namespace Games.GrumpyBear.Core.Settings.UIElements
 {
-    public sealed class ResolutionDropdown : VideoSettingsControl
+    public sealed class ResolutionDropdown : PopupField<VideoSettings.ResolutionEntry>, IVideoSettingsControl
     {
-        private readonly PopupField<VideoSettings.ResolutionEntry> _dropdown;
-
-        public new class UxmlFactory : UxmlFactory<ResolutionDropdown, UxmlTraits> { }
-
-        public new class UxmlTraits : VisualElement.UxmlTraits
+        private VideoSettings _videoSettings;
+        
+        public VideoSettings VideoSettings
         {
-            private readonly UxmlStringAttributeDescription labelAttr = new()
+            get => _videoSettings;
+            set
             {
-                name = "label", defaultValue = "Resolution"
-            };
-
-            public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
-            {
-                base.Init(ve, bag, cc);
-                if (ve is not ResolutionDropdown resolutionDropdown) return;
-                resolutionDropdown.label = labelAttr.GetValueFromBag(bag, cc);
+                _videoSettings = value;
+                UpdateUI();
             }
         }
-
-        public string label
-        {
-            get => _dropdown.label;
-            set => _dropdown.label = value;
-        }
-
-        protected override void UpdateUI()
-        {
-            _dropdown.choices = VideoSettings.Resolutions;
-            _dropdown.SetValueWithoutNotify(VideoSettings != null ? VideoSettings.Resolution : null);
-        }
+        
+        public new class UxmlFactory : UxmlFactory<ResolutionDropdown, UxmlTraits> { }
 
         public ResolutionDropdown()
         {
-            _dropdown = new PopupField<VideoSettings.ResolutionEntry>
-            {
-                formatListItemCallback = FormatResolution,
-                formatSelectedValueCallback = FormatResolution
-            };
-            _dropdown.RegisterValueChangedCallback(SetResolution);
-            _dropdown.RegisterCallback<GeometryChangedEvent>(UpdateOnShow);
-            hierarchy.Add(_dropdown);
+            formatListItemCallback = FormatResolution;
+            formatSelectedValueCallback = FormatResolution;
+            this.RegisterValueChangedCallback(SetResolution);
+            RegisterCallback<GeometryChangedEvent>(UpdateOnShow);
         }
         
         private void UpdateOnShow(GeometryChangedEvent evt)
@@ -59,6 +38,12 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
         {
             if (VideoSettings == null) return;
             VideoSettings.Resolution = evt.newValue;
+        }
+        
+        private void UpdateUI()
+        {
+            choices = VideoSettings.Resolutions;
+            SetValueWithoutNotify(VideoSettings != null ? VideoSettings.Resolution : null);
         }
     }
 }

@@ -3,50 +3,30 @@ using UnityEngine.UIElements;
 
 namespace Games.GrumpyBear.Core.Settings.UIElements
 {
-    public sealed class QualityDropdown : VideoSettingsControl
+    public sealed class QualityDropdown : PopupField<string>, IVideoSettingsControl
     {
-        private readonly PopupField<string> _dropdown;
-
-        public new class UxmlFactory : UxmlFactory<QualityDropdown, UxmlTraits> { }
-
-        public new class UxmlTraits : VisualElement.UxmlTraits
+        private VideoSettings _videoSettings;
+        
+        public VideoSettings VideoSettings
         {
-            private readonly UxmlStringAttributeDescription labelAttr = new()
+            get => _videoSettings;
+            set
             {
-                name = "label", defaultValue = "Quality"
-            };
-
-            public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
-            {
-                base.Init(ve, bag, cc);
-                if (ve is not QualityDropdown qualityDropdown) return;
-                qualityDropdown.label = labelAttr.GetValueFromBag(bag, cc);
+                _videoSettings = value;
+                UpdateUI();
             }
-        }
-
-        public string label
-        {
-            get => _dropdown.label;
-            set => _dropdown.label = value;
-        }
-
-        protected override void UpdateUI()
-        {
-            _dropdown.SetValueWithoutNotify(VideoSettings != null ? VideoSettings.QualityNames[VideoSettings.QualityIndex] : "");
-        }
+        }        
+        
+        public new class UxmlFactory : UxmlFactory<QualityDropdown, UxmlTraits> { }
 
         public QualityDropdown()
         {
-            _dropdown = new PopupField<string>
-            {
-                formatListItemCallback = FormatQualityLevel,
-                formatSelectedValueCallback = FormatQualityLevel,
-                choices = VideoSettings.QualityNames,
-                value = QualitySettings.names[QualitySettings.GetQualityLevel()]
-            };
-            _dropdown.RegisterValueChangedCallback(QualityLevel);
-            _dropdown.RegisterCallback<GeometryChangedEvent>(UpdateOnShow);
-            hierarchy.Add(_dropdown);
+            formatListItemCallback = FormatQualityLevel;
+            formatSelectedValueCallback = FormatQualityLevel;
+            choices = VideoSettings.QualityNames;
+            value = QualitySettings.names[QualitySettings.GetQualityLevel()];
+            this.RegisterValueChangedCallback(QualityLevel);
+            RegisterCallback<GeometryChangedEvent>(UpdateOnShow);
         }
 
         private void UpdateOnShow(GeometryChangedEvent evt)
@@ -61,5 +41,7 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
             if (VideoSettings == null) return;
             VideoSettings.QualityIndex = VideoSettings.QualityNames.IndexOf(evt.newValue);
         }
+
+        private void UpdateUI() => SetValueWithoutNotify(VideoSettings != null ? VideoSettings.QualityNames[VideoSettings.QualityIndex] : "");
     }
 }

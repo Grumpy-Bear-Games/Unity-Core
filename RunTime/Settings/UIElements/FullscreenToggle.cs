@@ -3,53 +3,26 @@ using UnityEngine.UIElements;
 
 namespace Games.GrumpyBear.Core.Settings.UIElements
 {
-    public sealed class FullscreenToggle : VideoSettingsControl
+    public sealed class FullscreenToggle : Toggle, IVideoSettingsControl
     {
-        public new class UxmlFactory : UxmlFactory<FullscreenToggle, UxmlTraits> { }
-
-        public new class UxmlTraits : VisualElement.UxmlTraits
+        private VideoSettings _videoSettings;
+        
+        public VideoSettings VideoSettings
         {
-            private readonly UxmlStringAttributeDescription labelAttr = new()
+            get => _videoSettings;
+            set
             {
-                name = "label", defaultValue = "Fullscreen"
-            };
-
-            private readonly UxmlStringAttributeDescription textAttr = new()
-            {
-                name = "text", defaultValue = ""
-            };
-
-            public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
-            {
-                base.Init(ve, bag, cc);
-                if (ve is not FullscreenToggle fullscreenToggle) return;
-                fullscreenToggle.label = labelAttr.GetValueFromBag(bag, cc);
-                fullscreenToggle.text = textAttr.GetValueFromBag(bag, cc);
+                _videoSettings = value;
+                UpdateUI();
             }
         }
-
-        public string label
-        {
-            get => _toggle.label;
-            set => _toggle.label = value;
-        }
-
-        public string text
-        {
-            get => _toggle.text;
-            set => _toggle.text = value;
-        }
-
-        private readonly Toggle _toggle;
-
-        protected override void UpdateUI() => _toggle.SetValueWithoutNotify(VideoSettings != null && VideoSettings.Fullscreen);
+        
+        public new class UxmlFactory : UxmlFactory<FullscreenToggle, UxmlTraits> { }
 
         public FullscreenToggle()
         {
-            _toggle = new Toggle();
-            _toggle.RegisterValueChangedCallback(SetFullscreen);
-            _toggle.RegisterCallback<GeometryChangedEvent>(UpdateOnShow);
-            hierarchy.Add(_toggle);
+            this.RegisterValueChangedCallback(SetFullscreen);
+            RegisterCallback<GeometryChangedEvent>(UpdateOnShow);
         }
         
         private void UpdateOnShow(GeometryChangedEvent evt)
@@ -62,5 +35,7 @@ namespace Games.GrumpyBear.Core.Settings.UIElements
             if (VideoSettings == null) return;
             VideoSettings.Fullscreen = evt.newValue;
         }
+        
+        private void UpdateUI() => SetValueWithoutNotify(VideoSettings != null && VideoSettings.Fullscreen);
     }
 }
