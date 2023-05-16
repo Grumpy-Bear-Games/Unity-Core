@@ -432,13 +432,13 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.ExtensionMethods.PickRandom
   nameWithType: ExtensionMethods.PickRandom
-- uid: Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(IReadOnlyList{``0})
+- uid: Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(System.Collections.Generic.IReadOnlyList{``0})
   name: PickRandom<T>(IReadOnlyList<T>)
-  href: api/Games.GrumpyBear.Core.ExtensionMethods.html#Games_GrumpyBear_Core_ExtensionMethods_PickRandom__1_IReadOnlyList___0__
-  commentId: M:Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(IReadOnlyList{``0})
+  href: api/Games.GrumpyBear.Core.ExtensionMethods.html#Games_GrumpyBear_Core_ExtensionMethods_PickRandom__1_System_Collections_Generic_IReadOnlyList___0__
+  commentId: M:Games.GrumpyBear.Core.ExtensionMethods.PickRandom``1(System.Collections.Generic.IReadOnlyList{``0})
   name.vb: PickRandom(Of T)(IReadOnlyList(Of T))
-  fullName: Games.GrumpyBear.Core.ExtensionMethods.PickRandom<T>(IReadOnlyList<T>)
-  fullName.vb: Games.GrumpyBear.Core.ExtensionMethods.PickRandom(Of T)(IReadOnlyList(Of T))
+  fullName: Games.GrumpyBear.Core.ExtensionMethods.PickRandom<T>(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: Games.GrumpyBear.Core.ExtensionMethods.PickRandom(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
   nameWithType: ExtensionMethods.PickRandom<T>(IReadOnlyList<T>)
   nameWithType.vb: ExtensionMethods.PickRandom(Of T)(IReadOnlyList(Of T))
 - uid: Games.GrumpyBear.Core.ExtensionMethods.QuadraticCurve(Vector2,Vector2,Vector2,System.Single)
@@ -643,13 +643,13 @@ references:
   commentId: T:Games.GrumpyBear.Core.LevelManagement.SceneLoader
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader
   nameWithType: SceneLoader
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(IEnumerable{System.Int32},System.Int32)
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
   name: LoadExactlyByBuildIndex(IEnumerable<Int32>, Int32)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadExactlyByBuildIndex_IEnumerable_System_Int32__System_Int32_
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(IEnumerable{System.Int32},System.Int32)
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadExactlyByBuildIndex_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
   name.vb: LoadExactlyByBuildIndex(IEnumerable(Of Int32), Int32)
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(IEnumerable<System.Int32>, System.Int32)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(IEnumerable(Of System.Int32), System.Int32)
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(System.Collections.Generic.IEnumerable<System.Int32>, System.Int32)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex(System.Collections.Generic.IEnumerable(Of System.Int32), System.Int32)
   nameWithType: SceneLoader.LoadExactlyByBuildIndex(IEnumerable<Int32>, Int32)
   nameWithType.vb: SceneLoader.LoadExactlyByBuildIndex(IEnumerable(Of Int32), Int32)
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex*
@@ -659,13 +659,13 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByBuildIndex
   nameWithType: SceneLoader.LoadExactlyByBuildIndex
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(IEnumerable{System.String},System.String)
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(System.Collections.Generic.IEnumerable{System.String},System.String)
   name: LoadExactlyByScenePath(IEnumerable<String>, String)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadExactlyByScenePath_IEnumerable_System_String__System_String_
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(IEnumerable{System.String},System.String)
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadExactlyByScenePath_System_Collections_Generic_IEnumerable_System_String__System_String_
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(System.Collections.Generic.IEnumerable{System.String},System.String)
   name.vb: LoadExactlyByScenePath(IEnumerable(Of String), String)
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(IEnumerable<System.String>, System.String)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(IEnumerable(Of System.String), System.String)
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(System.Collections.Generic.IEnumerable<System.String>, System.String)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath(System.Collections.Generic.IEnumerable(Of System.String), System.String)
   nameWithType: SceneLoader.LoadExactlyByScenePath(IEnumerable<String>, String)
   nameWithType.vb: SceneLoader.LoadExactlyByScenePath(IEnumerable(Of String), String)
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath*
@@ -675,22 +675,22 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadExactlyByScenePath
   nameWithType: SceneLoader.LoadExactlyByScenePath
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable{System.Int32})
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32})
   name: LoadScenesByBuildIndex(IEnumerable<Int32>)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByBuildIndex_IEnumerable_System_Int32__
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable{System.Int32})
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByBuildIndex_System_Collections_Generic_IEnumerable_System_Int32__
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32})
   name.vb: LoadScenesByBuildIndex(IEnumerable(Of Int32))
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable<System.Int32>)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable(Of System.Int32))
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable<System.Int32>)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable(Of System.Int32))
   nameWithType: SceneLoader.LoadScenesByBuildIndex(IEnumerable<Int32>)
   nameWithType.vb: SceneLoader.LoadScenesByBuildIndex(IEnumerable(Of Int32))
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable{System.Int32},System.Int32)
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
   name: LoadScenesByBuildIndex(IEnumerable<Int32>, Int32)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByBuildIndex_IEnumerable_System_Int32__System_Int32_
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable{System.Int32},System.Int32)
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByBuildIndex_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
   name.vb: LoadScenesByBuildIndex(IEnumerable(Of Int32), Int32)
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable<System.Int32>, System.Int32)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(IEnumerable(Of System.Int32), System.Int32)
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable<System.Int32>, System.Int32)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex(System.Collections.Generic.IEnumerable(Of System.Int32), System.Int32)
   nameWithType: SceneLoader.LoadScenesByBuildIndex(IEnumerable<Int32>, Int32)
   nameWithType.vb: SceneLoader.LoadScenesByBuildIndex(IEnumerable(Of Int32), Int32)
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex*
@@ -700,22 +700,22 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByBuildIndex
   nameWithType: SceneLoader.LoadScenesByBuildIndex
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable{System.String})
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable{System.String})
   name: LoadScenesByPath(IEnumerable<String>)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByPath_IEnumerable_System_String__
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable{System.String})
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByPath_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable{System.String})
   name.vb: LoadScenesByPath(IEnumerable(Of String))
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable<System.String>)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable(Of System.String))
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable(Of System.String))
   nameWithType: SceneLoader.LoadScenesByPath(IEnumerable<String>)
   nameWithType.vb: SceneLoader.LoadScenesByPath(IEnumerable(Of String))
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable{System.String},System.String)
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable{System.String},System.String)
   name: LoadScenesByPath(IEnumerable<String>, String)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByPath_IEnumerable_System_String__System_String_
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable{System.String},System.String)
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_LoadScenesByPath_System_Collections_Generic_IEnumerable_System_String__System_String_
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable{System.String},System.String)
   name.vb: LoadScenesByPath(IEnumerable(Of String), String)
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable<System.String>, System.String)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(IEnumerable(Of System.String), System.String)
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable<System.String>, System.String)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath(System.Collections.Generic.IEnumerable(Of System.String), System.String)
   nameWithType: SceneLoader.LoadScenesByPath(IEnumerable<String>, String)
   nameWithType.vb: SceneLoader.LoadScenesByPath(IEnumerable(Of String), String)
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath*
@@ -725,13 +725,13 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.LoadScenesByPath
   nameWithType: SceneLoader.LoadScenesByPath
-- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(IEnumerable{Scene})
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(System.Collections.Generic.IEnumerable{Scene})
   name: UnloadScenes(IEnumerable<Scene>)
-  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_UnloadScenes_IEnumerable_Scene__
-  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(IEnumerable{Scene})
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneLoader.html#Games_GrumpyBear_Core_LevelManagement_SceneLoader_UnloadScenes_System_Collections_Generic_IEnumerable_Scene__
+  commentId: M:Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(System.Collections.Generic.IEnumerable{Scene})
   name.vb: UnloadScenes(IEnumerable(Of Scene))
-  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(IEnumerable<Scene>)
-  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(IEnumerable(Of Scene))
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(System.Collections.Generic.IEnumerable<Scene>)
+  fullName.vb: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes(System.Collections.Generic.IEnumerable(Of Scene))
   nameWithType: SceneLoader.UnloadScenes(IEnumerable<Scene>)
   nameWithType.vb: SceneLoader.UnloadScenes(IEnumerable(Of Scene))
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneLoader.UnloadScenes*
@@ -1983,13 +1983,13 @@ references:
   commentId: T:Games.GrumpyBear.Core.SaveSystem.SaveableEntity
   fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity
   nameWithType: SaveableEntity
-- uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(Dictionary{System.String,Dictionary{System.String,System.Object}})
+- uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.Object}})
   name: CaptureEntityStates(Dictionary<String, Dictionary<String, Object>>)
-  href: api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html#Games_GrumpyBear_Core_SaveSystem_SaveableEntity_CaptureEntityStates_Dictionary_System_String_Dictionary_System_String_System_Object___
-  commentId: M:Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(Dictionary{System.String,Dictionary{System.String,System.Object}})
+  href: api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html#Games_GrumpyBear_Core_SaveSystem_SaveableEntity_CaptureEntityStates_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_Dictionary_System_String_System_Object___
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.Object}})
   name.vb: CaptureEntityStates(Dictionary(Of String, Dictionary(Of String, Object)))
-  fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(Dictionary<System.String, Dictionary<System.String, System.Object>>)
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(Dictionary(Of System.String, Dictionary(Of System.String, System.Object)))
+  fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.Dictionary<System.String, System.Object>>)
+  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates(System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.Dictionary(Of System.String, System.Object)))
   nameWithType: SaveableEntity.CaptureEntityStates(Dictionary<String, Dictionary<String, Object>>)
   nameWithType.vb: SaveableEntity.CaptureEntityStates(Dictionary(Of String, Dictionary(Of String, Object)))
 - uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates*
@@ -1999,13 +1999,13 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.CaptureEntityStates
   nameWithType: SaveableEntity.CaptureEntityStates
-- uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(Dictionary{System.String,Dictionary{System.String,System.Object}})
+- uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.Object}})
   name: RestoreEntityStates(Dictionary<String, Dictionary<String, Object>>)
-  href: api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html#Games_GrumpyBear_Core_SaveSystem_SaveableEntity_RestoreEntityStates_Dictionary_System_String_Dictionary_System_String_System_Object___
-  commentId: M:Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(Dictionary{System.String,Dictionary{System.String,System.Object}})
+  href: api/Games.GrumpyBear.Core.SaveSystem.SaveableEntity.html#Games_GrumpyBear_Core_SaveSystem_SaveableEntity_RestoreEntityStates_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_Dictionary_System_String_System_Object___
+  commentId: M:Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.Object}})
   name.vb: RestoreEntityStates(Dictionary(Of String, Dictionary(Of String, Object)))
-  fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(Dictionary<System.String, Dictionary<System.String, System.Object>>)
-  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(Dictionary(Of System.String, Dictionary(Of System.String, System.Object)))
+  fullName: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.Dictionary<System.String, System.Object>>)
+  fullName.vb: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates(System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.Dictionary(Of System.String, System.Object)))
   nameWithType: SaveableEntity.RestoreEntityStates(Dictionary<String, Dictionary<String, Object>>)
   nameWithType.vb: SaveableEntity.RestoreEntityStates(Dictionary(Of String, Dictionary(Of String, Object)))
 - uid: Games.GrumpyBear.Core.SaveSystem.SaveableEntity.RestoreEntityStates*
@@ -2181,70 +2181,44 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.FullscreenToggle
   nameWithType: FullscreenToggle.FullscreenToggle
-- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.label
-  name: label
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.html#Games_GrumpyBear_Core_Settings_UIElements_FullscreenToggle_label
-  commentId: P:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.label
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.label
-  nameWithType: FullscreenToggle.label
-- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.label*
-  name: label
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.html#Games_GrumpyBear_Core_Settings_UIElements_FullscreenToggle_label_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.label
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.label
-  nameWithType: FullscreenToggle.label
-- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.text
-  name: text
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.html#Games_GrumpyBear_Core_Settings_UIElements_FullscreenToggle_text
-  commentId: P:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.text
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.text
-  nameWithType: FullscreenToggle.text
-- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.text*
-  name: text
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.html#Games_GrumpyBear_Core_Settings_UIElements_FullscreenToggle_text_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.text
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.text
-  nameWithType: FullscreenToggle.text
-- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UpdateUI
-  name: UpdateUI()
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.html#Games_GrumpyBear_Core_Settings_UIElements_FullscreenToggle_UpdateUI
-  commentId: M:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UpdateUI
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UpdateUI()
-  nameWithType: FullscreenToggle.UpdateUI()
-- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UpdateUI*
-  name: UpdateUI
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.html#Games_GrumpyBear_Core_Settings_UIElements_FullscreenToggle_UpdateUI_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UpdateUI
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UpdateUI
-  nameWithType: FullscreenToggle.UpdateUI
 - uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlFactory
   name: FullscreenToggle.UxmlFactory
   href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlFactory.html
   commentId: T:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlFactory
   fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlFactory
   nameWithType: FullscreenToggle.UxmlFactory
-- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits
-  name: FullscreenToggle.UxmlTraits
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.html
-  commentId: T:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits
-  nameWithType: FullscreenToggle.UxmlTraits
-- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.Init(VisualElement,IUxmlAttributes,CreationContext)
-  name: Init(VisualElement, IUxmlAttributes, CreationContext)
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.html#Games_GrumpyBear_Core_Settings_UIElements_FullscreenToggle_UxmlTraits_Init_VisualElement_IUxmlAttributes_CreationContext_
-  commentId: M:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.Init(VisualElement,IUxmlAttributes,CreationContext)
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.Init(VisualElement, IUxmlAttributes, CreationContext)
-  nameWithType: FullscreenToggle.UxmlTraits.Init(VisualElement, IUxmlAttributes, CreationContext)
-- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.Init*
-  name: Init
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.html#Games_GrumpyBear_Core_Settings_UIElements_FullscreenToggle_UxmlTraits_Init_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.Init
+- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.VideoSettings
+  name: VideoSettings
+  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.html#Games_GrumpyBear_Core_Settings_UIElements_FullscreenToggle_VideoSettings
+  commentId: P:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.VideoSettings
+  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.VideoSettings
+  nameWithType: FullscreenToggle.VideoSettings
+- uid: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.VideoSettings*
+  name: VideoSettings
+  href: api/Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.html#Games_GrumpyBear_Core_Settings_UIElements_FullscreenToggle_VideoSettings_
+  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.VideoSettings
   isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.UxmlTraits.Init
-  nameWithType: FullscreenToggle.UxmlTraits.Init
+  fullName: Games.GrumpyBear.Core.Settings.UIElements.FullscreenToggle.VideoSettings
+  nameWithType: FullscreenToggle.VideoSettings
+- uid: Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl
+  name: IVideoSettingsControl
+  href: api/Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl.html
+  commentId: T:Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl
+  fullName: Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl
+  nameWithType: IVideoSettingsControl
+- uid: Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl.VideoSettings
+  name: VideoSettings
+  href: api/Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl.html#Games_GrumpyBear_Core_Settings_UIElements_IVideoSettingsControl_VideoSettings
+  commentId: P:Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl.VideoSettings
+  fullName: Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl.VideoSettings
+  nameWithType: IVideoSettingsControl.VideoSettings
+- uid: Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl.VideoSettings*
+  name: VideoSettings
+  href: api/Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl.html#Games_GrumpyBear_Core_Settings_UIElements_IVideoSettingsControl_VideoSettings_
+  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl.VideoSettings
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.Settings.UIElements.IVideoSettingsControl.VideoSettings
+  nameWithType: IVideoSettingsControl.VideoSettings
 - uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown
   name: QualityDropdown
   href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.html
@@ -2264,57 +2238,25 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.QualityDropdown
   nameWithType: QualityDropdown.QualityDropdown
-- uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.label
-  name: label
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_QualityDropdown_label
-  commentId: P:Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.label
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.label
-  nameWithType: QualityDropdown.label
-- uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.label*
-  name: label
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_QualityDropdown_label_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.label
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.label
-  nameWithType: QualityDropdown.label
-- uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UpdateUI
-  name: UpdateUI()
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_QualityDropdown_UpdateUI
-  commentId: M:Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UpdateUI
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UpdateUI()
-  nameWithType: QualityDropdown.UpdateUI()
-- uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UpdateUI*
-  name: UpdateUI
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_QualityDropdown_UpdateUI_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UpdateUI
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UpdateUI
-  nameWithType: QualityDropdown.UpdateUI
 - uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlFactory
   name: QualityDropdown.UxmlFactory
   href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlFactory.html
   commentId: T:Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlFactory
   fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlFactory
   nameWithType: QualityDropdown.UxmlFactory
-- uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits
-  name: QualityDropdown.UxmlTraits
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.html
-  commentId: T:Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits
-  nameWithType: QualityDropdown.UxmlTraits
-- uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.Init(VisualElement,IUxmlAttributes,CreationContext)
-  name: Init(VisualElement, IUxmlAttributes, CreationContext)
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.html#Games_GrumpyBear_Core_Settings_UIElements_QualityDropdown_UxmlTraits_Init_VisualElement_IUxmlAttributes_CreationContext_
-  commentId: M:Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.Init(VisualElement,IUxmlAttributes,CreationContext)
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.Init(VisualElement, IUxmlAttributes, CreationContext)
-  nameWithType: QualityDropdown.UxmlTraits.Init(VisualElement, IUxmlAttributes, CreationContext)
-- uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.Init*
-  name: Init
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.html#Games_GrumpyBear_Core_Settings_UIElements_QualityDropdown_UxmlTraits_Init_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.Init
+- uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.VideoSettings
+  name: VideoSettings
+  href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_QualityDropdown_VideoSettings
+  commentId: P:Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.VideoSettings
+  fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.VideoSettings
+  nameWithType: QualityDropdown.VideoSettings
+- uid: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.VideoSettings*
+  name: VideoSettings
+  href: api/Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_QualityDropdown_VideoSettings_
+  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.VideoSettings
   isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.UxmlTraits.Init
-  nameWithType: QualityDropdown.UxmlTraits.Init
+  fullName: Games.GrumpyBear.Core.Settings.UIElements.QualityDropdown.VideoSettings
+  nameWithType: QualityDropdown.VideoSettings
 - uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown
   name: ResolutionDropdown
   href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.html
@@ -2334,89 +2276,25 @@ references:
   isSpec: "True"
   fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.ResolutionDropdown
   nameWithType: ResolutionDropdown.ResolutionDropdown
-- uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.label
-  name: label
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_ResolutionDropdown_label
-  commentId: P:Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.label
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.label
-  nameWithType: ResolutionDropdown.label
-- uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.label*
-  name: label
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_ResolutionDropdown_label_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.label
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.label
-  nameWithType: ResolutionDropdown.label
-- uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UpdateUI
-  name: UpdateUI()
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_ResolutionDropdown_UpdateUI
-  commentId: M:Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UpdateUI
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UpdateUI()
-  nameWithType: ResolutionDropdown.UpdateUI()
-- uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UpdateUI*
-  name: UpdateUI
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_ResolutionDropdown_UpdateUI_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UpdateUI
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UpdateUI
-  nameWithType: ResolutionDropdown.UpdateUI
 - uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlFactory
   name: ResolutionDropdown.UxmlFactory
   href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlFactory.html
   commentId: T:Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlFactory
   fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlFactory
   nameWithType: ResolutionDropdown.UxmlFactory
-- uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits
-  name: ResolutionDropdown.UxmlTraits
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.html
-  commentId: T:Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits
-  nameWithType: ResolutionDropdown.UxmlTraits
-- uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.Init(VisualElement,IUxmlAttributes,CreationContext)
-  name: Init(VisualElement, IUxmlAttributes, CreationContext)
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.html#Games_GrumpyBear_Core_Settings_UIElements_ResolutionDropdown_UxmlTraits_Init_VisualElement_IUxmlAttributes_CreationContext_
-  commentId: M:Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.Init(VisualElement,IUxmlAttributes,CreationContext)
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.Init(VisualElement, IUxmlAttributes, CreationContext)
-  nameWithType: ResolutionDropdown.UxmlTraits.Init(VisualElement, IUxmlAttributes, CreationContext)
-- uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.Init*
-  name: Init
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.html#Games_GrumpyBear_Core_Settings_UIElements_ResolutionDropdown_UxmlTraits_Init_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.Init
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.UxmlTraits.Init
-  nameWithType: ResolutionDropdown.UxmlTraits.Init
-- uid: Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl
-  name: VideoSettingsControl
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.html
-  commentId: T:Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl
-  nameWithType: VideoSettingsControl
-- uid: Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.UpdateUI
-  name: UpdateUI()
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.html#Games_GrumpyBear_Core_Settings_UIElements_VideoSettingsControl_UpdateUI
-  commentId: M:Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.UpdateUI
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.UpdateUI()
-  nameWithType: VideoSettingsControl.UpdateUI()
-- uid: Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.UpdateUI*
-  name: UpdateUI
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.html#Games_GrumpyBear_Core_Settings_UIElements_VideoSettingsControl_UpdateUI_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.UpdateUI
-  isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.UpdateUI
-  nameWithType: VideoSettingsControl.UpdateUI
-- uid: Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.VideoSettings
+- uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.VideoSettings
   name: VideoSettings
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.html#Games_GrumpyBear_Core_Settings_UIElements_VideoSettingsControl_VideoSettings
-  commentId: P:Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.VideoSettings
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.VideoSettings
-  nameWithType: VideoSettingsControl.VideoSettings
-- uid: Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.VideoSettings*
+  href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_ResolutionDropdown_VideoSettings
+  commentId: P:Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.VideoSettings
+  fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.VideoSettings
+  nameWithType: ResolutionDropdown.VideoSettings
+- uid: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.VideoSettings*
   name: VideoSettings
-  href: api/Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.html#Games_GrumpyBear_Core_Settings_UIElements_VideoSettingsControl_VideoSettings_
-  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.VideoSettings
+  href: api/Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.html#Games_GrumpyBear_Core_Settings_UIElements_ResolutionDropdown_VideoSettings_
+  commentId: Overload:Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.VideoSettings
   isSpec: "True"
-  fullName: Games.GrumpyBear.Core.Settings.UIElements.VideoSettingsControl.VideoSettings
-  nameWithType: VideoSettingsControl.VideoSettings
+  fullName: Games.GrumpyBear.Core.Settings.UIElements.ResolutionDropdown.VideoSettings
+  nameWithType: ResolutionDropdown.VideoSettings
 - uid: Games.GrumpyBear.Core.Settings.VideoSettings
   name: VideoSettings
   href: api/Games.GrumpyBear.Core.Settings.VideoSettings.html
