@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Games.GrumpyBear.Core.Observables;
 using UnityEngine;
 
 namespace Games.GrumpyBear.Core.LevelManagement
@@ -9,9 +10,14 @@ namespace Games.GrumpyBear.Core.LevelManagement
     [CreateAssetMenu(menuName = "Grumpy Bear Games/Core/Level Management/Scene Manager")]
     public class SceneManager: ScriptableObject
     {
+        [Obsolete("OnSceneGroupChanged is deprecated. Please use CurrentSceneGroup instead")]
         public static event Action<SceneGroup> OnSceneGroupChanged;
-        public static SceneGroup SceneGroupCurrentlyLoading;
+        public static IReadonlyObservable<SceneGroup> CurrentSceneGroup => _currentSceneGroup;
+        
+        public static SceneGroup SceneGroupCurrentlyLoading { get; private set; }
         public static bool IsLoadingSceneGroup => SceneGroupCurrentlyLoading != null;
+
+        private static readonly Observable<SceneGroup> _currentSceneGroup = new();
 
         public static IEnumerator WaitForLoadingCompleted()
         {
@@ -40,6 +46,7 @@ namespace Games.GrumpyBear.Core.LevelManagement
             SceneGroupCurrentlyLoading = sceneGroup;
             var sceneReferencesToLoad = sceneGroup.Scenes.Concat(_globalScenes).Select(scene => scene.ScenePath);
             yield return SceneLoader.LoadExactlyByScenePath(sceneReferencesToLoad, sceneGroup.ActiveScene.ScenePath);
+            _currentSceneGroup.Set(sceneGroup);
             OnSceneGroupChanged?.Invoke(sceneGroup);
             SceneGroupCurrentlyLoading = null;
         }
