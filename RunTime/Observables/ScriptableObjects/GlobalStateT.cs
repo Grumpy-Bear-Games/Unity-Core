@@ -1,6 +1,5 @@
 ﻿using System;
 using Games.GrumpyBear.Core.SaveSystem;
-using UnityEngine;
 
 namespace Games.GrumpyBear.Core.Observables.ScriptableObjects
 {
@@ -25,8 +24,11 @@ namespace Games.GrumpyBear.Core.Observables.ScriptableObjects
             OnEnter?.Invoke();
         }
         
-        #if UNITY_EDITOR
-        public static void ResetCurrent() => _current.Set(null);
-        #endif
+        public static void SetToNull()
+        {
+            if (_current.Value == null) return;
+            _current.Value.OnLeave?.Invoke();
+            _current.Set(null);
+        }
     }
 }

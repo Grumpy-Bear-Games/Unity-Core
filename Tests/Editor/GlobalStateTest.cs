@@ -25,7 +25,7 @@ namespace Games.GrumpyBear.Core
         [TearDown]
         public void TearDown()
         {
-            TestGlobalState.ResetCurrent();
+            TestGlobalState.SetToNull();
         }
 
         [Test]
