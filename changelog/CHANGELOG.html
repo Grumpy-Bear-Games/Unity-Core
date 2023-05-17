@@ -72,6 +72,14 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="changelog">Changelog</h1>
 
+<h2 id="016">0.1.6</h2>
+<ul>
+<li>Added <code>SceneManager.CurrentSceneGroup</code> observable to track the current scene
+group loaded. This was basically all <code>OnSceneGroupChange</code> was used for in practice so it&#39;s easier
+to just track it centrally.</li>
+<li>[deprecation] <code>SceneManager.OnSceneGroupChange</code> is now obsolete and will be removed in a future release</li>
+<li>Added <code>GlobalStateT&lt;T&gt;.SetToNull()</code>. Having a null state has turned out to be useful after all.</li>
+</ul>
 <h2 id="015">0.1.5</h2>
 <h3 id="breaking-change">Breaking change</h3>
 <ul>
@@ -81,7 +89,7 @@ you, if you&#39;re referencing the old <code>VideoSettingsControl</code> base cl
 </ul>
 <h3 id="changes">Changes</h3>
 <ul>
-<li>Fix broken sample</li>
+<li>[bugfix] Fix broken sample</li>
 </ul>
 <h2 id="014">0.1.4</h2>
 <ul>

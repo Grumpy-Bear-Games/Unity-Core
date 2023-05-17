@@ -747,6 +747,19 @@ references:
   commentId: T:Games.GrumpyBear.Core.LevelManagement.SceneManager
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneManager
   nameWithType: SceneManager
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneManager.CurrentSceneGroup
+  name: CurrentSceneGroup
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneManager.html#Games_GrumpyBear_Core_LevelManagement_SceneManager_CurrentSceneGroup
+  commentId: P:Games.GrumpyBear.Core.LevelManagement.SceneManager.CurrentSceneGroup
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneManager.CurrentSceneGroup
+  nameWithType: SceneManager.CurrentSceneGroup
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneManager.CurrentSceneGroup*
+  name: CurrentSceneGroup
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneManager.html#Games_GrumpyBear_Core_LevelManagement_SceneManager_CurrentSceneGroup_
+  commentId: Overload:Games.GrumpyBear.Core.LevelManagement.SceneManager.CurrentSceneGroup
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneManager.CurrentSceneGroup
+  nameWithType: SceneManager.CurrentSceneGroup
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneManager.GlobalScenes
   name: GlobalScenes
   href: api/Games.GrumpyBear.Core.LevelManagement.SceneManager.html#Games_GrumpyBear_Core_LevelManagement_SceneManager_GlobalScenes
@@ -808,7 +821,14 @@ references:
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneManager.SceneGroupCurrentlyLoading
   name: SceneGroupCurrentlyLoading
   href: api/Games.GrumpyBear.Core.LevelManagement.SceneManager.html#Games_GrumpyBear_Core_LevelManagement_SceneManager_SceneGroupCurrentlyLoading
-  commentId: F:Games.GrumpyBear.Core.LevelManagement.SceneManager.SceneGroupCurrentlyLoading
+  commentId: P:Games.GrumpyBear.Core.LevelManagement.SceneManager.SceneGroupCurrentlyLoading
+  fullName: Games.GrumpyBear.Core.LevelManagement.SceneManager.SceneGroupCurrentlyLoading
+  nameWithType: SceneManager.SceneGroupCurrentlyLoading
+- uid: Games.GrumpyBear.Core.LevelManagement.SceneManager.SceneGroupCurrentlyLoading*
+  name: SceneGroupCurrentlyLoading
+  href: api/Games.GrumpyBear.Core.LevelManagement.SceneManager.html#Games_GrumpyBear_Core_LevelManagement_SceneManager_SceneGroupCurrentlyLoading_
+  commentId: Overload:Games.GrumpyBear.Core.LevelManagement.SceneManager.SceneGroupCurrentlyLoading
+  isSpec: "True"
   fullName: Games.GrumpyBear.Core.LevelManagement.SceneManager.SceneGroupCurrentlyLoading
   nameWithType: SceneManager.SceneGroupCurrentlyLoading
 - uid: Games.GrumpyBear.Core.LevelManagement.SceneManager.SceneGroups
@@ -1386,6 +1406,23 @@ references:
   fullName.vb: Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT(Of T).SetActive
   nameWithType: GlobalStateT<T>.SetActive
   nameWithType.vb: GlobalStateT(Of T).SetActive
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT`1.SetToNull
+  name: SetToNull()
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT-1.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_GlobalStateT_1_SetToNull
+  commentId: M:Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT`1.SetToNull
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT<T>.SetToNull()
+  fullName.vb: Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT(Of T).SetToNull()
+  nameWithType: GlobalStateT<T>.SetToNull()
+  nameWithType.vb: GlobalStateT(Of T).SetToNull()
+- uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT`1.SetToNull*
+  name: SetToNull
+  href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT-1.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_GlobalStateT_1_SetToNull_
+  commentId: Overload:Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT`1.SetToNull
+  isSpec: "True"
+  fullName: Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT<T>.SetToNull
+  fullName.vb: Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT(Of T).SetToNull
+  nameWithType: GlobalStateT<T>.SetToNull
+  nameWithType.vb: GlobalStateT(Of T).SetToNull
 - uid: Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT`1.Subscribe(Action{`0})
   name: Subscribe(Action<T>)
   href: api/Games.GrumpyBear.Core.Observables.ScriptableObjects.GlobalStateT-1.html#Games_GrumpyBear_Core_Observables_ScriptableObjects_GlobalStateT_1_Subscribe_Action__0__
