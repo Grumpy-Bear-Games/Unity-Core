@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.6
+
+- Added `SceneManager.CurrentSceneGroup` observable to track the current scene
+  group loaded. This was basically all `OnSceneGroupChange` was used for in practice so it's easier
+  to just track it centrally.
+- [deprecation] `SceneManager.OnSceneGroupChange` is now obsolete and will be removed in a future release
+- Added `GlobalStateT<T>.SetToNull()`. Having a null state has turned out to be useful after all.
+
 ## 0.1.5
 
 ### Breaking change
@@ -8,7 +16,7 @@
   `IVideoSettingsControl` interface instead.
 
 ### Changes
-- Fix broken sample
+- [bugfix] Fix broken sample
 
 ## 0.1.4
 - Add documentation to ObjectGuid
