@@ -1,0 +1,26 @@
+﻿.video-settings-editor_current-settings {
+    margin-top: 20px;
+    border-color: black;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.video-settings-editor_current-settings DropdownField,
+.video-settings-editor_current-settings PopupField {
+    flex-grow: 1;
+}
+
+.video-settings-editor_current-settings_header {
+    padding: 3px 5px;
+    background-color: var(--unity-colors-input_field-background);
+    margin-bottom: 5px;
+}
+
+.video-settings-editor_current-settings_notice-box {
+    margin-bottom: 5px;
+}
+
+.video-settings-editor_current-settings_clear-all-button {
+    margin-top: 5px;
+    align-self: center;
+}
