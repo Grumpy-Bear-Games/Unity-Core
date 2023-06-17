@@ -4,16 +4,19 @@
       "src": [
         {
           "files": [
-            "Runtime/**.cs",
-            "Editor/AssetUtility.cs",
-            "Editor/LevelManagement/ExtensionMethods.cs"
+            "Games.GrumpyBear.Core*.csproj"
           ],
           "src": ".."
         }
       ],
       "dest": "api",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "filter": "filter.yaml",
+      "properties": {
+        "Configuration": "Debug",
+        "Platform" : "AnyCPU"
+      }
     }
   ],
   "build": {
@@ -47,14 +50,14 @@
         "dest": "manual"
       },
       {
-        "src": "..",
+        "src": "../Packages/games.grumpybear.core",
         "files": [
           "CHANGELOG.md"
         ],
         "dest": "changelog"
       },
       {
-        "src": "..",
+        "src": "../Packages/games.grumpybear.core",
         "files": [
           "LICENSE.md"
         ],
@@ -89,8 +92,8 @@
       "priority": 0.1,
       "changefreq": "weekly"
     },
-    "dest": "../_site~",
-    "intermediateFolder": "_docfx_cache~",
+    "dest": "../_site",
+    "intermediateFolder": "_docfx_cache",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [

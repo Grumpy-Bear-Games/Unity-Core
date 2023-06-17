@@ -3,8 +3,8 @@
 - name: Scripting API
   href: api/
 - name: Changelog
-  homepage: ../CHANGELOG.md
+  homepage: ../Packages/games.grumpybear.core/CHANGELOG.md
 - name: License
-  homepage: ../LICENSE.md
+  homepage: ../Packages/games.grumpybear.core/LICENSE.md
 - name: GitHub
   homepage: https://github.com/Grumpy-Bear-Games/Unity-Core

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2160413740322445565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1770dbf7301640f9bf33238f4f29e9b5, type: 3}
+  m_Name: Location A
+  m_EditorClassIdentifier: 
+  <ObjectGuid>k__BackingField:
+    _data: 67717e041ba824f31bd1201b0db587fb0327354826ab04e2
+  _manager: {fileID: 11400000}
+  _scenes:
+  - _scenePath: Assets/Scenes/Scene A.unity
+  - _scenePath: Assets/Scenes/Scene C.unity
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2472e0dae1e4303894c3c028ce3e097, type: 3}
+  m_Name: Scene Manager
+  m_EditorClassIdentifier: 
+  _globalScenes:
+  - _scenePath: Assets/Scenes/Global Scene.unity
+  _sceneGroups:
+  - {fileID: -2160413740322445565}
+  - {fileID: 2565570810514273456}
+--- !u!114 &2565570810514273456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1770dbf7301640f9bf33238f4f29e9b5, type: 3}
+  m_Name: Location B
+  m_EditorClassIdentifier: 
+  <ObjectGuid>k__BackingField:
+    _data: 67717e041ba824f31bd1201b0db587fbb074d0260fbd9a23
+  _manager: {fileID: 11400000}
+  _scenes:
+  - _scenePath: Assets/Scenes/Scene B.unity

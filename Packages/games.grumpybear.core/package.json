@@ -1,11 +1,14 @@
 {
   "name": "games.grumpybear.core",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "displayName": "Core Game Utilities",
-  "description": "",
+  "description": "A collection of core utilities and helpers for Unity game development",
   "unity": "2022.2",
   "unityRelease": "1f1",
   "license": "Apache-2.0",
+  "licensesUrl": "https://grumpy-bear-games.github.io/Unity-Core/license/LICENSE.html",
+  "documentationUrl": "https://grumpy-bear-games.github.io/Unity-Core/",
+  "changelogUrl": "https://grumpy-bear-games.github.io/Unity-Core/changelog/CHANGELOG.html",
   "hideInEditor": false,
   "repository": {
     "url": "https://github.com/Grumpy-Bear-Games/Unity-Core.git",
